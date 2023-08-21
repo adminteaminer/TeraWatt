@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TERAWATT</title>
+
+  <!-- Estilos-->
+  <link rel="stylesheet" type="text/css" href="whoweare.css">
+  
+  <!--JavaScript-->
+  <script src="script.js"></script>
+  
+</head>
+
+<body>
+  <div class="mobile-menu">
+    <div class="open-menu-button" id="openMenu">&#9776;</div>
+    <div class="slidebar" id="slidebar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="energy.html">Energias</a></li>
+        <li><a href="blockchain.html">Blockchain</a></li>
+        <li><a href="datacenter.html">Centro de Datos</a></li>
+        <li><a href="whoweare.html">Sobre Nosotros</a></li>
+        <li><a href="whatwedo.html">Who We Are</a></li>
+        <!-- Agrega más elementos del menú aquí -->
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const openMenuButton = document.getElementById('openMenu');
+      const slidebar = document.getElementById('slidebar');
+      
+      openMenuButton.addEventListener('click', function () {
+        slidebar.classList.toggle('open');
+      });
+    });
+  </script>
+  
+
+  <header class="sticky-header">
+    <a href="index.html" class="logo">
+      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="Logo">
+    </a>
+
+    <nav class="menu">
+      <ul class="top-menu">
+        <li><a href="whoweare.html">Sobre Nosotros</a></li>
+        <li class="Language">
+          <a href="#">Idiomas</a>
+          <ul id="language-menu" class="language-menu">
+
+            <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/pngwing.com.png" alt="English Icon">English</a></li>
+            <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/icono_espa%C3%B1a.png" alt="Spanish Icon">Español</a></li>
+            
+           
+          </ul>
+        </li>
+        <li class="signin">
+          <a href="index.html#news-section">News</a>
+        </li>
+      </ul>
+      <ul class="main-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="energy.html">Energias</a></li>
+        <li><a href="blockchain.html">Blockchain</a></li>
+        <li><a href="datacenter.html">Centro de Datos</a></li>
+        
+
+      </ul>
+    </nav>
+    <button class="get-started-button" onclick="showBanner()">INVERSORES</button>
+
+  </header>
+
+  <div class="container">
+    <h1 class="title">Somos Líderes en Inversiones Sostenibles y Tecnologías innovadoras</h1>
+    <div class="separator"></div>
+    <p class="text">Tera Watt se erige como una empresa pilar en el desarrollo e inversiones en proyectos de energías renovables, centros de datos y tecnologías blockchain y software. Con una trayectoria de más de 18 años en el campo, somos reconocidos por nuestras soluciones avanzadas y enfoque tecnológico.
+        </p>
+  </div>
+
+  <div class="container">
+    <h1 class="title2">  Liderando la Transformación Sostenible e Innovadora </h1>
+    <img class="image" src="https://terawatt.s3.us-east-2.amazonaws.com/img/cuboempresa.jpg" alt="Imagen">
+    <p class="text">"Tera Watt se dedica a diversas áreas de negocio, centrándose principalmente en inversiones y desarrollos relacionados con energías renovables, centros de datos avanzados y tecnologías blockchain y software. 
+
+        En el campo de las energías renovables, Tera Watt impulsa proyectos y desarrollos sostenibles, con un enfoque en fuentes limpias y sostenibles como la energía solar, eólica, hidroeléctrica y geotérmica. La empresa se compromete a liderar la transición hacia un futuro energético más verde y reducir la dependencia de los combustibles fósiles. Participa activamente en la planificación, construcción y operación de parques solares, plantas hidroeléctricas y proyectos geotérmicos, contribuyendo así a la mitigación del impacto ambiental y la lucha contra el cambio climático.
+        
+        En cuanto a los centros de datos avanzados, Tera Watt ha revolucionado la industria con sus modelos exclusivos y avanzados. Sus data centers ofrecen soluciones personalizadas, con infraestructura de alta eficiencia, seguridad y capacidad de escalabilidad. La implementación de tecnologías de enfriamiento por aire e inmersión garantiza un óptimo rendimiento de los equipos, reduciendo los costos operativos y energéticos. Tera Watt trabaja en estrecha colaboración con socios líderes en la industria para mantenerse a la vanguardia tecnológica y cumplir con los más altos estándares de seguridad y fiabilidad.
+        
+        En el campo del desarrollo de blockchain y software, Tera Watt impulsa la adopción de soluciones innovadoras en diversos sectores. Se especializa en el diseño y desarrollo de aplicaciones descentralizadas, contratos inteligentes y sistemas de cadena de bloques personalizados. Su equipo altamente capacitado trabaja en estrecha colaboración con los clientes para brindar soluciones a medida que optimicen la eficiencia y la seguridad de sus operaciones. La empresa se mantiene a la vanguardia de las últimas tendencias y tecnologías emergentes en este campo en constante evolución.
+        
+        En resumen, Tera Watt se destaca por su enfoque en la sostenibilidad, la eficiencia y la innovación en sus áreas de negocio. Su compromiso con las energías renovables, centros de datos avanzados y tecnologías blockchain y software la posicionan como un líder en el mercado y un socio estratégico para empresas e instituciones que buscan soluciones confiables y de alto impacto en el panorama global."</p>
+  </div>
+
+     
+      
+    
+
+  <footer class="footer">
+    <div class="footer-separator"></div>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3 class="footer-title">Disclaimer</h3>
+        <div class="footer-text">La información contenida en este sitio web es de carácter general.
+          únicamente con fines informativos. Mientras nos esforzamos por mantener
+          la información actualizada y correcta, no hacemos
+          representaciones o garantías de ningún tipo, expresas o implícitas,
+          sobre la exhaustividad, exactitud, fiabilidad, idoneidad o
+          disponibilidad con respecto al sitio web o la información,
+          productos, servicios o gráficos relacionados contenidos en el sitio web
+          para cualquier propósito.</div>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title1">____</h3>
+        <ul class="footer-navigation">
+          <li><a href="whoweare.html">Who We Are</a></li>
+          <li><a href="esg.html">Our Impact</a></li>
+          <li><a href="whatwedo.html">What We Do</a></li>
+          <li><a href="login.html">Investors</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title1">____</h3>
+        <ul class="footer-navigation">
+          <li><a href="#"></a></li>
+          <li><a href="termofuse.html">Terms of Use</a></li>
+          <li><a href="#">
+            </a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title2">Newsletter Suscripción</h3>
+        <form class="footer-form" action="#">
+          <input type="email" placeholder="Ingresa tu correo electrónico" class="footer-input">
+          <button type="submit" class="footer-button">Suscribirse</button>
+          <div > 71 - 75 Shelton Street, WC2H 9JQ , London, United kingdom</div>
+          <div class="redes-sociales">
+            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/instagram.png" alt="Instagram"></a>
+            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/twetter.png" alt="Twitter"></a>
+            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/linkeding.png" alt="LinkedIn"></a>
+            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/facebook.png" alt="Facebook"></a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer-separator"></div>
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="Logo">
+      </div>
+      <div class="footer-trademark">
+        <div class="footer-trademark-text">© Copyright 2023 Tera Watt Limited Company. All Rights Reserved.</div>
+        <button class="footer-trademark-button" onclick="scrollToHeader()">Top-menu</button>
+
+      </div>
+    </div>
+  </footer>
+  
+</div>
+
+</body>
+</html>
