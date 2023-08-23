@@ -3086,17 +3086,17 @@ opacity: 1;
   .get-started-button {
     text-align: center;
     border: 2px solid #ee0bc8;
-    margin-left: 80px;
+    margin-left: -56%;
     background-color: #eeeeee;
     color: #000000;
-    padding: 10px 20px;
+    padding: 0px 9px;
     border-radius: 10px; /* Modifica el tamaño del borde semi redondo aquí */
     transition: background-color 0.3s ease;
     font-weight: bold;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    font-size: 20px;  
+    font-size: 16px;  
   }
     
   .get-started-button:hover {
