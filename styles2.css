@@ -3770,7 +3770,7 @@ opacity: 1;
   .sticky-header {
     position: fixed;
     top: 0;
-    width: 64%;
+    width: 100%;
     z-index: 1000;
   }
 
