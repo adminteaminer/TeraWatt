@@ -2888,7 +2888,7 @@ opacity: 1;
   .menu ul li {
     margin-left: 30px;
     padding: 10px 5px;
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .menu ul li a {
@@ -3334,13 +3334,13 @@ opacity: 1;
   }
 
   .container7 #blockchain-content h6{
-    margin-top: 26px;
+    margin-top: 50px;
     margin-left: 140px;
     font-size: 18px;
   }
 
   .container7 #wallet-content h6{
-    margin-top: 24px;
+    margin-top: 50px;
     margin-left: 149px;
     font-size: 20px;
   }
@@ -3434,7 +3434,7 @@ opacity: 1;
 
   .container7 .image7{
     margin-left: 90%;
-    margin-top: -30%;
+    margin-top: -32%;
     width: 20%;
     height: auto;
     margin-bottom: 200px;
@@ -9393,6 +9393,154 @@ opacity: 1;
     width: 20px;
     height: 20px;
   }
+}
+
+@media screen and (min-width: 1600px) {
+
+  .join-us hr {
+    background-color: #bc02ff;
+    height: 4px;
+    border: none;
+    margin-top: 4px;
+    margin-left: 110px;
+    width: 200px;
+    margin-bottom: 50px;
+  }
+
+  .container7 .image1 {
+    width: 15%;
+    height: auto;
+    margin-left: 500px;
+    margin-top: -24%;
+    margin-bottom: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+
+  .container7 .image2 {
+    width: 15%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: -24%;
+    margin-bottom: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+
+  .container7 .image3 {
+    margin-left: 1294px;
+    width: 15%;
+    height: auto;
+    margin-top: -600px;
+    margin-bottom: 850px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+
+  .container7 #blockchain-content h6 {
+    margin-top: 50px;
+    margin-left: 164px;
+    font-size: 18px;
+  }
+
+  .container7 .image4 {
+    margin-left: 65%;
+    margin-top: -28%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 250px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+
+  .container7 .image5 {
+    margin-left: 114%;
+    margin-top: -52%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 250px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+
+  .container7 .image6 {
+    margin-top: -52%;
+    margin-left: 163%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 382px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+
+  .container7 #wallet-content h6 {
+    margin-top: 50px;
+    margin-left: 183px;
+    font-size: 20px;
+  }
+  .container7 .image7 {
+    margin-left: 71%;
+    margin-top: -25%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+  .container7 .image8 {
+    margin-left: 120%;
+    margin-top: -48%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+  .container7 .image9 {
+    margin-top: -48%;
+    margin-left: 167%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 400px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+  }
+
+  .servicios hr {
+    margin-top: 1px;
+    border: none;
+    border-top: 3px solid #bc02ff;
+    width: 200px;
+    margin-left: 615px;
+    margin-bottom: 50px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
