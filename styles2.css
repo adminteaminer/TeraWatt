@@ -4378,7 +4378,7 @@ opacity: 1;
   .container7 #pow-pools-content h6 {
     color: #4c4b4b;
     margin-top: 5px;
-    margin-left: 85px;
+    margin-left: 98px;
     margin-bottom: 0px;
     font-weight: bold;
     font-size: 24px;
@@ -4418,10 +4418,10 @@ opacity: 1;
 
   p[data-text="main"] {
     color: rgb(0, 0, 0);
-    margin-left: 96px;
+    margin-left: 111px;
     font-size: 11px;
     margin-top: 14px;
-    margin-right: -10px;
+    margin-right: 0px;
     text-align: justify;
   }
 
