@@ -3238,10 +3238,10 @@ opacity: 1;
 
   .container1 p {
     font-size: 19px;
-    margin-bottom: 40px;
-    margin-left: -6%;
+    margin-bottom: 30px;
+    margin-left: -2%;
     position: relative;
-    margin-top: -100px;
+    margin-top: -130px;
     font-family: 'Poppins', sans-serif;
     color: #000000;
   }
@@ -3257,26 +3257,51 @@ opacity: 1;
   .quienes-somos1 p{
     text-align: left;
     margin-left: 1%;
+    font-size: 33px;
   }
   .quienes-somos1 hr {
     background-color: #bc02ff;
-    height: 2px;
+    height: 5px;
     border: none;
-    margin-top: -3%;
+    margin-top: -2%;
     margin-left: 50px;
     width: 20%;
   }
 
   .middle-section1{
-    margin-left: -61%;
+    margin-left: -30%;
+    margin-top: 208px;
   }
 
-  .middle-section2{
-    margin-left: 99%;
+  .middle-section1 .number{
+    margin-left: 40px;
+    margin-top: -923px;
+  }
+  .middle-section1 h4{
+    margin-left: -1px;
+    margin-top: -57px;
+    margin-right: 155px;
+    margin-bottom: 890px;
+  }
+
+  .middle-section2 .number{
+    margin-left: 60%;
+    margin-top: -107px;
+    padding-right: 334px;
   }
 
   .middle-section2 h4{
-    margin-right: 1570%;
+    margin-top: 23px;
+  }
+
+  .middle-section2{
+    margin-left: -99%;
+    margin-top: -940px;
+  }
+
+  .middle-section2 h4{
+    margin-right: -15%;
+    margin-left: -340px;
   }
 
   .quienes-somos2{
@@ -3284,27 +3309,40 @@ opacity: 1;
     text-align: center;
   }
 
+  .join-us hr{
+    background-color: #bc02ff;
+    height: 4px;
+    border: none;
+    margin-top: 4px;
+    margin-left: 90px;
+    width: 200px;
+    margin-bottom: 50px;
+
+  }
+
   .container7 p {
-    margin-left: -36%;
-    text-align: center;
+    margin-left: 12%;
+    text-align: start;
     margin-top: 1%;
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .container7 #pow-pools-content h6{
-    margin-top: 2%;
+    margin-top: 5%;
     margin-left: 160px;
-
+    font-size: 20px;
   }
 
   .container7 #blockchain-content h6{
-    margin-top: 14px;
+    margin-top: 26px;
     margin-left: 140px;
+    font-size: 18px;
   }
 
   .container7 #wallet-content h6{
-    margin-top: 14px;
-    margin-left: 160px;
+    margin-top: 24px;
+    margin-left: 149px;
+    font-size: 20px;
   }
 
   .image-container7{
@@ -3316,23 +3354,63 @@ opacity: 1;
     max-width: 120%;
   }
 
+  .container7 .image1 {
+    width: 15%;
+    height: auto;
+    margin-left: 598px;
+    margin-top: -30%;
+    margin-bottom: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
+}
+.container7 .image2 {
+  width: 15%;
+  height: auto;
+  margin-left: 20px;
+  margin-top: -30%;
+  margin-bottom: 200px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #535255;
+}
+
   .container7 .image3{
-    margin-left: 1284px;
+    margin-left: 1294px;
+    width: 15%;
+    height: auto;
+    margin-top: -514px;
+    margin-bottom: 850px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
   }
   
   .container7 .image4{
-    margin-left: 140%;
-    margin-top: -40%;
+    margin-left: 86%;
+    margin-top: -34%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 250px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
   }
 
   .container7 .image5{
-    margin-left: 100%;
-    margin-top: -37%;
+    margin-left: 132%;
+    margin-top: -57%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 250px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
   }
 
   .container7 .image6{
-    margin-top: -49%;
-    margin-left: 180%;
+    margin-top: -57%;
+    margin-left: 177%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 382px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
   }
 
   .image2-container7{
@@ -3355,19 +3433,42 @@ opacity: 1;
   }
 
   .container7 .image7{
-    margin-left: 100%;
-    margin-top: -35%;
+    margin-left: 90%;
+    margin-top: -30%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
   }
 
   .container7 .image8{
-    margin-left: 135%;
-    margin-top: -42%;
+    margin-left: 133%;
+    margin-top: -52%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
   }
 
   .container7 .image9{
-    margin-top: -46%;
-    margin-left: 170%;
+    margin-top: -52%;
+    margin-left: 176%;
+    width: 20%;
+    height: auto;
+    margin-bottom: 400px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535255;
   }
+  .join-us2 .titulo hr {
+    margin-top: 1px;
+    border: none;
+    border-top: 3px solid #bc02ff;
+    width: 300px;
+    margin-left: 27px;
+    margin-bottom: 50px;
+}
 
   .servicios h1{
     font-size: 2.5rem;
@@ -3389,6 +3490,15 @@ opacity: 1;
     margin-top: 2%;
     margin-left: 3%;
   }
+
+  .card-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    transition: transform 0.5s ease-in-out;
+}
+
+
 
   .card-title{
     font-size: 20px;
@@ -3647,15 +3757,45 @@ opacity: 1;
     margin-left: 0%;
   }
 
+  .image {
+    width: 46%;
+    height: auto;
+    margin-left: -1%;
+    margin-top: 200px;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.8s, transform 0.8s;
+    border-radius: 10px;
+}
+
   .content8{
     margin-left: -111%;
-    margin-top: 697px;
+    margin-top: 506px;
     text-align: left;
+    font-size: 18px;
+  }
+
+  .custom-button{
+    margin-left: 2px;
+    margin-top: -330px;
   }
 
   .video-section .title9{
-    left: 24%;
+    left: 38%;
     font-size: 90px;
+    top: 31%;
+  }
+
+  .video-section .normal-text{
+    font-weight: normal;
+    font-size: 80px;
+    margin-left: 12%;
+  }
+
+  .video-section .bold-text{
+    font-weight: bold;
+    font-size: 80px;
+    margin-left: 13%;
   }
 
   .image35{
@@ -3704,9 +3844,27 @@ opacity: 1;
     font-size: 14px;
   }
 
+  .footer-input {
+    width: 186%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .footer-button{
+    margin-left: 70px;
+  }
+
+  .footer-form div {
+    color: #000000;
+    margin-top: 29px;
+    margin-left: -16px;
+    margin-right: -155px;
+  }
+
   .footer-title{
     font-size: 20px;
-    margin-left: -448px;
+    margin-left: -400px;
   }
 
   .footer-text{
@@ -3721,7 +3879,11 @@ opacity: 1;
 
   .footer-trademark-text{
     font-size: 12px;
-    margin-left: 48%;
+    margin-left: -176%;
+  }
+
+  .footer-trademark-button{
+    margin-left: 180px;
   }
 
 }
