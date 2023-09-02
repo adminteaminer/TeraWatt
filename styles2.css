@@ -3513,9 +3513,9 @@ opacity: 1;
   }
 
   .card-section .card .card-image .card-overlay .card-text{
-    font-size: 15px;
+    font-size: 12px;
     color: #ffffff;
-    margin: 0px 0px;
+    margin:-6px 0px 0px;
     text-align: center;
     display: flex;
     align-items: flex-start;
@@ -9438,10 +9438,10 @@ opacity: 1;
   }
 
   .container7 .image3 {
-    margin-left: 1294px;
+    margin-left: 1360px;
     width: 15%;
     height: auto;
-    margin-top: -600px;
+    margin-top: -592px;
     margin-bottom: 850px;
     border-radius: 7px;
     box-shadow: 0 0 10px #535255;
@@ -9533,6 +9533,42 @@ opacity: 1;
     margin-left: 620px;
     margin-bottom: 50px;
   }
+
+  .image {
+    width: 100%;
+    height: auto;
+    margin-left: -6%;
+    margin-top: 200px;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.8s, transform 0.8s;
+    border-radius: 10px;
+  }
+
+  .title {
+    font-size: 130px;
+    margin-left: 0%;
+  }
+
+
+  .section .normal-text {
+    font-weight: normal;
+    font-size: 131px;
+  }
+
+
+  .content8 {
+    margin-left: -111%;
+    margin-top: 590px;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  
+
+
+
+
 
 
 
