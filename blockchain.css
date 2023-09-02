@@ -1,642 +1,607 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 /* Estilos generales */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
-    position: relative;
-    margin-left: 0;
-    margin-right: 0;
-    overflow: auto;
-  }
-  
-  
-  
-  /* Estilos del encabezado */
-  header {
-    background-color: #eeeeee;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: auto;
+}
 
-  .sticky-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  
-  
-  .logo {
-    margin-left: 50px;
-  }
-  
-  .logo img {
-    width: 250px; /* Ajusta el tamaño del logo según tus necesidades */
-  }
-  
-  .menu {
-    margin-left: 900px;
-  }
-  
-  .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-  }
-  
-  .menu ul li {
-    margin-left: 30px;
-    padding: 10px 5px;
-  }
-  
-  .menu ul li a {
-    color: #000000;
-    text-decoration: none;
-    transition: color 0.1s ease;
-  }
-  
-  .menu ul li a:hover {
-    color: #f809f4;
-    
-  }
-  
-  .top-menu {
-    display: flex;
-    font-weight: bold;
-    align-items: center;
-    margin-top: 2px;
-    margin-right: 0px;
-    margin-left: 300px;
-    font-size: 20px;
-  }
-  
-  .top-menu li {
-    margin-right: 100px;
-    margin: 10px;
-    position: relative;
-    font-size: small;
-    font-size: 20px;
-  } 
-  
-  .top-menu li:hover {
-    color: #ff9100; /* Cambio de color de las letras al pasar el mouse */
-  }
-  
-  
-  .top-menu .signin a {
-    color: rgb(0, 0, 0); /* Color predeterminado del enlace "Sign in" */
-  }
-  
-  .top-menu .signin a:hover {
-    color: rgb(255, 255, 255); /* Cambio de color a verde al pasar el mouse */
-    box-shadow: 0 0 0 8px #dd12d3;
-    border-radius: 2px;
-    background-color: #dd12d3;
-    transition: background-color 0.6s ease;
-  }
-  
-  
-  /*banner*/
-  
-  /* Estilos para el banner */
-  .banner {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #d4d2d2;
-    padding: 20px;
-    text-align: center;
-    z-index: 9999;
-  }
-  
-  .banner img {
+/* Estilos del encabezado */
+header {
+  background-color: #eeeeee;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.logo img {
+  width: 250px; /* Ajusta el tamaño del logo según tus necesidades */
+}
+
+.menu {
+  margin-left: 900px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.menu ul li {
+  margin-left: 30px;
+  padding: 10px 5px;
+}
+
+.menu ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+.menu ul li a:hover {
+  color: #f809f4;
+}
+
+.top-menu {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 2px;
+  margin-right: 0px;
+  margin-left: 300px;
+  font-size: 20px;
+}
+
+.top-menu li {
+  margin-right: 100px;
+  margin: 10px;
+  position: relative;
+  font-size: small;
+  font-size: 20px;
+}
+
+.top-menu li:hover {
+  color: #ff9100; /* Cambio de color de las letras al pasar el mouse */
+}
+
+.top-menu .signin a {
+  color: rgb(0, 0, 0); /* Color predeterminado del enlace "Sign in" */
+}
+
+.top-menu .signin a:hover {
+  color: rgb(255, 255, 255); /* Cambio de color a verde al pasar el mouse */
+  box-shadow: 0 0 0 8px #dd12d3;
+  border-radius: 2px;
+  background-color: #dd12d3;
+  transition: background-color 0.6s ease;
+}
+
+/*banner*/
+
+/* Estilos para el banner */
+.banner {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d4d2d2;
+  padding: 20px;
+  text-align: center;
+  z-index: 9999;
+}
+
+.banner img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.banner .close-button {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*sub menu para leguage*/
+
+.top-menu .Language ul {
+  display: none;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  padding-left: 0px;
+  padding-right: 300px;
+  padding-bottom: 0px;
+  margin-left: 0;
+  background-color: #ffffff;
+  border: 1.5px solid #f50ad5;
+  z-index: 999;
+  border-radius: 2px;
+}
+
+.top-menu .Language:hover ul {
+  display: block;
+}
+
+.language-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.language-menu li {
+  width: calc(20% - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.language-menu li:last-child {
+  margin-right: 0;
+}
+
+.top-menu .Language a {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.top-menu .Language a:hover {
+  background: linear-gradient(to right, rgb(247, 5, 247), rgb(61, 2, 129));
+  border-radius: 8px;
+}
+
+.top-menu .Language img {
+  width: 80px;
+  height: 55px;
+  margin-right: 10px;
+}
+
+.top-menu .Language span {
+  display: block;
+  margin-top: 3px;
+  color: #000000;
+  font-size: 10px;
+  font-weight: bold;
+}
+.top-menu .Language a:hover span {
+  color: #ff6b9a;
+}
+
+.get-started-button {
+  text-align: center;
+  border: 2px solid #ee0bc8;
+  margin-left: 80px;
+  background-color: #eeeeee;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 10px; /* Modifica el tamaño del borde semi redondo aquí */
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.get-started-button:hover {
+  background: linear-gradient(to bottom right, #5900ff, #a200ff, #f700ff);
+  color: #fff;
+  box-shadow: 0 0 30px rgb(251, 3, 247);
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.open-menu-button {
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.slidebar {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 100px;
+  right: -300px;
+  background-color: #fff;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.slidebar.open {
+  right: 0;
+}
+
+.slidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slidebar ul li {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Media Query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  /* ... (otros estilos) ... */
+
+  /* Estilos para el menú deslizable */
+  .mobile-menu {
     display: block;
-    margin: 0 auto;
-    width: 50%;
   }
-  
-  .banner .close-button {
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: #ff0000;
-    color: #000000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  
-  
-  /*sub menu para leguage*/
 
-  
-  
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  .logo {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu ul {
+    display: block;
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin: 0px 0;
+  }
+
+  /* ... (otros estilos) ... */
+
+  /* Estilos para el banner en dispositivos móviles */
+  .banner {
+    width: 90%;
+    padding: 10px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
   .top-menu .Language ul {
     display: none;
-    position: absolute;
-    top: 80%;
-    left: 0;
-    padding-left: 0px;
-    padding-right: 300px;
-    padding-bottom: 0px;
+    position: static;
     margin-left: 0;
-    background-color: #ffffff;
-    border: 1.5px solid #f50ad5;
+    padding: 0;
+    border: none;
+    background-color: transparent;
     z-index: 999;
-    border-radius: 2px;
+    border-radius: 0;
   }
-  
+
   .top-menu .Language:hover ul {
-    display: block;
+    display: none;
   }
-  
+
   .language-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  
-  .language-menu li {
-    width: calc(20% - 30px);
-    margin-right: 30px;
-    margin-bottom: 30px;
-  }
-  
-  .language-menu li:last-child {
-    margin-right: 0;
-  }
-
-  
-  .top-menu .Language a {
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 5px;
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  .top-menu .Language a:hover {
-    background: linear-gradient(to right, rgb(247, 5, 247), rgb(61, 2, 129) );
-    border-radius: 8px;
-  }
-  
-  .top-menu .Language img {
-    width: 80px;
-    height: 55px;
-    margin-right: 10px;
-  }
-  
-  .top-menu .Language span {
-    display: block;
-    margin-top: 3px;
-    color: #000000;
-    font-size: 10px;
-    font-weight: bold;
-  }
-  .top-menu .Language a:hover span {
-    color: #ff6b9a;
   }
 
-  .get-started-button {
+  .language-menu li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
     text-align: center;
-    border: 2px solid #ee0bc8;
-    margin-left: 80px;
-    background-color: #eeeeee;
-    color: #000000;
-    padding: 10px 20px;
-    border-radius: 10px; /* Modifica el tamaño del borde semi redondo aquí */
-    transition: background-color 0.3s ease;
-    font-weight: bold;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    
   }
-  
-  .get-started-button:hover {
-    background: linear-gradient(to bottom right, #5900ff, #a200ff, #f700ff );
-    color: #fff;
-    box-shadow: 0 0 30px rgb(251, 3, 247);
-    
+}
+/* termino media query responsive 1*/
+
+/*header  */
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: 100px;
+  background-color: #000154;
+}
+
+.text-container h2 {
+  font-size: 56px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute; /* Permite ajustar la posición de manera absoluta */
+  top: 0; /* Ajustar la posición vertical */
+  left: 550px; /* Ajustar la posición horizontal */
+  margin-top: 240px;
+  cursor: grab; /* Cambiar el cursor al mover */
+}
+
+.title1 {
+  font-size: 36px;
+  color: #eee5ed;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap; /* Evita el salto de línea */
+  overflow: hidden; /* Oculta el contenido adicional */
+  border-right: 3px solid #000154; /* Simula el cursor de escritura */
+  animation: typing 9s steps(60, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
+  to {
+    width: 100%;
+  }
+}
 
-  
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  10% {
+    border-color: #000154;
+  }
+}
 
-  /*-----------------------------------------------------------------------------------------------------------
+.text-container h1 {
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  margin: 150px auto 12px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 400px;
+}
+
+.text-container .cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.text-container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px; /* Margen entre las cartas */
+}
+
+.text-container .card:last-child {
+  margin-right: 0; /* Eliminar margen derecho de la última carta */
+}
+
+.text-container .card img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.text-container .card p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #ccc;
+  margin-top: 25px;
+}
+
+.text-container hr {
+  /* Estilos para el hr */
+  margin-top: 50px;
+  border: none;
+  background-color: #ff00e1; /* Color personalizado */
+  height: 1.5px; /* Alto personalizado */
+  width: 15%; /* Ancho personalizado */
+  margin-left: 950px;
+  margin-bottom: 100px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------*/
-  .mobile-menu {
-    display: none;
-  }
 
-  .open-menu-button {
-    display: block;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 1001;
-  }
-
-  .slidebar {
-    width: 300px;
-    height: 100vh;
-    position: fixed;
-    top: 100px;
-    right: -300px;
-    background-color: #fff;
-    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
-    transition: right 0.3s ease-in-out;
-    z-index: 1000;
-  }
-
-  .slidebar.open {
-    right: 0;
-  }
-
-  .slidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .slidebar ul li {
-    padding: 15px;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-  }
-
-  /* Media Query para dispositivos móviles */
-  @media screen and (max-width: 768px) {
-    /* ... (otros estilos) ... */
-
-    /* Estilos para el menú deslizable */
-    .mobile-menu {
-      display: block;
-    }
-
-    .menu {
-      display: none;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    header {
-      padding: 10px;
-     
-    }
-  
-    .logo {
-      margin-left: 0;
-      text-align: center;
-      margin-bottom: 20px;
-      
-    }
-  
-    .menu {
-      margin: 0;
-      padding: 0;
-    }
-  
-    .menu ul {
-      display: block;
-      text-align: center;
-    }
-  
-    .menu ul li {
-      margin: 0px 0;
-    }
-  
-    /* ... (otros estilos) ... */
-  
-    /* Estilos para el banner en dispositivos móviles */
-    .banner {
-      width: 90%;
-      padding: 10px;
-      top: 70%;
-      left: 50%;
-      transform: translate(-50%, -70%);
-    }
-  
-    .banner img {
-      width: 100%;
-    }
-  
-    
-    .top-menu .Language ul {
-      display: none;
-      position: static;
-      margin-left: 0;
-      padding: 0;
-      border: none;
-      background-color: transparent;
-      z-index: 999;
-      border-radius: 0;
-    }
-  
-    .top-menu .Language:hover ul {
-      display: none;
-    }
-  
-    .language-menu {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .language-menu li {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 15px;
-      text-align: center;
-    }
-  }
-  /* termino media query responsive 1*/
-
-
-
-
-
-  
-  /*header  */
-
-
+@media (max-width: 760px) {
   .video-background {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    margin-top: 100px;
-    background-color: #000154;
+    margin-top: 50px;
+    padding-bottom: -150px;
+  }
 
-    }
+  .text-container h2 {
+    font-size: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 300px;
+  }
 
-    .text-container h2 {
-      font-size: 56px;
-      color: #ffffff;
-      font-family: 'Poppins', sans-serif;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-align: center;
-      position: absolute; /* Permite ajustar la posición de manera absoluta */
-      top: 0; /* Ajustar la posición vertical */
-      left: 550px; /* Ajustar la posición horizontal */
-      margin-top: 240px;
-      cursor: grab; /* Cambiar el cursor al mover */
-    }
-    
-    .title1 {
-      font-size: 36px;
-      color: #eee5ed;
-      text-align: center;
-      font-family: 'Poppins', sans-serif;
-      white-space: nowrap; /* Evita el salto de línea */
-      overflow: hidden; /* Oculta el contenido adicional */
-      border-right: 3px solid #000154; /* Simula el cursor de escritura */
-      animation: typing 9s steps(60, end), blink-caret 0.75s step-end infinite;
-    }
-    
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
-    }
-    
-    @keyframes blink-caret {
-      from, to { border-color: transparent; }
-      10% { border-color: #000154;
-      }
-    }
-    
-  
-  
+  .title1 {
+    font-size: 24px;
+    animation: none;
+  }
+
   .text-container h1 {
-    font-size: 36px;
-    color: #ffffff;
-    text-align: center;
-    margin: 150px auto 12px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin: 100px auto 12px;
     margin-top: 400px;
   }
-  
+
   .text-container .cards-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-  
-  .text-container .card {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-right: 30px; /* Margen entre las cartas */
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-  
+
+  .text-container .card {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: calc(20% - 10px); /* Ajustar el ancho de las cartas */
+  }
+
   .text-container .card:last-child {
-    margin-right: 0; /* Eliminar margen derecho de la última carta */
+    margin-right: 0;
   }
-  
+
   .text-container .card img {
-    width: 30%;
+    width: 50%;
     height: auto;
-    margin-bottom: 0px;
-    margin-top: 30px;
+    margin-bottom: 15px;
   }
-  
+
   .text-container .card p {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    color: #ccc;
-    margin-top: 25px;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 0px;
   }
-  
+
   .text-container hr {
-    /* Estilos para el hr */
-    margin-top: 50px;
-    border: none;
-    background-color: #ff00e1; /* Color personalizado */
-    height: 1.5px; /* Alto personalizado */
-    width: 15%; /* Ancho personalizado */
-    margin-left: 950px;
-    margin-bottom: 100px;
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 30%;
   }
-
-
-
-  /*-----------------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------------------
-  media query responsive
-  -------------------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------------------*/
-
-
-  @media (max-width: 760px) {
-    .video-background {
-      margin-top: 50px;
-      padding-bottom: -150px;
-    }
-  
-    .text-container h2 {
-      font-size: 24px;
-      left: 50%;
-      transform: translateX(-50%);
-      margin-top: 300px;
-    }
-  
-    .title1 {
-      font-size: 24px;
-      animation: none;
-    }
-  
-    .text-container h1 {
-      font-size: 24px;
-      margin: 100px auto 12px;
-      margin-top: 400px;
-    }
-  
-    .text-container .cards-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  
-    .text-container .card {
-      margin-right: 20px;
-      margin-bottom: 30px;
-      width: calc(20% - 10px); /* Ajustar el ancho de las cartas */
-    }
-  
-    .text-container .card:last-child {
-      margin-right: 0;
-    }
-  
-    .text-container .card img {
-      width: 50%;
-      height: auto;
-      margin-bottom: 15px;
-    }
-  
-    .text-container .card p {
-      font-size: 16px;
-      margin-top: 15px;
-      margin-bottom: 0px;
-    }
-  
-    .text-container hr {
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 20px;
-      margin-bottom: 50px;
-      width: 30%;
-    }
-    @media (max-width: 768px) {
-      @keyframes typing {
-        from {
-          width: 0;
-        }
-        to {
-          width: 100%;
-        }
+  @media (max-width: 768px) {
+    @keyframes typing {
+      from {
+        width: 0;
       }
-    
-      @keyframes blink-caret {
-        from,
-        to {
-          border-color: transparent;
-        }
-        10% {
-          border-color: #000154;
-        }
+      to {
+        width: 100%;
       }
     }
-    
-   
+
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      10% {
+        border-color: #000154;
+      }
+    }
   }
-  
-  /*termino media query 2 */
+}
+
+/*termino media query 2 */
 
 /*titulo blockchain */
 
- .join-us {
-    text-align: left;
-    padding-left: 0px;
-    font-size: 100%;
-    margin-top: 0px;
-    padding-top: 100px;
-    color:#000000;
-    
-  }
+.join-us {
+  text-align: left;
+  padding-left: 0px;
+  font-size: 100%;
+  margin-top: 0px;
+  padding-top: 100px;
+  color: #000000;
+}
 
-  .container2 {
-    margin-left: -10px;
-    text-align: left;
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-  }
+.container2 {
+  margin-left: -10px;
+  text-align: left;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
 
-  .container2 a {
-    color: #000000; /* Cambiar color a rosa (#FF1493) */
-    font-size: 60px; /* Tamaño de fuente de 24px */
-    margin-left: 190px;
-    text-decoration: none; /* Subrayado del enlace */
-    /* Otros estilos personalizados que desees agregar */
-  }
+.container2 a {
+  color: #000000; /* Cambiar color a rosa (#FF1493) */
+  font-size: 60px; /* Tamaño de fuente de 24px */
+  margin-left: 190px;
+  text-decoration: none; /* Subrayado del enlace */
+  /* Otros estilos personalizados que desees agregar */
+}
 
-  .container2 a:hover {
-    color: #e100ff; /* Cambiar color a rosa (#FF1493) */
-    
-  }
+.container2 a:hover {
+  color: #e100ff; /* Cambiar color a rosa (#FF1493) */
+}
 
+.quienes-somos2 {
+  margin-left: 125px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
 
-  .quienes-somos2 {
-    margin-left: 125px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-  }
+.join-us hr {
+  background-color: #bc02ff;
+  height: 3px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 180px;
+  width: 300px;
+  margin-bottom: 50px;
+}
 
-  
- 
-  .join-us hr {
-    background-color: #bc02ff;
-    height: 3px;
-    border: none;
-    margin-top: 30px;
-    margin-left: 180px;
-    width: 300PX;
-    margin-bottom: 50px;
-  }
+.container2 img {
+  width: 10%;
+  margin-right: -60px;
+  margin-left: 0px;
+}
 
-  .container2 img {
-    width: 10%;
-    margin-right: -60px;
-    margin-left: 0px;
-  }
-
-  /*media query */
+/*media query */
 
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
@@ -653,7 +618,7 @@ body {
     margin-left: 0;
     text-align: center;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .container2 a {
@@ -670,7 +635,7 @@ body {
   .quienes-somos2 {
     margin: 20px;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .join-us hr {
@@ -688,79 +653,70 @@ body {
   }
 }
 
-  /* fin media query */
+/* fin media query */
 
+/*faq*/
 
+/*faq*/
+.faq-section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 150px;
+}
 
-  
-  /*faq*/
+.accordion {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(204, 0, 255);
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
 
-  /*faq*/
- .faq-section {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-top: 150px;
-  }
-  
-  .accordion {
-    background-color: #ffffff;
-    color: #000000;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: background-color 0.3s ease;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid rgb(204, 0, 255);
-    border-radius: 10px;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    
-  }
-  
-  .accordion.active {
-    background-color: #fddffa;
-  }
-  
+.accordion.active {
+  background-color: #fddffa;
+}
 
-  /*panel 1*/
-  .panel1 {
-    max-height: 0;
-    overflow: hidden;
-    background-color: #fff;
-    padding: 20px;
-    transition: max-height 0.3s ease;
-    border-bottom: 1px solid #ddd;
-    margin-left: 300px;
-    margin-right: -350px;
-    margin-bottom: 0px;
-  }
-  
-  .panel1.active {
-    max-height: 500px; /* Ajusta la altura máxima deseada */
-  }
-  
- 
-  
-  .panel1 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
-  }
-  
-  .panel1.active {
-    max-height: 500px; /* Ajusta la altura máxima deseada */
-  }
-  
+/*panel 1*/
+.panel1 {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px;
+  transition: max-height 0.3s ease;
+  border-bottom: 1px solid #ddd;
+  margin-left: 300px;
+  margin-right: -350px;
+  margin-bottom: 0px;
+}
 
+.panel1.active {
+  max-height: 500px; /* Ajusta la altura máxima deseada */
+}
+
+.panel1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.panel1.active {
+  max-height: 500px; /* Ajusta la altura máxima deseada */
+}
 
 /*panel 2*/
 
@@ -774,16 +730,12 @@ body {
   margin-left: 300px;
   margin-right: -350px;
   margin-bottom: 0px;
-  
 }
 
 .panel2.active {
   max-height: 500px; /* Ajusta la altura máxima deseada */
   padding-bottom: 300px;
-  
 }
-
-
 
 .panel2 img {
   max-width: 100%;
@@ -792,8 +744,6 @@ body {
   margin: 10px 0;
   margin-bottom: 100px;
 }
-
-
 
 /*panel 3*/
 
@@ -813,8 +763,6 @@ body {
   max-height: 500px; /* Ajusta la altura máxima deseada */
 }
 
-
-
 .panel3 img {
   max-width: 23%;
   height: auto;
@@ -823,209 +771,183 @@ body {
 }
 
 .panel3.active {
-  max-height: 500px; 
+  max-height: 500px;
 }
 
+.panel-text {
+  font-size: 18px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
-  .panel-text {
-    font-size: 18px;
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
+.texto-adicional1 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: -120px;
+  margin-bottom: 0px;
+  margin-left: 200px;
+}
 
-  .texto-adicional1 {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    margin-top: -120px;
-    margin-bottom: 0px;
-    margin-left: 200px;
-  }
-  
-  .texto-adicional2 {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    margin-top: -250px;
-    margin-bottom: 50px;
-    margin-left: 200px;
-  }
-  
-  .texto-adicional3 {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    margin-top: -150px;
-    margin-bottom: 0px;
-    margin-left: 180px;
-  }
+.texto-adicional2 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: -250px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+}
 
-  .texto-adicional4 {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    margin-top: -300px;
-    margin-bottom: 0px;
-    margin-left: 200px;
-  }
-  
-  .imagen1 {
-    
-    width: 25%;
-  }
-  
-  
- 
-  .accordion {
-    background-image: url("https://terawatt.s3.us-east-2.amazonaws.com/img/abrir.png"); /* Imagen de ícono de más (+) */
-    background-repeat: no-repeat;
-    background-position: right 10px center; /* Ajusta la posición del ícono */
-    padding-right: 40px; /* Ajusta el espaciado a la derecha para el ícono */
-    background-size: 50px; /* Tamaño inicial del ícono */
-    transition: background-image 0.3s ease, background-size 0.3s ease; /* Agrega una transición suave */
-    padding-top: 20px;
-    margin-top: 10px;
-    margin-left: 300px;
-  }
-  
-  /* Estilo del ícono cuando el acordeón está activo */
-  .accordion.active {
-    background-image: url("https://terawatt.s3.us-east-2.amazonaws.com/img/cerrar.png"); /* Imagen de ícono de menos (-) */
-    background-size: 50px; /* Tamaño del ícono cuando está activo */
-  }
+.texto-adicional3 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: -150px;
+  margin-bottom: 0px;
+  margin-left: 180px;
+}
 
-  
-  
-  .image-container img {
-    max-width: 120%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    left: -1050px;
-    margin-top: -50px;
-    margin-bottom: -50px;
-    transition: left 0.3s ease, opacity 1s ease; /* Agregamos la transición para la opacidad */
-    z-index: 1;
-    
-    opacity: 0; /* Inicialmente la imagen estará completamente transparente */
-  }
-  
-  .faq-section {
-    position: relative; /* Agregamos posición relativa a la sección para referenciar a los hijos */
-  }
-  
-  .faq-section.active .image-container img {
-    opacity: 1; /* Cuando la sección esté activa, la imagen se mostrará con opacidad 1 */
-    opacity: 0;
-    transform: translateX(100%);
-    transition: opacity 0.8s, transform 0.8s;
-  }
-  
-  .faq-section:hover .image-container img {
-    left: -580px;
-    opacity: 1; /* Al hacer hover, la imagen se mostrará con opacidad 1 */
-    transform: translateX(0);
-  }
-  
+.texto-adicional4 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: -300px;
+  margin-bottom: 0px;
+  margin-left: 200px;
+}
 
+.imagen1 {
+  width: 25%;
+}
 
+.accordion {
+  background-image: url("https://terawatt.s3.us-east-2.amazonaws.com/img/abrir.png"); /* Imagen de ícono de más (+) */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Ajusta la posición del ícono */
+  padding-right: 40px; /* Ajusta el espaciado a la derecha para el ícono */
+  background-size: 50px; /* Tamaño inicial del ícono */
+  transition: background-image 0.3s ease, background-size 0.3s ease; /* Agrega una transición suave */
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-left: 300px;
+}
 
-  /*-----------------------------------------------------------------------------------------------------------
+/* Estilo del ícono cuando el acordeón está activo */
+.accordion.active {
+  background-image: url("https://terawatt.s3.us-east-2.amazonaws.com/img/cerrar.png"); /* Imagen de ícono de menos (-) */
+  background-size: 50px; /* Tamaño del ícono cuando está activo */
+}
+
+.image-container img {
+  max-width: 120%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: -1050px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  transition: left 0.3s ease, opacity 1s ease; /* Agregamos la transición para la opacidad */
+  z-index: 1;
+
+  opacity: 0; /* Inicialmente la imagen estará completamente transparente */
+}
+
+.faq-section {
+  position: relative; /* Agregamos posición relativa a la sección para referenciar a los hijos */
+}
+
+.faq-section.active .image-container img {
+  opacity: 1; /* Cuando la sección esté activa, la imagen se mostrará con opacidad 1 */
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.faq-section:hover .image-container img {
+  left: -580px;
+  opacity: 1; /* Al hacer hover, la imagen se mostrará con opacidad 1 */
+  transform: translateX(0);
+}
+
+/*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------*/
 
-  
-  @media (max-width: 768px) {
-    
-  
-   
-  
-    .faq-section {
-      max-width: 100%;
-      margin: 0 auto;
-      padding: 20px;
-      margin-bottom: 20px;
-      margin-top: 0;
-    }
-  
-    .accordion {
-      padding: 15px;
-      border-radius: 5px;
-      font-size: 16px;
-    }
-  
-    .panel1,
-    .panel2,
-    .panel3 {
-      max-height: 0;
-      overflow: hidden;
-      background-color: #fff;
-      padding: 10px;
-      transition: max-height 0.3s ease;
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-    }
-  
-    .panel2.active {
-      padding-bottom: 100px;
-    }
-  
-    .panel-text {
-      font-size: 14px;
-      margin: 10px 0;
-    }
-  
-    .texto-adicional1,
-    .texto-adicional2,
-    .texto-adicional3,
-    .texto-adicional4 {
-      font-size: 12px;
-      margin-top: 0;
-      margin-bottom: 20px;
-      margin-left: 20px;
-    }
-  
-    .imagen1 {
-      width: 40%;
-      
-    }
-    .imagen {
-      display: none;
-      
-    }
-    .image-container{
-
-      display: none;
-    }
-    .accordion {
-      padding-right: 30px;
-      margin-top: 10px;
-      margin-left: 20px;
-    }
-  
-    .faq-section.active .image-container img {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  
-    .faq-section:hover .image-container img {
-      left: -250px;
-      opacity: 1;
-      transform: translateX(0);
-    }
+@media (max-width: 768px) {
+  .faq-section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
   }
-  
-  
-  
+
+  .accordion {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .panel1,
+  .panel2,
+  .panel3 {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px;
+    transition: max-height 0.3s ease;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .panel2.active {
+    padding-bottom: 100px;
+  }
+
+  .panel-text {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .texto-adicional1,
+  .texto-adicional2,
+  .texto-adicional3,
+  .texto-adicional4 {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .imagen1 {
+    width: 40%;
+  }
+  .imagen {
+    display: none;
+  }
+  .image-container {
+    display: none;
+  }
+  .accordion {
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .faq-section.active .image-container img {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .faq-section:hover .image-container img {
+    left: -250px;
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 /*termino de media query 3 */
-
-
-
-
-
-
-
 
 /*titulo nuestros programas ocupados slideshow  */
 
@@ -1035,15 +957,14 @@ body {
   font-size: 100%;
   margin-top: 0px;
   padding-top: 100px;
-  color:#000000;
-  
+  color: #000000;
 }
 
 .container3 {
   margin-left: -10px;
   text-align: left;
   font-size: 60px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container3 a {
@@ -1056,19 +977,15 @@ body {
 
 .container3 a:hover {
   color: #e100ff; /* Cambiar color a rosa (#FF1493) */
-  
 }
-
 
 .quienes-somos3 {
   margin-left: 125px;
   margin-right: 100px;
   margin-bottom: 100px;
   font-size: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
-
 
 .join-us2 hr {
   background-color: #bc02ff;
@@ -1076,7 +993,7 @@ body {
   border: none;
   margin-top: 30px;
   margin-left: 190px;
-  width: 300PX;
+  width: 300px;
   margin-bottom: 50px;
 }
 
@@ -1085,7 +1002,6 @@ body {
   margin-right: -10px;
   margin-left: 50px;
 }
-
 
 /*media query */
 /* Media query para pantallas más pequeñas */
@@ -1103,7 +1019,7 @@ body {
     margin-left: 0;
     text-align: center;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .container3 a {
@@ -1120,7 +1036,7 @@ body {
   .quienes-somos3 {
     margin: 20px;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .join-us2 hr {
@@ -1138,191 +1054,168 @@ body {
   }
 }
 
-
 /*termino media query */
 
+/*slideshow */
 
+/* slideshow de socios*/
+.slideshow-container {
+  margin: 50px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
 
+.slide-wrapper {
+  display: flex;
+  gap: 100px; /* Separación de 50px entre imágenes */
+  animation: slideshow 120s infinite linear;
+}
 
+.slide-item {
+  flex: 0 0 10%; /* Tamaño del 10% para cada imagen */
+}
 
+.slide-image {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.8s ease;
+}
 
+.slide-image:hover {
+  filter: grayscale(0%);
+}
 
-  /*slideshow */
-
-  /* slideshow de socios*/
-  .slideshow-container {
-    margin: 50px;
-    overflow: hidden;margin-bottom: 0;
-    
-    
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
   }
-  
-  .slide-wrapper {
-    display: flex;
-    gap: 100px; /* Separación de 50px entre imágenes */
-    animation: slideshow 120s infinite linear;
+  100% {
+    transform: translateX(calc(-100% - 3500px));
   }
-  
-  .slide-item {
-    flex: 0 0 10%; /* Tamaño del 10% para cada imagen */
-  }
-  
-  .slide-image {
-    width: 100%;
-    height: auto;
-    filter: grayscale(100%);
-    transition: filter 0.8s ease;
-  }
-  
-  .slide-image:hover {
-    filter: grayscale(0%);
-  }
-  
-  @keyframes slideshow {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-100% - 3500px));
-    }
-  }
+}
 
+/*video pequeño para imagen */
 
-  
+.video-container {
+  position: relative;
+  width: 100%; /* Ajusta el ancho deseado */
+  height: auto;
+  padding-bottom: 56.25%; /* Calcula el aspect ratio (16:9) del video */
+  margin-top: 0px;
+}
 
-  /*video pequeño para imagen */
+.video-container video {
+  position: absolute;
+  top: 320px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la visualización del video */
+}
 
-  .video-container {
-    position: relative;
-    width: 100%; /* Ajusta el ancho deseado */
-    height: auto;
-    padding-bottom: 56.25%; /* Calcula el aspect ratio (16:9) del video */
-    margin-top: 0px;
-  }
-  
-  .video-container video {
-    position: absolute;
-    top: 320px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ajusta la visualización del video */
-  }
-  
+/**/
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  /**/
-  .overlay2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .overlay2 .title2 {
-    color: #ffffff; /* Color del título */
-    font-size: 90px;
-    margin-bottom: 0px;
-    margin-top: 250px;
-    width: 100%; /* Ancho del título */
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    top: 50%; /* Centramos verticalmente */
-    left: 50%; /* Centramos horizontalmente */
-    transform: translate(-50%, -50%); /* Centramos exactamente */
-    white-space: nowrap; /* Evitamos el salto de línea */
-  }
-  
-  
-  .overlay2 .text-container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .overlay2 .text6 {
-    color: #ffffff; /* Color de los textos */
-    font-size: 36px;
-    margin-top: -150px;
-    margin-left: 0px;
-    
-  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
-  .overlay2 .text7 {
-    color: #ffffff; /* Color de los textos */
-    font-size: 36px;
-    margin-top: -150px;
-    margin-left:10px;
-    font-weight: bold;
-  }
+.overlay2 .title2 {
+  color: #ffffff; /* Color del título */
+  font-size: 90px;
+  margin-bottom: 0px;
+  margin-top: 250px;
+  width: 100%; /* Ancho del título */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 50%; /* Centramos verticalmente */
+  left: 50%; /* Centramos horizontalmente */
+  transform: translate(-50%, -50%); /* Centramos exactamente */
+  white-space: nowrap; /* Evitamos el salto de línea */
+}
 
-  .overlay2 .bold-text6 {
-    font-weight: bold;
-  }
-  .overlay2 .title2 {
-    font-weight: normal;
-    font-size: 130px;
-  }
-  .line {
-    border-bottom: 5px solid #ffffff; /* Color y grosor de la línea */
-    width: 200px; /* Ancho de la línea */
-    display: block; /* Convertimos el span en un bloque para ocupar el ancho definido */
-    margin: 10px auto; /* Margen superior e inferior de 10px, y margen izquierdo y derecho automáticos para centrar la línea */
-  }  
+.overlay2 .text-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.overlay2 .text6 {
+  color: #ffffff; /* Color de los textos */
+  font-size: 36px;
+  margin-top: -150px;
+  margin-left: 0px;
+}
 
+.overlay2 .text7 {
+  color: #ffffff; /* Color de los textos */
+  font-size: 36px;
+  margin-top: -150px;
+  margin-left: 10px;
+  font-weight: bold;
+}
 
+.overlay2 .bold-text6 {
+  font-weight: bold;
+}
+.overlay2 .title2 {
+  font-weight: normal;
+  font-size: 130px;
+}
+.line {
+  border-bottom: 5px solid #ffffff; /* Color y grosor de la línea */
+  width: 200px; /* Ancho de la línea */
+  display: block; /* Convertimos el span en un bloque para ocupar el ancho definido */
+  margin: 10px auto; /* Margen superior e inferior de 10px, y margen izquierdo y derecho automáticos para centrar la línea */
+}
 
+/*carta montada en el video*/
 
-
-
-
-
-  /*carta montada en el video*/
-  
 /* Estilos generales de la carta */
 .carta {
-    width: 1000px;
-    height:500px;
-    margin-bottom: 0px;
-    background-color: rgb(255, 255, 255); /* Carta de color negro defumado */
-    border: 1px solid #000000; /* Borde rosado */
-    border-radius: 15px;
-    box-shadow: 0 0 8px rgb(134, 133, 134);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 100px;
-    color: #fff; /* Color del texto */
-    position: absolute; /* Posición absoluta para colocar la carta por encima del contenido anterior */
-    top: 37.5%; /* Ajustamos la posición verticalmente */
-    left: 50%; /* Ajustamos la posición horizontalmente */
-    transform: translate(-50%, -50%); /* Centramos la carta */
-    z-index: 2; /* Valor del z-index para la carta, debe ser mayor que el valor del contenido anterior */
-  }
-  
-  /* Estilos de la imagen */
-  .imagen5 {
-    max-width: 30%;
-    margin-top: -220px;
-    position: absolute;
-    margin-left: 450px;
-    
-    z-index: -1;
-     
-  }
-  
-  /* Estilos de la imagen */
+  width: 1000px;
+  height: 500px;
+  margin-bottom: 0px;
+  background-color: rgb(255, 255, 255); /* Carta de color negro defumado */
+  border: 1px solid #000000; /* Borde rosado */
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgb(134, 133, 134);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  color: #fff; /* Color del texto */
+  position: absolute; /* Posición absoluta para colocar la carta por encima del contenido anterior */
+  top: 37.5%; /* Ajustamos la posición verticalmente */
+  left: 50%; /* Ajustamos la posición horizontalmente */
+  transform: translate(-50%, -50%); /* Centramos la carta */
+  z-index: 2; /* Valor del z-index para la carta, debe ser mayor que el valor del contenido anterior */
+}
+
+/* Estilos de la imagen */
+.imagen5 {
+  max-width: 30%;
+  margin-top: -220px;
+  position: absolute;
+  margin-left: 450px;
+
+  z-index: -1;
+}
+
+/* Estilos de la imagen */
 .imagen-token {
   max-width: 30%;
   margin-top: -200px;
@@ -1343,110 +1236,102 @@ body {
   transform: rotate(360deg); /* Rotar la imagen 360 grados al hacer hover */
 }
 
-  
-  
-  /* Estilos de la imagen dentro del contenedor */
-  .imagen img {
-    width: 30%;
-    height: 30%;
-    
-  }
-  
-  /* Estilos del contenido */
-  .contenido {
-    flex: 1;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  /* Estilos del primer título */
-  .titulo1 {
-    color: #000000; /* Color del título */
-    font-family: 'Poppins', sans-serif; /* Fuente del título */
-    font-size: 24px; /* Tamaño de la fuente del título */
-    font-weight: bold;
-    margin-left: 395px;
-    margin-top: -70px;
-    margin-bottom: 10px;
-    
-  }
-  
-  /* Estilos del primer texto */
-  .texto1 {
-    color: #000000; /* Color del texto */
-    font-family: 'Poppins', sans-serif; /* Fuente del texto */
-    font-size: 18px; /* Tamaño de la fuente del texto */
-    margin-top: 0px; /* Margen superior del texto */
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-    margin-bottom: -150px;
-    width: 100%; /* Ocupar todo el ancho de la carta */
-  }
-  
-  
-  
-  /*-----------------------------------------------------------------------------------------------------------
+/* Estilos de la imagen dentro del contenedor */
+.imagen img {
+  width: 30%;
+  height: 30%;
+}
+
+/* Estilos del contenido */
+.contenido {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Estilos del primer título */
+.titulo1 {
+  color: #000000; /* Color del título */
+  font-family: "Poppins", sans-serif; /* Fuente del título */
+  font-size: 24px; /* Tamaño de la fuente del título */
+  font-weight: bold;
+  margin-left: 395px;
+  margin-top: -70px;
+  margin-bottom: 10px;
+}
+
+/* Estilos del primer texto */
+.texto1 {
+  color: #000000; /* Color del texto */
+  font-family: "Poppins", sans-serif; /* Fuente del texto */
+  font-size: 18px; /* Tamaño de la fuente del texto */
+  margin-top: 0px; /* Margen superior del texto */
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  margin-bottom: -150px;
+  width: 100%; /* Ocupar todo el ancho de la carta */
+}
+
+/*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------*/
-  @media (max-width: 768px) {
-
-    .carta{
-      display: none;
-    }
-    /* Ocultar las cartas pequeñas y su contenido */
-    .cartas-pequenas {
-      opacity: 0;
-      pointer-events: none; /* Evitar interacciones con las cartas */
-      visibility: hidden;
-    }
-  
-    /* Ajustar el video y el texto */
-    .video-container {
-      padding-bottom: 56.25%;
-      margin-top: 0;
-      position: relative;
-    }
-  
-    .video-container video {
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .line{
-      border-bottom: 1px solid #ffffff; /* Color y grosor de la línea */
-    width: 200px;
-    }
-  
-    .overlay2 {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      padding: 20px;
-      text-align: center;
-    }
-  
-    .overlay2 .title2 {
-      font-size: 24px;
-      margin-top: 20px;
-    }
-  
-    .overlay2 .text6,
-    .overlay2 .text7 {
-      font-size: 14px;
-      margin-top: 190px;
-    }
+@media (max-width: 768px) {
+  .carta {
+    display: none;
   }
-  
+  /* Ocultar las cartas pequeñas y su contenido */
+  .cartas-pequenas {
+    opacity: 0;
+    pointer-events: none; /* Evitar interacciones con las cartas */
+    visibility: hidden;
+  }
 
-  /* termino media query 4*/ 
+  /* Ajustar el video y el texto */
+  .video-container {
+    padding-bottom: 56.25%;
+    margin-top: 0;
+    position: relative;
+  }
 
-  /* ... (otros estilos existentes) ... */
+  .video-container video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .line {
+    border-bottom: 1px solid #ffffff; /* Color y grosor de la línea */
+    width: 200px;
+  }
+
+  .overlay2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .overlay2 .title2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .overlay2 .text6,
+  .overlay2 .text7 {
+    font-size: 14px;
+    margin-top: 190px;
+  }
+}
+
+/* termino media query 4*/
+
+/* ... (otros estilos existentes) ... */
 
 /* Estilos de la carta desplegable */
 .carta-desplegable1,
@@ -1500,24 +1385,18 @@ body {
   font-size: 14px;
 }
 
-
-
-
-
-
 /* Estilos para las cartas pequeñas */
 .titulo-centro {
   text-align: center;
   font-size: 20px;
   color: black;
   margin: 20px 0;
-  z-index: 2; 
+  z-index: 2;
   position: absolute;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   top: 39.5%; /* Ajustamos la posición verticalmente para centrar las cartas pequeñas */
   left: 50%; /* Ajustamos la posición horizontalmente para centrar las cartas pequeñas */
   font-weight: bold;
-  
 }
 
 .cartas-pequenas {
@@ -1547,7 +1426,7 @@ body {
 
 /* Estilos para el hover de las cartas pequeñas */
 .carta-pequena:hover {
-  box-shadow: 0 0 5px 0px #8A2BE2;
+  box-shadow: 0 0 5px 0px #8a2be2;
   text-decoration: none;
 }
 
@@ -1567,15 +1446,6 @@ body {
   text-decoration: none; /* Quitamos la línea inferior del texto */
 }
 
-
-
-
-
-
-
-
-
-  
 /* Estilo para el título de carta equipo  */
 .titulo-personalizado {
   margin-top: 1200px; /* Margen superior de 30px */
@@ -1586,9 +1456,7 @@ body {
   margin-left: 0px;
 }
 
-
-
-  /*carta nuestro equipo de desarrollo  */
+/*carta nuestro equipo de desarrollo  */
 
 .contenedor-cartas {
   display: flex;
@@ -1616,16 +1484,15 @@ body {
   margin-right: 0; /* Para que no haya margen en la última carta */
 }
 
-.imagen10 img{
+.imagen10 img {
   width: 40%;
   height: auto;
   border-radius: 10px;
   margin-left: 145px;
   padding-right: 15px;
-  
 }
 
-.imagen20 img{
+.imagen20 img {
   width: 30%;
   height: auto;
   border-radius: 10px;
@@ -1640,8 +1507,6 @@ body {
   margin-left: 160px;
   padding-right: 15px;
 }
-
- 
 
 .titulo10,
 .titulo20,
@@ -1677,8 +1542,7 @@ body {
   font-weight: bold;
 }
 
- 
-  /*-----------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
@@ -1691,9 +1555,9 @@ body {
     text-align: center; /* Centrar el título */
     margin-top: 20px; /* Margen superior reducido */
   }
-.titulo-centro{
-  display: none;
-}
+  .titulo-centro {
+    display: none;
+  }
   .contenedor-cartas {
     display: flex;
     flex-direction: column; /* Cambiar a disposición vertical */
@@ -1735,13 +1599,8 @@ body {
   }
 }
 
-
-
-
 /* termino media query 5*/
 /* on shore titulo*/
-
-
 
 .section80 {
   display: flex;
@@ -1777,7 +1636,7 @@ body {
   color: black;
   margin-bottom: 50px;
   margin-left: 100px;
-  line-height: 1; 
+  line-height: 1;
 }
 
 .text80 {
@@ -1787,7 +1646,6 @@ body {
   margin-left: 100px;
 }
 
-
 .boton31 {
   display: inline-bloCk;
   background-color: #000000; /* Color del botón */
@@ -1796,22 +1654,16 @@ body {
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.1s ease;
-  margin-left: 100PX;
+  margin-left: 100px;
   margin-right: 50px;
 }
-
 
 .boton31:hover {
   background-color: #fc00f3; /* Cambia el color a pink al hacer hover */
   font-weight: bold;
 }
 
-
-
-
-
-
-  /*-----------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
@@ -1827,7 +1679,6 @@ body {
   }
 
   .image80,
-  
   .image82,
   .image83.footer-title1 {
     width: 100%; /* Ancho completo */
@@ -1835,7 +1686,7 @@ body {
     position: static; /* Cambiar a posición estática */
     margin-bottom: 20px; /* Ajustar el margen inferior */
   }
-  .image81{
+  .image81 {
     width: 90%; /* Ancho completo */
   }
   .content80 {
@@ -1873,7 +1724,6 @@ body {
   }
 }
 
-
 /*termino media query 6*/
 
 /*sofware dev titulo*/
@@ -1910,7 +1760,7 @@ body {
   font-size: 80px;
   color: black;
   margin-bottom: 50px;
-  line-height: 1; 
+  line-height: 1;
 }
 
 .text81 {
@@ -1927,21 +1777,16 @@ body {
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.1s ease;
-  margin-left: 0PX;
-  margin-right: 100PX;
+  margin-left: 0px;
+  margin-right: 100px;
 }
-
 
 .boton32:hover {
   background-color: #fc00f3; /* Cambia el color a pink al hacer hover */
   font-weight: bold;
 }
 
-
-
 /* ia y desarrollo  titulo*/
-
-
 
 .section82 {
   display: flex;
@@ -1978,7 +1823,7 @@ body {
   color: black;
   margin-bottom: 50px;
   margin-left: 100px;
-  line-height: 1; 
+  line-height: 1;
 }
 
 .text82 {
@@ -1996,17 +1841,14 @@ body {
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.1s ease;
-  margin-left: 0PX;
-  margin-right: 100PX;
+  margin-left: 0px;
+  margin-right: 100px;
 }
-
 
 .boton33:hover {
   background-color: #fc00f3; /* Cambia el color a pink al hacer hover */
   font-weight: bold;
 }
-
-
 
 /*diseño titulo*/
 
@@ -2042,7 +1884,7 @@ body {
   font-size: 80px;
   color: black;
   margin-bottom: 50px;
-  line-height: 1; 
+  line-height: 1;
 }
 
 .text83 {
@@ -2059,17 +1901,16 @@ body {
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.1s ease;
-  margin-left: 0PX;
-  margin-right: 100PX;
+  margin-left: 0px;
+  margin-right: 100px;
 }
-
 
 .boton33:hover {
   background-color: #fc00f3; /* Cambia el color a pink al hacer hover */
   font-weight: bold;
 }
 
-  /*-----------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
@@ -2078,14 +1919,20 @@ body {
 /* Media query para dispositivos con ancho máximo de 768px */
 /* Media query para dispositivos con ancho máximo de 768px */
 @media (max-width: 768px) {
-  .section80, .section81, .section82, .section83 {
+  .section80,
+  .section81,
+  .section82,
+  .section83 {
     display: block; /* Cambia a display en bloque para apilar elementos */
     margin-left: 0; /* Elimina el margen izquierdo */
     margin-top: 100px; /* Ajusta el margen superior */
     margin-bottom: 100px; /* Ajusta el margen inferior */
   }
 
-  .image80, .image81, .image82, .image83 {
+  .image80,
+  .image81,
+  .image82,
+  .image83 {
     width: 100%; /* Ancho completo */
     height: auto; /* Ajusta la altura automáticamente */
     margin-left: 0; /* Elimina el margen izquierdo */
@@ -2093,34 +1940,48 @@ body {
     border-radius: 0; /* Elimina el redondeo de bordes */
   }
 
-  .content80, .content81, .content82, .content83 {
+  .content80,
+  .content81,
+  .content82,
+  .content83 {
     margin-left: 0; /* Elimina el margen izquierdo */
   }
 
-  .sub-title80, .sub-title81, .sub-title82, .sub-title83 {
+  .sub-title80,
+  .sub-title81,
+  .sub-title82,
+  .sub-title83 {
     margin-bottom: 10px; /* Ajusta el margen inferior */
   }
 
-  .sub-title82{
+  .sub-title82 {
     margin-top: 400px;
     margin-left: 0; /* Elimina el margen izquierdo */
   }
-  .title80, .title81, .title82, .title83 {
+  .title80,
+  .title81,
+  .title82,
+  .title83 {
     font-size: 30px; /* Ajusta el tamaño de fuente */
     margin-bottom: 30px; /* Ajusta el margen inferior */
     line-height: 1.2; /* Ajusta el espaciado entre líneas */
   }
-  .title82{
+  .title82 {
     margin-left: 0; /* Elimina el margen izquierdo */
   }
-  .text80, .text81, .text82, .text83 {
+  .text80,
+  .text81,
+  .text82,
+  .text83 {
     font-size: 14px; /* Ajusta el tamaño de fuente */
     margin-bottom: 30px; /* Ajusta el margen inferior */
   }
-  .text82{
+  .text82 {
     margin-left: 0; /* Elimina el margen izquierdo */
   }
-  .boton31, .boton32, .boton33 {
+  .boton31,
+  .boton32,
+  .boton33 {
     margin-left: 0; /* Elimina el margen izquierdo */
     margin-right: 0; /* Elimina el margen derecho */
     display: block; /* Cambia a display en bloque para centrar el botón */
@@ -2129,8 +1990,6 @@ body {
     margin: 0 auto; /* Centra horizontalmente el botón */
   }
 }
-
-
 
 /*termino media query 6*/
 /*MENSAJE DE CMO*/
@@ -2151,14 +2010,13 @@ body {
 
 .title15 {
   font-size: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000;
   margin-left: 100px;
   margin-top: 300px;
   text-align: left;
   display: flex;
 }
-
 
 .title15::before {
   content: "";
@@ -2173,7 +2031,7 @@ body {
 
 .title16 {
   font-size: 80px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000;
   margin-left: 100px;
   margin-top: -30px;
@@ -2188,13 +2046,11 @@ body {
 
 .content15 {
   font-size: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000;
   margin-left: -600px;
   margin-top: 650px;
   text-align: left;
-  
-  
 }
 
 .button-container {
@@ -2220,15 +2076,13 @@ body {
   background-color: #d400ff;
 }
 
-
-  /*-----------------------------------------------------------------------------------------------------------
+/*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------*/
 
 /* Media query para dispositivos con ancho máximo de 768px */
-
 
 @media (max-width: 760px) {
   .section2 {
@@ -2300,15 +2154,14 @@ body {
   padding-right: 0px;
   margin-left: 560px;
   margin-right: 250px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 150%;
   color: white;
   margin-bottom: -150px;
   z-index: 1;
-  margin-top: 0PX;
+  margin-top: 0px;
   width: 1000px;
   height: 100px;
-  
 }
 
 .bold-text {
@@ -2332,7 +2185,6 @@ body {
   margin-left: 700px;
   margin-top: -70px;
   position: absolute;
-  
 }
 
 .subscribe-button {
@@ -2353,15 +2205,11 @@ body {
   background-color: #ff00fb;
 }
 
-
-
 /*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------*/
-
-
 
 /* Media query para dispositivos con ancho máximo de 768px */
 @media (max-width: 768px) {
@@ -2395,7 +2243,6 @@ body {
   }
 }
 
-
 /*termino media query 9*/
 /*footter*/
 
@@ -2408,9 +2255,8 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: -15px;
-
 }
 
 .footer-container {
@@ -2447,7 +2293,7 @@ body {
   margin-bottom: 10px;
   color: #000000;
   text-align: left;
- 
+
   display: inline-block;
   margin-left: 10px;
   white-space: nowrap;
@@ -2480,11 +2326,9 @@ body {
 .footer-navigation li a {
   color: #000000;
   text-decoration: none;
-  
-  
 }
 
-.footer-navigation li a:hover{
+.footer-navigation li a:hover {
   color: #ff00e6;
   text-decoration: none;
 }
@@ -2501,7 +2345,6 @@ body {
   margin-left: 50px;
   text-align: center;
 }
-
 
 .footer-input {
   width: 100%;
@@ -2537,7 +2380,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right:150px ;
+  margin-right: 150px;
   margin-top: -80px;
 }
 
@@ -2571,7 +2414,6 @@ body {
   background-color: #d400ff;
 }
 
-
 .redes-sociales {
   margin-top: 20px;
   margin-left: 50px;
@@ -2594,16 +2436,12 @@ body {
   cursor: pointer;
 }
 
-
-
-
-
 /*-----------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------
   media query responsive
   -------------------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------------------*/
- /* Media query para dispositivos con ancho máximo de 768px */
+/* Media query para dispositivos con ancho máximo de 768px */
 @media (max-width: 768px) {
   .footer {
     padding: 20px 0;
@@ -2619,7 +2457,6 @@ body {
   .footer-column {
     width: 100%;
     margin: 20px 0;
-    
   }
 
   .footer-title1,
@@ -2636,7 +2473,7 @@ body {
     margin-right: 100px;
   }
 
-  .footer-title{
+  .footer-title {
     margin-left: 0px;
   }
   .footer-navigation {
@@ -2681,7 +2518,3 @@ body {
     text-align: center;
   }
 }
-
-  
-
-  /*termino de media query 13*/

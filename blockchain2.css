@@ -876,98 +876,45 @@ header {
   }
 
   .menu {
-    display: block;
+    display: none;
     margin-left: 10px;
   }
 
-  .menu ul {
-    font-size: 14px;
-  }
-
-  .menu ul li {
-    margin-left: 5px;
-    padding: 3px;
-  }
-
-  .top-menu {
-    font-size: 14px;
-    margin: 5px;
-    margin-left: 10px;
-  }
-
-  .top-menu li {
-    margin-right: 5px;
-    font-size: small;
-  }
-
-  .banner {
-    padding: 5px;
-  }
-
-  .banner img {
-    max-width: 100%;
-  }
-
-  .banner .close-button {
-    padding: 3px 6px;
-    bottom: -5px;
-  }
-
-  .top-menu .Language ul {
-    top: 100%;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    margin-left: 0;
-    border: 1.5px solid #f50ad5;
-    border-radius: 2px;
-  }
-
-  .language-menu li {
+  .sticky-header {
+    position: fixed;
+    top: 0;
     width: 100%;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .top-menu .Language a {
-    padding: 5px;
-  }
-
-  .top-menu .Language img {
-    width: 60px;
-    height: 40px;
-    margin-right: 8px;
-  }
-
-  .top-menu .Language span {
-    font-size: 8px;
-    margin-top: 2px;
-  }
-
-  .top-menu .Language a:hover span {
-    color: #ff6b9a;
+    z-index: 1000;
+    height: 10%;
   }
 
   .get-started-button {
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 40px;
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .get-started-button:hover {
     box-shadow: 0 0 10px rgb(251, 3, 247);
   }
 
+  .mobile-menu {
+    display: block;
+  }
+
   .open-menu-button {
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
   }
 
   .slidebar {
-    width: 100%;
+    width: 70%;
     height: 100vh;
     top: 0;
     right: -100%;
@@ -977,8 +924,10 @@ header {
     right: 0;
   }
   .text-container h2 {
-    font-size: 24px;
-    margin-top: 120px;
+    font-size: 16px;
+    margin-top: 64px;
+    margin-right: 225px;
+    margin-left: -449px;
   }
 
   .title1 {
