@@ -926,8 +926,8 @@ header {
   .text-container h2 {
     font-size: 16px;
     margin-top: 64px;
-    margin-right: 225px;
-    margin-left: -449px;
+    margin-right: 250px;
+    margin-left: -531px;
   }
 
   .title1 {
@@ -940,13 +940,13 @@ header {
   }
 
   .text-container .cards-container {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: -33px;
+    margin-left: 33px;
+    margin-right: 27px;
   }
 
   .text-container .card {
-    width: calc(100% - 20px);
+    width: calc(15% - 20px);
   }
 
   .text-container .card img {
@@ -954,8 +954,8 @@ header {
     margin-top: 5px;
   }
   .text-container .card p {
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-top: 4px;
   }
 
   .text-container hr {
