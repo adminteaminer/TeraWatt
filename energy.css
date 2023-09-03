@@ -3953,7 +3953,7 @@ p[data-text="learn2"] {
 
 /*------------Media Queries for 1025px to 1200px---------*/
 /* Define a media query for screens between 1025px and 1200px */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1599px) {
   body {
     margin: 0;
     padding: 0;
