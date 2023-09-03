@@ -2742,7 +2742,7 @@ header {
   .titulo-personalizado {
     font-size: 24px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .titulo-centro {
     display: none;
@@ -2755,7 +2755,8 @@ header {
 
   .seccion-carta {
     width: 100%;
-    margin-bottom: 45px;
+    margin-bottom: 200px;
+    margin-top: -160px;
   }
 
   .seccion-carta .imagen10,
@@ -2890,17 +2891,17 @@ header {
   }
 
   .sub-title81 {
-    margin-left: 200px;
+    margin-left: 286px;
   }
 
   .sub-title82 {
     margin-top: -3px;
-    margin-left: 194px;
+    margin-left: 290px;
   }
 
   .sub-title83 {
     margin-bottom: 10px;
-    margin-left: 191px;
+    margin-left: 290px;
   }
 
   .title80,
@@ -2942,7 +2943,7 @@ header {
   }
 
   .title15 {
-    font-size: 16px;
+    font-size: 30px;
     margin-left: 20px;
     margin-top: 20px;
     align-items: center;
@@ -2955,9 +2956,9 @@ header {
   }
 
   .title16 {
-    font-size: 36px;
-    margin-left: 20px;
-    margin-top: 0px;
+    font-size: 60px;
+    margin-left: 28px;
+    margin-top: -70px;
     margin-bottom: 0px;
   }
 
@@ -2971,8 +2972,8 @@ header {
 
   .content15 {
     font-size: 24px;
-    margin-left: 0px;
-    margin-top: 800px;
+    margin-left: 40px;
+    margin-top: 936px;
     text-align: center;
     position: absolute;
   }
@@ -3066,7 +3067,7 @@ header {
   }
   .footer-navigation {
     text-align: center;
-    margin-left: 250px;
+    margin-left: 325px;
   }
 
   .footer-navigation li {
