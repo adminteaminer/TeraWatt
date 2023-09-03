@@ -1696,7 +1696,7 @@ header {
   }
   .text-container h2 {
     font-size: 16px;
-    margin-top: 64px;
+    margin-top: 37px;
     margin-right: 250px;
     margin-left: -531px;
   }
@@ -1706,12 +1706,12 @@ header {
   }
 
   .text-container h1 {
-    font-size: 20px;
+    font-size: 12px;
     margin-top: 100px;
   }
 
   .text-container .cards-container {
-    margin-top: -33px;
+    margin-top: -111px;
     margin-left: 33px;
     margin-right: 27px;
   }
@@ -1725,7 +1725,7 @@ header {
     margin-top: 5px;
   }
   .text-container .card p {
-    font-size: 12px;
+    font-size: 9px;
     margin-top: 4px;
   }
 
@@ -1740,13 +1740,13 @@ header {
   }
 
   .container2 {
-    margin-left: 0px;
-    font-size: 24px;
+    margin-left: 30px;
+    font-size: 20px;
   }
 
   .container2 a {
-    font-size: 24px;
-    margin-left: 20px;
+    font-size: 20px;
+    margin-left: 1px;
   }
 
   .quienes-somos2 {
@@ -2444,10 +2444,11 @@ header {
   }
 
   .text-container h2 {
-    font-size: 24px;
+    font-size: 32px;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 300px;
+    margin-right: -80px;
   }
 
   .title1 {
