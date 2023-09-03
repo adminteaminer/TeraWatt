@@ -3118,7 +3118,7 @@ header {
 }
 
 /*------------------------------------------Media Querie for 769px to 1025px------------------------------------------------------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) {
   .sticky-header {
     position: fixed;
     top: 0;
@@ -4356,7 +4356,7 @@ header {
 }
 
 /*-----------------------Media Queries for 1025px to 1200px------------------*/
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) {
   .sticky-header {
     position: fixed;
     top: 0;
