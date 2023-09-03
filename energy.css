@@ -5090,3 +5090,28 @@ p[data-text="learn2"] {
     cursor: pointer;
   }
 }
+
+/*-----------------------Media Queries for 1600px----------*/
+@media screen and (min-width: 1600px) {
+  .text-container .title1 {
+    margin-left: -788px;
+  }
+
+  .title {
+    margin-left: 46px;
+  }
+
+  .content8 {
+    margin-left: -1578px;
+    margin-top: 610px;
+  }
+
+  .title2 {
+    margin-left: 46px;
+  }
+
+  .content9 {
+    margin-top: 613px;
+    margin-left: -1664px;
+  }
+}
