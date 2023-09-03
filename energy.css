@@ -4274,7 +4274,7 @@ p[data-text="learn2"] {
     font-size: 70px;
     color: #181717;
     text-align: left;
-    margin-left: -1100px;
+    margin-left: -460px;
     margin-bottom: 12px;
     margin-top: 350px;
     font-family: "Poppins", sans-serif;
@@ -4287,7 +4287,7 @@ p[data-text="learn2"] {
     text-align: center;
     margin-top: 30px;
     font-family: "Poppins", sans-serif;
-    margin-left: -1350px;
+    margin-left: -715px;
     text-align: left;
   }
 
@@ -4323,8 +4323,8 @@ p[data-text="learn2"] {
     margin-top: 80px;
     z-index: 1;
     text-align: left;
-    margin-left: 20%;
     line-height: 0.9;
+    margin-left: 20px;
   }
 
   .hide {
@@ -4353,8 +4353,8 @@ p[data-text="learn2"] {
     color: #000000;
     margin-bottom: 10px;
     text-align: left;
-    margin-top: 550px;
-    margin-left: -1250px;
+    margin-top: 617px;
+    margin-left: -1569px;
   }
 
   .custom-button {
@@ -4432,9 +4432,8 @@ p[data-text="learn2"] {
     margin-top: 80px;
     z-index: 1;
     text-align: left;
-    margin-left: 20%;
-
     line-height: 0.9;
+    margin-left: 20px;
   }
 
   .image2 {
@@ -4459,8 +4458,8 @@ p[data-text="learn2"] {
     color: #000000;
     margin-bottom: 10px;
     text-align: left;
-    margin-top: 590px;
-    margin-left: -1330px;
+    margin-top: 624px;
+    margin-left: -1663px;
   }
 
   .custom-button {
@@ -4503,7 +4502,7 @@ p[data-text="learn2"] {
     margin-top: 80px;
     z-index: 1;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 20px;
     line-height: 0.9;
   }
   .image3 {
@@ -4528,8 +4527,8 @@ p[data-text="learn2"] {
     color: #000000;
     margin-bottom: 10px;
     text-align: left;
-    margin-top: 590px;
-    margin-left: -1350px;
+    margin-top: 614px;
+    margin-left: -1676px;
   }
 
   .custom-button {
@@ -4560,8 +4559,8 @@ p[data-text="learn2"] {
 
   .video-container video {
     position: absolute;
-    top: 420px;
-    left: 1300px;
+    top: 320px;
+    left: 725px;
     width: 40%;
     height: 40%;
     object-fit: cover;
@@ -4585,12 +4584,12 @@ p[data-text="learn2"] {
 
   .overlay2 .title {
     color: #ffffff;
-    font-size: 200px;
+    font-size: 128px;
     margin-bottom: 10px;
     width: 300px;
     text-align: center;
-    margin-left: -1400px;
-    margin-top: -100px;
+    margin-left: -914px;
+    margin-top: 50px;
     font-family: "Poppins", sans-serif;
   }
 
@@ -4619,16 +4618,12 @@ p[data-text="learn2"] {
     font-weight: bold;
   }
 
-  .overlay2 .title {
-    font-weight: normal;
-  }
-
   .text2 .line {
     position: absolute;
-    margin-left: 1100px;
+    margin-left: 1055px;
     margin-top: 20px;
     left: 0;
-    width: 200px;
+    width: 93px;
     height: 5px;
     background-color: rgb(255, 0, 242);
   }
@@ -4683,11 +4678,11 @@ p[data-text="learn2"] {
 
   .sub-menu li {
     display: inline-block;
-    margin-right: 250px;
+    margin-right: 167px;
     font-weight: bold;
     color: rgb(0, 0, 0);
     cursor: pointer;
-    margin-left: 100px;
+    margin-left: 103px;
     font-size: 24px;
   }
 
@@ -4712,7 +4707,7 @@ p[data-text="learn2"] {
   .container7 {
     padding-bottom: 100px;
     text-align: left;
-    margin-left: -100px;
+    margin-left: -165px;
   }
 
   .container7 h6 {
@@ -4722,6 +4717,10 @@ p[data-text="learn2"] {
     margin-bottom: 0px;
     font-weight: bold;
     font-size: 24px;
+  }
+
+  .container7 #wallet-content h6 {
+    margin-top: 36px;
   }
 
   .color-acento,
@@ -4779,69 +4778,69 @@ p[data-text="learn2"] {
   }
 
   .container7 .image1 {
-    margin-left: 1050px;
-    margin-top: -710px;
-    margin-bottom: 400px;
+    margin-left: 857px;
+    margin-top: -879px;
+    margin-bottom: 665px;
   }
 
   .container7 .image20 {
     margin-left: 30px;
-    margin-top: -1000px;
-    margin-bottom: 400px;
+    margin-top: -895px;
+    margin-bottom: 670px;
   }
 
   .container7 .image30 {
-    margin-top: -930px;
+    margin-top: -893px;
     margin-bottom: 950px;
-    margin-left: 1830px;
+    margin-left: 1206px;
   }
 
   .container7 .image4 {
-    margin-left: 1050px;
-    margin-top: -850px;
-    margin-bottom: 700px;
+    margin-left: 900px;
+    margin-top: -960px;
+    margin-bottom: 801px;
   }
 
   .container7 .image5 {
-    margin-left: 30px;
-    margin-top: -850px;
-    margin-bottom: 700px;
+    margin-left: 14px;
+    margin-top: -952px;
+    margin-bottom: 796px;
   }
 
   .container7 .image6 {
-    margin-top: -1235px;
+    margin-top: -1012px;
     margin-bottom: 1000px;
-    margin-left: 1830px;
+    margin-left: 1219px;
   }
 
   .container7 .image7 {
-    margin-left: 950px;
-    margin-top: -300px;
-    margin-bottom: 200px;
+    margin-left: 836px;
+    margin-top: -444px;
+    margin-bottom: 366px;
   }
 
   .container7 .image8 {
-    margin-left: 30px;
-    margin-top: -400px;
-    margin-bottom: 200px;
+    margin-left: 18px;
+    margin-top: -439px;
+    margin-bottom: 366px;
   }
 
   .container7 .image9 {
-    margin-top: -460px;
-    margin-bottom: 850px;
-    margin-left: 1730px;
+    margin-top: -472px;
+    margin-bottom: 848px;
+    margin-left: 1181px;
   }
 
   .container7 .image10 {
-    margin-top: -800px;
-    margin-bottom: 675px;
-    margin-left: 1130px;
+    margin-top: -840px;
+    margin-bottom: 764px;
+    margin-left: 846px;
   }
 
   .container7 .image11 {
     margin-top: -1800px;
-    margin-bottom: 700px;
-    margin-left: 1560px;
+    margin-bottom: 787px;
+    margin-left: 1021px;
   }
 
   .curved-section {
@@ -5095,6 +5094,12 @@ p[data-text="learn2"] {
 @media screen and (min-width: 1600px) {
   .text-container .title1 {
     margin-left: -788px;
+    font-weight: bold;
+    margin-top: 510px;
+  }
+
+  .text-container .text1 {
+    margin-left: -1050px;
   }
 
   .title {
@@ -5125,7 +5130,7 @@ p[data-text="learn2"] {
     color: #000000;
     margin-bottom: 10px;
     text-align: left;
-    margin-top: 600px;
+    margin-top: 620px;
     margin-left: -1690px;
   }
 
@@ -5136,7 +5141,7 @@ p[data-text="learn2"] {
 
   .video-container video {
     top: 420px;
-    left: 940px;
+    left: 880px;
     width: 44%;
     height: 44%;
     object-fit: cover;
@@ -5162,12 +5167,20 @@ p[data-text="learn2"] {
     margin-left: 914px;
     margin-top: -955px;
     margin-bottom: 806px;
+    width: 10%;
   }
 
   .container7 .image5 {
     margin-left: 20px;
     margin-top: -956px;
     margin-bottom: 799px;
+    width: 10%;
+  }
+
+  .container7 .image6 {
+    width: 10%;
+    margin-top: -1070px;
+    margin-left: 1309px;
   }
 
   .container7 #wallet-content h6 {
