@@ -5408,4 +5408,31 @@ header {
   .text-container h2 {
     left: 242px;
   }
+
+  .text-container hr {
+    width: 30%;
+    margin-left: 546px;
+  }
+
+  .container2 {
+    font-size: 40px;
+  }
+
+  .container2 a {
+    font-size: 30px;
+    margin-left: 23px;
+  }
+
+  .container2 img {
+    width: 16%;
+    margin-right: -246px;
+  }
+
+  .join-us hr {
+    margin: 20px 25px;
+  }
+
+  .quienes-somos2 {
+    margin: 20px 26px;
+  }
 }
