@@ -5114,4 +5114,42 @@ p[data-text="learn2"] {
     margin-top: 613px;
     margin-left: -1664px;
   }
+
+  .title3 {
+    margin-left: 46px;
+  }
+
+  .content10 {
+    margin-top: 616px;
+    margin-left: 1672px;
+  }
+
+  .overlay2 .title {
+    margin-left: -1261px;
+    margin-top: -51px;
+  }
+
+  .video-container video {
+    top: 420px;
+    left: 940px;
+    width: 44%;
+    height: 44%;
+    object-fit: cover;
+  }
+
+  .container7 .image1 {
+    margin-left: 880px;
+    margin-top: -876px;
+    margin-bottom: 505px;
+  }
+
+  .container7 .image20 {
+    margin-left: 30px;
+    margin-top: -858px;
+    margin-bottom: 499px;
+  }
+
+  .container7 .image30 {
+    margin-left: -1600px;
+  }
 }
