@@ -1415,7 +1415,7 @@ p[data-text="learn2"] {
   }
 
   .mobile-menu {
-    display: none;
+    display: block;
   }
 
   .open-menu-button {
@@ -1469,9 +1469,9 @@ p[data-text="learn2"] {
   .video-background video {
     position: absolute;
     top: 0;
-    right: 0;
-    width: 100%; /* Adjusted width to cover the entire container */
-    height: 100%; /* Adjusted height to cover the entire container */
+    right: 161px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -1498,34 +1498,30 @@ p[data-text="learn2"] {
   }
 
   .text-container h6 {
-    font-size: 24px; /* Adjust as needed */
+    font-size: 24px;
     margin-bottom: 10px;
     font-family: "Poppins", sans-serif;
   }
 
   .text-container p {
-    font-size: 14px; /* Adjust as needed */
+    font-size: 14px;
     font-family: "Poppins", sans-serif;
   }
 
   .text-container .title1 {
-    font-size: 30px; /* Adjust as needed */
+    font-size: 30px;
     color: #181717;
     text-align: left;
-    margin-left: 0;
+    margin-left: -3px;
     margin-bottom: 12px;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
   }
 
   .text-container .text1 {
-    font-size: 20px; /* Adjust as needed */
-    color: #000000;
-    text-align: left;
-    margin-top: 10px; /* Adjust as needed */
-    font-family: "Poppins", sans-serif;
-    margin-left: 0;
+    font-size: 20px;
+    margin-left: -50px;
   }
 
   .text-container hr {
@@ -1556,13 +1552,14 @@ p[data-text="learn2"] {
   }
 
   .title {
-    font-size: 36px; /* Adjust as needed */
+    font-size: 36px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px;
     z-index: 1;
-    text-align: center; /* Center title text */
-    line-height: 1.2; /* Improved readability */
+    text-align: center;
+    line-height: 1.2;
+    margin-left: 84px;
   }
 
   .image {
@@ -1586,8 +1583,9 @@ p[data-text="learn2"] {
     font-family: "Poppins", sans-serif;
     color: #000000;
     margin-bottom: 10px;
-    text-align: center; /* Center text */
-    margin-top: 20px; /* Adjust as needed */
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
   }
 
   .custom-button {
@@ -1612,8 +1610,8 @@ p[data-text="learn2"] {
 
   .section .bold-text {
     font-weight: bold;
-    margin-left: 8px;
-    font-size: 36px; /* Adjust as needed */
+    margin-left: -50px;
+    font-size: 36px;
   }
 
   .section .normal-text {
@@ -1699,12 +1697,13 @@ p[data-text="learn2"] {
   }
 
   .content9 {
-    font-size: 16px; /* Adjust as needed */
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
     color: #000000;
     margin-bottom: 10px;
-    text-align: center; /* Center text */
-    margin-top: 20px; /* Adjust as needed */
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
   }
 
   .custom-button {
@@ -1785,8 +1784,9 @@ p[data-text="learn2"] {
     font-family: "Poppins", sans-serif;
     color: #000000;
     margin-bottom: 10px;
-    text-align: center; /* Center text */
-    margin-top: 20px; /* Adjust as needed */
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
   }
 
   .custom-button {
