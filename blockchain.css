@@ -4949,16 +4949,36 @@ header {
     color: #fff;
     font-size: 14px;
   }
+  .carta {
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(134, 133, 134);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: #fff;
+    position: absolute;
+    top: 31.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
 
   .titulo-centro {
     text-align: center;
     font-size: 20px;
-    color: #000;
+    color: black;
     margin: 20px 0;
     z-index: 2;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 33.2%;
     left: 50%;
     font-weight: bold;
   }
@@ -4969,6 +4989,18 @@ header {
     margin-top: 10px;
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-decoration: none;
+  }
+
+  .cartas-pequenas {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    top: 32.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -5023,27 +5055,17 @@ header {
   }
 
   .seccion-carta {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    width: 230px;
+    height: 250px;
     background-color: #f2f2f2;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
-    padding: 20px;
+    padding: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-right: 20px;
-  }
-
-  .imagen10 img,
-  .imagen20 img,
-  .imagen30 img {
-    width: 50%; /* Adjust width for better spacing */
-    height: auto;
-    border-radius: 10px;
-    margin-left: 10px; /* Adjust margin for better alignment */
+    margin-right: 0px;
   }
 
   .titulo10,
@@ -5055,11 +5077,34 @@ header {
     text-align: center;
   }
 
+  .imagen10 img {
+    width: 47%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 56px;
+    padding-right: 15px;
+  }
+
+  .imagen20 img {
+    width: 47%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 70px;
+    padding-right: 15px;
+  }
+
+  .imagen30 img {
+    width: 47%; /* Adjust width for better spacing */
+    height: auto;
+    border-radius: 10px;
+    margin-left: 60px; /* Adjust margin for better alignment */
+  }
+
   .texto10,
   .texto20,
   .texto30 {
     color: #666;
-    font-size: 16px; /* Adjust font size for better readability */
+    font-size: 14px;
     text-align: center;
   }
 
@@ -5415,25 +5460,26 @@ header {
   }
 
   .container2 {
-    font-size: 40px;
+    font-size: 60px;
+    margin-left: 100px;
   }
 
   .container2 a {
-    font-size: 30px;
-    margin-left: 23px;
+    font-size: 60px;
+    margin-left: 64px;
   }
 
   .container2 img {
     width: 16%;
-    margin-right: -246px;
+    margin-right: -222px;
   }
 
   .join-us hr {
-    margin: 20px 25px;
+    margin: 20px 72px;
   }
 
   .quienes-somos2 {
-    margin: 20px 26px;
+    margin: 20px 130px;
   }
 
   .titulo-centro {
@@ -5476,7 +5522,7 @@ header {
     padding-bottom: 100px;
     color: #fff;
     position: absolute;
-    top: 33.5%;
+    top: 33.7%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
