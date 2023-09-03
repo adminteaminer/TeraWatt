@@ -2072,10 +2072,8 @@ header {
   .sub-title80,
   .sub-title82,
   .sub-title83 {
-    margin-bottom: 10px;
     font-size: 20px;
     color: rgb(204, 0, 255);
-    margin-bottom: 20px;
     margin-left: 105px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -2086,7 +2084,7 @@ header {
     width: 90%;
     height: auto;
     margin-left: -1px;
-    margin-top: -258px;
+    margin-top: -290px;
     border-radius: 12px;
   }
 
@@ -2106,12 +2104,11 @@ header {
   }
 
   .image81 {
-    width: 127%;
+    width: 121%;
     height: auto;
-    margin-left: -90px;
+    margin-left: -85px;
     margin-top: -280%;
     border-radius: 0px;
-    padding-bottom: 53px;
   }
 
   .sub-title81 {
@@ -2119,8 +2116,8 @@ header {
     color: rgb(204, 0, 255);
     margin-left: -290px;
     font-weight: bold;
-    margin-bottom: 22px;
-    margin-top: 43px;
+    margin-bottom: 41px;
+    margin-top: 75px;
   }
 
   .title81 {
@@ -2176,7 +2173,7 @@ header {
     margin-bottom: 10px;
     font-weight: bold;
     margin-left: -290px;
-    margin-top: 45px;
+    margin-top: 109px;
   }
 
   .title83 {
@@ -2191,16 +2188,17 @@ header {
     font-size: 13px;
     color: black;
     margin-bottom: 50px;
-    margin-left: -380px;
+    margin-left: -452px;
     text-align: center;
-    margin-right: 230px;
+    margin-right: 186px;
+    margin-top: -32px;
   }
 
   .image83 {
     width: 125%;
     height: auto;
     margin-left: -81px;
-    margin-top: -270%;
+    margin-top: -234%;
     border-radius: 12px;
   }
 
@@ -2416,7 +2414,14 @@ header {
 }
 
 /* -----------------------------------------Media Query para dispositivos móviles -------------------------------------------------*/
-@media screen and (min-width: 481px) and(max-width: 768px) {
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
   .mobile-menu {
     display: block;
   }
@@ -2426,6 +2431,22 @@ header {
   }
   header {
     padding: 10px;
+  }
+
+  .get-started-button {
+    text-align: center;
+    border: 2px solid #ee0bc8;
+    margin-left: 78px;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 9px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 8px;
   }
 
   .logo {
@@ -2448,9 +2469,6 @@ header {
     margin: 0px 0;
   }
 
-  /* ... (otros estilos) ... */
-
-  /* Estilos para el banner en dispositivos móviles */
   .banner {
     width: 90%;
     padding: 10px;
@@ -2461,33 +2479,6 @@ header {
 
   .banner img {
     width: 100%;
-  }
-
-  .top-menu .Language ul {
-    display: none;
-    position: static;
-    margin-left: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    z-index: 999;
-    border-radius: 0;
-  }
-
-  .top-menu .Language:hover ul {
-    display: none;
-  }
-
-  .language-menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .language-menu li {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 15px;
-    text-align: center;
   }
 
   .video-background {
@@ -2508,7 +2499,7 @@ header {
   }
 
   .text-container h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin: 100px auto 12px;
     margin-top: 400px;
   }
@@ -2525,7 +2516,7 @@ header {
   .text-container .card {
     margin-right: 20px;
     margin-bottom: 30px;
-    width: calc(20% - 10px); /* Ajustar el ancho de las cartas */
+    width: calc(20% - 10px);
   }
 
   .text-container .card:last-child {
@@ -2583,13 +2574,13 @@ header {
   .container2 {
     margin-left: 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Poppins", sans-serif;
   }
 
   .container2 a {
     color: #000000;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
     text-decoration: none;
   }
@@ -2679,6 +2670,13 @@ header {
     margin-left: 20px;
   }
 
+  .slide-image {
+    width: 140%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.8s ease;
+  }
+
   .faq-section.active .image-container img {
     opacity: 1;
     transform: translateX(0);
@@ -2702,13 +2700,13 @@ header {
   .container3 {
     margin-left: 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Poppins", sans-serif;
   }
 
   .container3 a {
     color: #000000;
-    font-size: 20px;
+    font-size: 23px;
     margin: 0;
     text-decoration: none;
   }
@@ -2739,14 +2737,13 @@ header {
   .carta {
     display: none;
   }
-  /* Ocultar las cartas pequeñas y su contenido */
+
   .cartas-pequenas {
     opacity: 0;
-    pointer-events: none; /* Evitar interacciones con las cartas */
+    pointer-events: none;
     visibility: hidden;
   }
 
-  /* Ajustar el video y el texto */
   .video-container {
     padding-bottom: 56.25%;
     margin-top: 0;
@@ -2762,7 +2759,7 @@ header {
   }
 
   .line {
-    border-bottom: 1px solid #ffffff; /* Color y grosor de la línea */
+    border-bottom: 1px solid #ffffff;
     width: 200px;
   }
 
@@ -2776,7 +2773,7 @@ header {
 
   .overlay2 .title2 {
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: -10px;
   }
 
   .overlay2 .text6,
@@ -2786,25 +2783,24 @@ header {
   }
 
   .titulo-personalizado {
-    font-size: 24px; /* Tamaño de fuente más pequeño para el título */
-    text-align: center; /* Centrar el título */
-    margin-top: 20px; /* Margen superior reducido */
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
   }
   .titulo-centro {
     display: none;
   }
   .contenedor-cartas {
     display: flex;
-    flex-direction: column; /* Cambiar a disposición vertical */
-    align-items: center; /* Centrar elementos horizontalmente */
+    flex-direction: column;
+    align-items: center;
   }
 
   .seccion-carta {
-    width: 100%; /* Ancho completo */
-    margin-bottom: 20px; /* Agregar un espacio entre las cartas */
+    width: 100%;
+    margin-bottom: 45px;
   }
 
-  /* Estilos específicos para las imágenes dentro de las cartas */
   .seccion-carta .imagen10,
   .seccion-carta .imagen20,
   .seccion-carta .imagen30 {
@@ -2814,144 +2810,173 @@ header {
   }
 
   .seccion-carta img {
-    max-width: 50%; /* Reducir el tamaño de la imagen */
+    max-width: 50%;
     height: auto;
     margin-left: 0px;
   }
 
-  /* Estilos para los títulos y textos en las cartas */
   .titulo10,
   .titulo20,
   .titulo30,
   .texto10,
   .texto20,
   .texto30 {
-    text-align: center; /* Centrar el texto */
-    margin: 10px 0; /* Agregar margen superior e inferior */
+    text-align: center;
+    margin: 10px 0;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 16px;
   }
   .section80 {
-    flex-direction: column; /* Cambiar a disposición vertical */
-    align-items: center; /* Centrar elementos horizontalmente */
-    margin-top: 150px; /* Ajustar el margen superior */
-    margin-bottom: 100px; /* Ajustar el margen inferior */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
   }
 
   .image80,
   .image82,
   .image83.footer-title1 {
-    width: 100%; /* Ancho completo */
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
-    position: static; /* Cambiar a posición estática */
-    margin-bottom: 20px; /* Ajustar el margen inferior */
+    width: 100%;
+    margin: 0 auto;
+    position: static;
+    margin-bottom: 20px;
   }
   .image81 {
-    width: 90%; /* Ancho completo */
+    width: 90%;
   }
   .content80 {
-    align-items: center; /* Centrar elementos horizontalmente */
-    text-align: center; /* Centrar el contenido de la columna */
+    align-items: center;
+    text-align: center;
   }
 
   .sub-title82 {
-    margin-left: 0; /* Eliminar el margen izquierdo */
-    margin-bottom: 10px; /* Ajustar el margen inferior */
+    margin-left: 0;
+    margin-bottom: 10px;
     margin-top: 10px;
   }
 
   .title80 {
-    font-size: 36px; /* Reducir el tamaño del título */
-    margin-bottom: 30px; /* Ajustar el margen inferior */
-    margin-left: 0; /* Eliminar el margen izquierdo */
-    text-align: center; /* Centrar el título */
-    line-height: 1.2; /* Ajustar el espaciado entre líneas */
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    text-align: center;
+    line-height: 1.2;
   }
 
   .text80,
   .text81,
   .text82,
   .text83 {
-    font-size: 24px; /* Reducir el tamaño del texto */
-    margin-bottom: 30px; /* Ajustar el margen inferior */
-    margin-left: 0; /* Eliminar el margen izquierdo */
-    text-align: center; /* Centrar el texto */
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    text-align: center;
   }
 
   .boton31 {
-    margin-left: 0; /* Eliminar el margen izquierdo */
-    margin-right: 0; /* Eliminar el margen derecho */
+    margin-left: 0;
+    margin-right: 0;
   }
   .section80,
   .section81,
   .section82,
   .section83 {
-    display: block; /* Cambia a display en bloque para apilar elementos */
-    margin-left: 0; /* Elimina el margen izquierdo */
-    margin-top: 100px; /* Ajusta el margen superior */
-    margin-bottom: 100px; /* Ajusta el margen inferior */
+    display: block;
+    margin-left: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
-  .image80,
-  .image81,
-  .image82,
+  .image80 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 0;
+  }
+
+  .image81 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: -70px;
+    border-radius: 0;
+  }
+
+  .image82 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: -70px;
+    border-radius: 0;
+  }
+
   .image83 {
-    width: 100%; /* Ancho completo */
-    height: auto; /* Ajusta la altura automáticamente */
-    margin-left: 0; /* Elimina el margen izquierdo */
-    margin-top: 0; /* Elimina el margen superior */
-    border-radius: 0; /* Elimina el redondeo de bordes */
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: -70px;
+    border-radius: 0;
   }
 
   .content80,
   .content81,
   .content82,
   .content83 {
-    margin-left: 0; /* Elimina el margen izquierdo */
+    margin-left: 0;
   }
 
-  .sub-title80,
-  .sub-title81,
-  .sub-title82,
-  .sub-title83 {
-    margin-bottom: 10px; /* Ajusta el margen inferior */
+  .sub-title80 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .sub-title81 {
+    margin-left: 200px;
   }
 
   .sub-title82 {
-    margin-top: 400px;
-    margin-left: 0; /* Elimina el margen izquierdo */
+    margin-top: -3px;
+    margin-left: 194px;
   }
+
+  .sub-title83 {
+    margin-bottom: 10px;
+    margin-left: 191px;
+  }
+
   .title80,
   .title81,
   .title82,
   .title83 {
-    font-size: 30px; /* Ajusta el tamaño de fuente */
-    margin-bottom: 30px; /* Ajusta el margen inferior */
-    line-height: 1.2; /* Ajusta el espaciado entre líneas */
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    text-align: center;
   }
   .title82 {
-    margin-left: 0; /* Elimina el margen izquierdo */
+    margin-left: 0;
   }
   .text80,
   .text81,
   .text82,
   .text83 {
-    font-size: 14px; /* Ajusta el tamaño de fuente */
-    margin-bottom: 30px; /* Ajusta el margen inferior */
+    font-size: 14px;
+    margin-bottom: 30px;
   }
   .text82 {
-    margin-left: 0; /* Elimina el margen izquierdo */
+    margin-left: 0;
   }
   .boton31,
   .boton32,
   .boton33 {
-    margin-left: 0; /* Elimina el margen izquierdo */
-    margin-right: 0; /* Elimina el margen derecho */
-    display: block; /* Cambia a display en bloque para centrar el botón */
-    width: 150px; /* Ancho fijo del botón */
-    text-align: center; /* Centra el texto del botón */
-    margin: 0 auto; /* Centra horizontalmente el botón */
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
   }
   .section2 {
     margin-top: 20px;
@@ -3007,32 +3032,36 @@ header {
     border-radius: 3px;
   }
   .curved-section {
-    margin: 0; /* Elimina los márgenes laterales */
-    width: auto; /* Ancho automático */
-    padding: 10px; /* Ajusta el padding del contenedor */
-    font-size: 100%; /* Restablece el tamaño de fuente */
-    margin-bottom: -100px; /* Ajusta el margen inferior */
-    height: auto; /* Altura automática */
+    margin: 0;
+    width: auto;
+    padding: 10px;
+    font-size: 100%;
+    margin-bottom: -100px;
+    height: auto;
   }
 
   .bold-text {
-    transform: none; /* Elimina la transformación */
-    margin-left: 10px; /* Restablece el margen izquierdo */
-    text-align: center; /* Centra el texto */
-    font-size: 18px; /* Restablece el tamaño de fuente */
+    transform: none;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 12px;
   }
 
-  .email-input,
-  .subscribe-button {
-    width: 100%; /* Ancho completo */
-    max-width: 300px; /* Ancho máximo */
-    margin: 10px auto; /* Centra horizontalmente */
-    position: static; /* Restablece la posición */
+  .email-input {
+    width: 40%;
+    margin: 10px auto;
+    position: static;
+    height: 0px;
+    margin-left: 100px;
   }
 
   .subscribe-button {
-    margin-top: 0; /* Restablece el margen superior */
-    margin-bottom: 8px; /* Ajusta el margen inferior */
+    width: 69%;
+    max-width: 69px;
+    margin: 1px auto;
+    position: static;
+    height: 30px;
+    margin-left: -80px;
   }
   .footer {
     padding: 20px 0;
@@ -3062,6 +3091,17 @@ header {
     text-align: center;
     padding: 0;
     margin-right: 100px;
+    font-size: 16px;
+  }
+
+  .footer-input {
+    width: 47%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
   }
 
   .footer-title {
@@ -3098,6 +3138,7 @@ header {
   .footer-trademark-text {
     margin-left: 0;
     text-align: center;
+    font-size: 11px;
   }
 
   .footer-trademark-button {
@@ -3106,6 +3147,14 @@ header {
 
   .redes-sociales {
     margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-form div {
+    color: #000000;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-left: 0px;
     text-align: center;
   }
 }

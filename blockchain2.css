@@ -1383,6 +1383,13 @@ header {
   /* ... (otros estilos) ... */
 
   /* Estilos para el menú deslizable */
+
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
   .mobile-menu {
     display: block;
   }
