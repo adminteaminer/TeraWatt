@@ -2469,7 +2469,7 @@ p[data-text="learn2"] {
   .hide {
     font-size: 60px;
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: -84px;
     font-weight: bold;
     display: block;
   }
@@ -2545,6 +2545,7 @@ p[data-text="learn2"] {
 
   .section2 .bold-text2 {
     font-weight: bold;
+    margin-left: -100px;
   }
 
   .section2 .normal-text2 {
@@ -2695,6 +2696,13 @@ p[data-text="learn2"] {
     text-align: center;
   }
 
+  .separator {
+    border-top: 1px solid rgb(242, 1, 250);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+
   /* Estilos para los contenidos de las secciones */
   .container7 {
     margin-left: 0;
@@ -2703,7 +2711,7 @@ p[data-text="learn2"] {
   }
 
   .container7 h6 {
-    margin-right: 150px;
+    margin-right: 210px;
   }
 
   .container7 p[data-text="main"],
@@ -2817,12 +2825,7 @@ p[data-text="learn2"] {
     font-size: 100%;
     margin-bottom: -50px;
     margin-top: 150px;
-  }
-
-  .bold-text {
-    transform: translateX(0);
-    text-align: center;
-    font-size: 60%;
+    display: none;
   }
 
   .subscription-form {
@@ -2835,6 +2838,7 @@ p[data-text="learn2"] {
     width: 50%;
     margin-top: 10px;
     position: relative;
+    display: none;
   }
 
   .subscribe-button {
@@ -2843,6 +2847,7 @@ p[data-text="learn2"] {
     margin-top: -35px;
     position: relative;
     margin-left: 400px;
+    display: none;
   }
 
   .subscribe-button:hover {
@@ -2890,6 +2895,14 @@ p[data-text="learn2"] {
   .footer-navigation li {
     margin-left: 0;
     text-align: center;
+  }
+
+  .footer-input {
+    width: 30%;
+  }
+
+  .footer-button {
+    margin-left: 15px;
   }
 
   .footer-bottom {
