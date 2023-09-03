@@ -5257,9 +5257,10 @@ header {
   .sub-title83 {
     font-size: 20px;
     color: rgb(204, 0, 255);
-    margin-bottom: 10px;
+    margin-bottom: 218px;
     font-weight: bold;
-    margin-top: -160px;
+    margin-top: -376px;
+    margin-left: 55%;
   }
 
   .title83 {
@@ -5267,19 +5268,25 @@ header {
     color: black;
     margin-bottom: 50px;
     line-height: 1;
+    margin-right: -43%;
+    margin-top: -203%;
   }
 
   .text83 {
     font-size: 15px;
     color: black;
     margin-bottom: 50px;
+    margin-left: 56%;
+    margin-right: -51%;
+    margin-top: -25px;
   }
 
   .image83 {
     width: 45%;
     height: auto;
     border-radius: 10px;
-    margin-top: 26px;
+    margin-top: 10px;
+    margin-left: -64%;
   }
 
   .content80,
@@ -5400,13 +5407,16 @@ header {
   /* Common styles for text content */
   .title15,
   .title16,
-  .image13,
-  .content15 {
+  .image13 {
     font-family: "Poppins", sans-serif;
     color: #000;
     text-align: left;
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 150px;
+  }
+
+  .content15 {
+    margin-top: 15px;
   }
 
   .title15::before {
@@ -5426,7 +5436,7 @@ header {
   }
 
   .image13 {
-    width: 454px;
+    width: 380px;
     height: auto;
     margin-left: 85%;
     margin-top: -381px;
@@ -5614,6 +5624,14 @@ header {
 
   .overlay2 .text-container2 {
     margin-top: 250px;
+  }
+
+  .overlay2 .text6 {
+    margin-top: 110%;
+  }
+
+  .overlay2 .text7 {
+    margin-top: 110%;
   }
 
   .titulo-centro {
