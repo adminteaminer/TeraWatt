@@ -5478,13 +5478,14 @@ header {
     z-index: 1;
     margin-top: 0px;
     width: 1000px;
-    height: 100px;
+    height: 75px;
   }
 
   .bold-text {
     text-align: left;
     transform: translateX(0);
-    font-size: 70%;
+    font-size: 57%;
+    margin-left: 32px;
   }
 
   /* Subscription Form */
@@ -5500,8 +5501,8 @@ header {
     padding: 10px;
     border: 2px solid #e600ff;
     border-radius: 5px 0 0 5px;
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: 635px;
+    margin-top: -64px;
     position: relative;
   }
 
@@ -5515,7 +5516,7 @@ header {
     cursor: pointer;
     margin-left: 0;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: -64px;
     position: relative;
   }
 
@@ -5535,6 +5536,11 @@ header {
     transform: translateX(-50%);
     font-family: "Poppins", sans-serif;
     margin-bottom: -15px;
+  }
+
+  .footer-input {
+    width: 82%;
+    margin-left: 18px;
   }
 
   .footer-container {
