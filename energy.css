@@ -2432,15 +2432,15 @@ p[data-text="learn2"] {
   }
 
   .text-container .title1 {
-    margin-left: -250px;
-    margin-top: 200px;
+    margin-left: -354px;
+    margin-top: 545px;
     font-size: 30px;
   }
 
   .text-container .text1 {
     font-size: 18px;
-    margin-left: -300px;
-    margin-top: 400px;
+    margin-left: -414px;
+    margin-top: 24px;
     font-weight: bold;
   }
 
@@ -4271,12 +4271,12 @@ p[data-text="learn2"] {
   }
 
   .text-container .title1 {
-    font-size: 70px;
+    font-size: 54px;
     color: #181717;
     text-align: left;
-    margin-left: -460px;
+    margin-left: -600px;
     margin-bottom: 12px;
-    margin-top: 350px;
+    margin-top: 429px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
   }
@@ -4859,14 +4859,14 @@ p[data-text="learn2"] {
     color: white;
     margin-bottom: -150px;
     z-index: 1;
-    margin-top: -600px;
+    margin-top: -300px;
   }
 
   .bold-text {
     text-align: center;
     transform: translateX(50px);
     margin-left: 0px;
-    font-size: 20px;
+    font-size: 12px;
     text-align: left;
   }
 
@@ -4877,25 +4877,25 @@ p[data-text="learn2"] {
   }
 
   .email-input {
-    padding: 20px;
+    padding: 5px;
     border: 2px solid #e600ff;
     border-radius: 5px 0 0 5px;
-    margin-left: 1200px;
-    margin-top: -100px;
+    margin-left: 270px;
+    margin-top: 1px;
     position: absolute;
   }
 
   .subscribe-button {
-    padding: 10px 20px;
+    padding: 3px 12px;
     background-color: rgb(124, 123, 124);
     color: #ffffff;
     border: none;
     font-weight: bold;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    margin-left: 1400px;
+    margin-left: 464px;
     margin-bottom: 0;
-    margin-top: -100px;
+    margin-top: -2px;
     position: absolute;
   }
 
