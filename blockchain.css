@@ -4757,6 +4757,7 @@ header {
     margin: 20px; /* Adjust margin for better spacing */
     overflow: hidden;
     margin-bottom: 0;
+    margin-top: 70px;
   }
 
   .slide-wrapper {
@@ -5179,8 +5180,9 @@ header {
     width: 45%;
     height: auto;
     border-radius: 10px;
-    margin-left: 620px;
+    margin-left: 500px;
     position: absolute;
+    margin-top: 42px;
   }
 
   .title81 {
@@ -5188,6 +5190,8 @@ header {
     color: black;
     margin-bottom: 50px;
     line-height: 1;
+    margin-left: 37%;
+    margin-right: -47%;
   }
 
   .sub-title81 {
@@ -5195,54 +5199,59 @@ header {
     color: rgb(204, 0, 255);
     margin-bottom: 10px;
     font-weight: bold;
-    margin-top: -160px;
+    margin-top: -369px;
+    margin-left: 37%;
   }
 
   .text81 {
     font-size: 15px;
     color: black;
     margin-bottom: 50px;
+    margin-left: 39%;
+    margin-right: -33%;
   }
 
   .image81 {
     width: 45%;
     height: auto;
     border-radius: 10px;
-    margin-top: -233px;
+    margin-top: 2px;
+    margin-left: -736px;
   }
 
   .title82 {
     font-size: 40px;
     color: black;
     margin-bottom: 50px;
-    margin-left: 2px;
+    margin-left: -113px;
     line-height: 1;
+    margin-top: 233px;
   }
 
   .sub-title82 {
     font-size: 20px;
     color: rgb(204, 0, 255);
-    margin-bottom: 20px;
     margin-left: 105px;
     font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: -260px;
+    margin-bottom: -225px;
+    margin-top: -28px;
   }
 
   .text82 {
     font-size: 15px;
     color: black;
-    margin-bottom: 50px;
-    margin-left: 2px;
+    margin-bottom: 90px;
+    margin-left: -109px;
+    margin-top: -20px;
   }
 
   .image82 {
     width: 45%;
     height: auto;
     border-radius: 10px;
-    margin-left: 569px;
+    margin-left: 541px;
     position: absolute;
-    margin-top: -214px;
+    margin-top: 28px;
   }
 
   .sub-title83 {
@@ -5270,7 +5279,7 @@ header {
     width: 45%;
     height: auto;
     border-radius: 10px;
-    margin-top: -222px;
+    margin-top: 26px;
   }
 
   .content80,
@@ -5301,8 +5310,7 @@ header {
   }
 
   /* Common styles for buttons */
-  .boton31,
-  .boton32,
+
   .boton33,
   .custom-button {
     display: inline-block;
@@ -5312,6 +5320,16 @@ header {
     transition: background-color 0.1s ease;
     margin-left: 0px;
     margin-right: 20px;
+  }
+
+  .boton31 {
+    margin-left: -109px;
+    margin-right: -9px;
+  }
+
+  .boton32 {
+    margin-left: 214px;
+    margin-left: -168px;
   }
 
   .boton31:hover,
@@ -5592,6 +5610,10 @@ header {
 
   .quienes-somos2 {
     margin: 20px 130px;
+  }
+
+  .overlay2 .text-container2 {
+    margin-top: 250px;
   }
 
   .titulo-centro {
