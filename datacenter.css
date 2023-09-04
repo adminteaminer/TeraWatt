@@ -5161,6 +5161,10 @@ a:hover {
     margin-left: 260px;
   }
 
+  .image-right {
+    margin-top: -31px;
+  }
+
   .text-left,
   .text-right {
     color: black;
@@ -5168,7 +5172,7 @@ a:hover {
   }
 
   .text-right {
-    margin-top: 1px;
+    margin-top: -25px;
   }
 
   .line-left,
@@ -5217,7 +5221,7 @@ a:hover {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: 20px; /* Adjust margin as needed */
+    margin-left: -38px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -5236,8 +5240,18 @@ a:hover {
     font-size: 60px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: 0;
+    margin-left: 674px;
     margin-top: -30px;
+    text-align: left;
+    margin-right: -530px;
+  }
+
+  .content15 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    margin-left: 4px;
+    margin-top: 650px;
     text-align: left;
   }
 
@@ -5247,7 +5261,12 @@ a:hover {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -100px; /* Adjust margin as needed */
+    margin-top: -165px;
+  }
+
+  .curved-section {
+    margin-bottom: -10px;
+    margin-top: 117px;
   }
 
   .footer {
@@ -5293,10 +5312,13 @@ a:hover {
   }
 
   .footer-text {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     color: rgb(0, 0, 0);
     text-align: left;
+    margin-left: -3px;
+    margin-right: -54px;
+    font-weight: 600;
   }
 
   .footer-navigation {
@@ -5324,13 +5346,12 @@ a:hover {
 
   .footer-form {
     margin-top: 20px;
-    border: 1px solid #bc02ff;
   }
 
   .footer-form div {
     color: #000000;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 13px;
     text-align: left;
   }
 
@@ -5376,9 +5397,11 @@ a:hover {
   }
 
   .footer-trademark-text {
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
-    margin-left: -50px; /* Adjust margin as needed */
+    margin-left: -684px;
+    margin-top: 61px;
+    margin-right: 347px;
   }
 
   .footer-trademark-button {
