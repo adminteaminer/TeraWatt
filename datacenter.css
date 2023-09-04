@@ -2290,7 +2290,8 @@ a:hover {
     font-weight: bold;
     margin-bottom: 10px;
     color: #000000;
-    text-align: center; /* Centered text on small screens */
+    text-align: center;
+    margin-left: -56px;
   }
 
   .footer-title1 {
