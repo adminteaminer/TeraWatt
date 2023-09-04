@@ -4348,7 +4348,7 @@ p[data-text="learn2"] {
   }
 
   .title {
-    font-size: 150px;
+    font-size: 111px;
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-top: 80px;
@@ -4363,9 +4363,9 @@ p[data-text="learn2"] {
   }
 
   .image {
-    width: 60%;
+    width: 46%;
     height: auto;
-    margin-left: -5%;
+    margin-left: -1%;
     margin-top: 200px;
     opacity: 0;
     transform: translateX(100%);
@@ -4379,13 +4379,13 @@ p[data-text="learn2"] {
   }
 
   .content8 {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
     color: #000000;
     margin-bottom: 10px;
     text-align: left;
-    margin-top: 617px;
-    margin-left: -1569px;
+    margin-top: 518px;
+    margin-left: -1363px;
   }
 
   .custom-button {
@@ -4401,7 +4401,7 @@ p[data-text="learn2"] {
   .section .bold-text {
     font-weight: bold;
     margin-left: 8px;
-    font-size: 150px;
+    font-size: 111px;
   }
 
   .section .normal-text {
@@ -4457,7 +4457,7 @@ p[data-text="learn2"] {
   }
 
   .title2 {
-    font-size: 150px;
+    font-size: 111px;
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-top: 80px;
@@ -4468,9 +4468,9 @@ p[data-text="learn2"] {
   }
 
   .image2 {
-    width: 60%;
+    width: 44%;
     height: auto;
-    margin-left: -5%;
+    margin-left: -1%;
     margin-top: 200px;
     opacity: 0;
     transform: translateX(100%);
@@ -4484,13 +4484,13 @@ p[data-text="learn2"] {
   }
 
   .content9 {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
     color: #000000;
     margin-bottom: 10px;
     text-align: left;
-    margin-top: 624px;
-    margin-left: -1663px;
+    margin-top: 481px;
+    margin-left: -1462px;
   }
 
   .custom-button {
@@ -4509,6 +4509,7 @@ p[data-text="learn2"] {
 
   .section2 .normal-text2 {
     font-weight: normal;
+    font-size: 111px;
   }
 
   .section3 {
@@ -4527,7 +4528,7 @@ p[data-text="learn2"] {
   }
 
   .title3 {
-    font-size: 150px;
+    font-size: 111px;
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-top: 80px;
@@ -4537,9 +4538,9 @@ p[data-text="learn2"] {
     line-height: 0.9;
   }
   .image3 {
-    width: 60%;
+    width: 43%;
     height: auto;
-    margin-left: -5%;
+    margin-left: -2%;
     margin-top: 200px;
     opacity: 0;
     transform: translateX(100%);
@@ -4553,13 +4554,13 @@ p[data-text="learn2"] {
   }
 
   .content10 {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Poppins", sans-serif;
     color: #000000;
     margin-bottom: 10px;
     text-align: left;
-    margin-top: 614px;
-    margin-left: -1676px;
+    margin-top: 481px;
+    margin-left: -1470px;
   }
 
   .custom-button {
@@ -4663,7 +4664,7 @@ p[data-text="learn2"] {
     text-align: left;
     padding-left: 0px;
     font-size: 100%;
-    margin-top: 200px;
+    margin-top: 85px;
     padding-top: 100px;
     color: #000000;
   }
@@ -4809,7 +4810,7 @@ p[data-text="learn2"] {
   }
 
   .container7 .image1 {
-    margin-left: 857px;
+    margin-left: 894px;
     margin-top: -879px;
     margin-bottom: 665px;
   }
@@ -4821,9 +4822,9 @@ p[data-text="learn2"] {
   }
 
   .container7 .image30 {
-    margin-top: -893px;
-    margin-bottom: 950px;
-    margin-left: 1206px;
+    margin-top: -647px;
+    margin-bottom: 970px;
+    margin-left: 1020px;
   }
 
   .container7 .image4 {
@@ -4834,44 +4835,44 @@ p[data-text="learn2"] {
 
   .container7 .image5 {
     margin-left: 14px;
-    margin-top: -952px;
-    margin-bottom: 796px;
+    margin-top: -985px;
+    margin-bottom: 800px;
   }
 
   .container7 .image6 {
-    margin-top: -1012px;
+    margin-top: -781px;
     margin-bottom: 1000px;
-    margin-left: 1219px;
+    margin-left: 1031px;
   }
 
   .container7 .image7 {
     margin-left: 836px;
-    margin-top: -444px;
-    margin-bottom: 366px;
+    margin-top: -460px;
+    margin-bottom: 390px;
   }
 
   .container7 .image8 {
     margin-left: 18px;
-    margin-top: -439px;
-    margin-bottom: 366px;
+    margin-top: -460px;
+    margin-bottom: 388px;
   }
 
   .container7 .image9 {
-    margin-top: -472px;
+    margin-top: -375px;
     margin-bottom: 848px;
-    margin-left: 1181px;
+    margin-left: 964px;
   }
 
   .container7 .image10 {
-    margin-top: -840px;
+    margin-top: -831px;
     margin-bottom: 764px;
     margin-left: 846px;
   }
 
   .container7 .image11 {
-    margin-top: -1800px;
-    margin-bottom: 787px;
-    margin-left: 1021px;
+    margin-top: -1841px;
+    margin-bottom: 791px;
+    margin-left: 1080px;
   }
 
   .curved-section {
