@@ -5484,4 +5484,16 @@ a:hover {
     margin-left: -153px;
     margin-right: -151px;
   }
+
+  .video-background {
+    position: relative;
+    width: 157%;
+    height: 133vh;
+    overflow: hidden;
+    margin-top: 100px;
+    background-color: #000000;
+    margin-bottom: 500px;
+    margin-left: -253px;
+    margin-right: -173px;
+  }
 }
