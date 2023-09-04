@@ -4567,7 +4567,7 @@ a:hover {
   }
 
   .para {
-    font-size: 20px;
+    font-size: 24px;
     color: black;
     margin-bottom: 60px;
     margin-left: 30px;
@@ -4776,7 +4776,7 @@ a:hover {
     height: auto;
     border-radius: 10px;
     margin-left: 69%;
-    margin-top: -4%;
+    margin-top: 3%;
   }
 
   .content80 {
@@ -4790,7 +4790,7 @@ a:hover {
     color: rgb(204, 0, 255);
     margin-bottom: 10px;
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 22px;
   }
 
   .title80 {
@@ -4798,14 +4798,14 @@ a:hover {
     color: black;
     margin-bottom: 20px;
     line-height: 1;
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .text80 {
     font-size: 24px;
     color: black;
     margin-bottom: 20px;
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .boton31 {
@@ -5101,7 +5101,7 @@ a:hover {
   }
 
   .text-container .text2 {
-    font-size: 24px;
+    font-size: 20px;
     color: #000000;
     text-align: left;
     margin-top: 0px;
@@ -5151,8 +5151,13 @@ a:hover {
     flex-basis: 48%;
   }
 
-  .image-left,
   .image-right {
+    display: block;
+    max-width: 10%;
+    margin-left: 260px;
+  }
+
+  .image-left {
     display: block;
     max-width: 10%;
     margin-left: 260px;
@@ -5470,11 +5475,11 @@ a:hover {
   }
 
   .sub-title81 {
-    margin-left: -106px;
+    margin-left: -104px;
   }
 
   .title81 {
-    margin-left: -110px;
+    margin-left: -107px;
   }
 
   .text81 {
@@ -5485,7 +5490,11 @@ a:hover {
 
   .image81 {
     width: 50%;
-    margin-left: -179px;
+    margin-left: -162px;
+  }
+
+  .section81 {
+    margin-top: 7px;
   }
 
   .vertical-separator1,
@@ -5530,5 +5539,23 @@ a:hover {
 
   .text-container .text2 {
     margin-left: -239px;
+  }
+
+  .image-right {
+    margin-left: 275px;
+  }
+
+  .image13 {
+    width: 600px;
+    width: 618px;
+  }
+
+  .title15 {
+    margin-left: -17px;
+  }
+
+  .content15 {
+    margin-left: -1369px;
+    margin-top: 588px;
   }
 }
