@@ -1519,11 +1519,6 @@ p[data-text="learn2"] {
     font-style: normal;
   }
 
-  .text-container .text1 {
-    font-size: 20px;
-    margin-left: -50px;
-  }
-
   .text-container hr {
     margin-top: 10px;
     border: none;
@@ -1610,7 +1605,7 @@ p[data-text="learn2"] {
 
   .section .bold-text {
     font-weight: bold;
-    margin-left: -50px;
+    margin-left: -7px;
     font-size: 36px;
   }
 
@@ -1835,8 +1830,8 @@ p[data-text="learn2"] {
   .overlay2 {
     position: relative; /* Use relative positioning for responsive background */
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    padding-bottom: 56.25%; /* 16:9 aspect ratio for background image */
+    height: 192px;
+    padding-bottom: 0.25%;
     background-image: url(https://terawatt.s3.us-east-2.amazonaws.com/img/energy+img.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1845,12 +1840,14 @@ p[data-text="learn2"] {
 
   .overlay2 .title {
     color: #ffffff;
-    font-size: 24px; /* Adjust font size */
+    font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 90px;
     font-family: "Poppins", sans-serif;
-    font-weight: bold; /* Bold font weight */
+    font-weight: bold;
+    width: 220px;
+    margin-left: -190px;
   }
 
   .overlay2 .text-container {
@@ -1860,8 +1857,9 @@ p[data-text="learn2"] {
 
   .overlay2 .text1 {
     color: #ffffff;
-    font-size: 18px; /* Adjust font size */
-    margin-top: 20px; /* Adjust as needed */
+    font-size: 18px;
+    margin-top: 44px;
+    margin-left: -182px;
   }
 
   .overlay2 .text2 {
