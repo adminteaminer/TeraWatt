@@ -5445,3 +5445,43 @@ a:hover {
     cursor: pointer;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  .sub-title80 {
+    margin-left: 53px;
+  }
+
+  .title80 {
+    margin-left: 38px;
+  }
+
+  .text80 {
+    margin-left: 44px;
+    font-size: 25px;
+    margin-bottom: -145px;
+  }
+
+  .image80 {
+    margin-left: 944px;
+  }
+
+  .title81 {
+    margin-left: -39px;
+  }
+
+  .text81 {
+    font-size: 23px;
+    margin-left: -182px;
+    margin-right: -22px;
+  }
+
+  .image81 {
+    width: 50%;
+    margin-left: -179px;
+  }
+
+  .para2 {
+    margin-left: -153px;
+    margin-right: -151px;
+  }
+}
