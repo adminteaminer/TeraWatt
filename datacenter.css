@@ -5252,8 +5252,8 @@ a:hover {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: 4px;
-    margin-top: 650px;
+    margin-left: -1054px;
+    margin-top: 600px;
     text-align: left;
   }
 
@@ -5261,9 +5261,9 @@ a:hover {
     width: 55%;
     max-width: 680px;
     height: auto;
-    margin-left: 651px;
-    margin-right: -95px;
-    margin-top: -277px;
+    margin-left: 650px;
+    margin-right: -100px;
+    margin-top: -263px;
   }
 
   .curved-section {
