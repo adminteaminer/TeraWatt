@@ -2103,15 +2103,16 @@ a:hover {
   .image-left {
     display: block;
     max-width: 20%;
-    margin-left: 149px;
+    margin-left: 146px;
+    border: red solid 2px;
   }
 
   .image-right {
     display: block;
     max-width: 8%;
-    margin-left: 167px;
+    margin-left: 166px;
     margin-top: 36px;
-    border: red solid 2px;
+    border: blue solid 2px;
   }
 
   .text-left,
