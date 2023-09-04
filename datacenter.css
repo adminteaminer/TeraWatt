@@ -5486,12 +5486,13 @@ a:hover {
   .image81 {
     width: 50%;
     margin-left: -179px;
+    margin-left: 222px;
   }
 
   .vertical-separator1,
   .vertical-separator2,
   .vertical-separator3 {
-    height: 12.4%;
+    height: 13.4%;
   }
 
   .para2 {
@@ -5501,7 +5502,7 @@ a:hover {
 
   .video-background {
     position: relative;
-    width: 142%;
+    width: 149%;
     height: 96vh;
     overflow: hidden;
     margin-top: 100px;
@@ -5509,6 +5510,10 @@ a:hover {
     margin-bottom: 500px;
     margin-left: -253px;
     margin-right: -173px;
+  }
+
+  .overlay {
+    width: 110%;
   }
 
   .text-container .title1 {
