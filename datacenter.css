@@ -2704,9 +2704,9 @@ a:hover {
   }
 
   .image81 {
-    width: 70%; /* Ajusta el ancho de la imagen */
-    margin-top: 0; /* Elimina el margen superior */
-    margin-left: 0; /* Elimina el margen izquierdo */
+    width: 70%;
+    margin-top: -70%;
+    margin-left: 0;
   }
 
   .content81 {
@@ -2716,20 +2716,23 @@ a:hover {
   }
 
   .sub-title81 {
-    text-align: center; /* Centra el subtítulo horizontalmente */
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 4px;
   }
 
   .title81 {
-    font-size: 28px; /* Ajusta el tamaño del título */
-    margin-bottom: 30px; /* Ajusta el margen inferior */
-    text-align: center; /* Centra el título horizontalmente */
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: -440px;
   }
 
   .text81 {
-    font-size: 16px; /* Ajusta el tamaño del texto */
-    margin-bottom: 30px; /* Ajusta el margen inferior */
-    text-align: center; /* Centra el texto horizontalmente */
-    display: block; /* Cambia a bloque para ocupar todo el ancho */
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: -480px;
   }
 
   .boton32 {
