@@ -2751,6 +2751,7 @@ a:hover {
     font-size: 24px;
     color: #000000;
     margin-bottom: 15px;
+    margin-left: 140px;
   }
 
   .separator2 {
@@ -2765,11 +2766,14 @@ a:hover {
     color: black;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 106px;
+    margin-left: 1px;
+    margin-right: -81px;
   }
   .video-background {
     position: relative;
-    width: 110%;
-    height: 50vh;
+    width: 117%;
+    height: 107vh;
     overflow: hidden;
     background-color: #000000;
     margin-top: 50px;
@@ -2777,6 +2781,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 1px;
   }
 
   .video-background video {
@@ -2929,13 +2934,13 @@ a:hover {
 
   .image-left {
     max-width: 20%;
-    margin-left: 230px;
+    margin-left: 284px;
     margin-top: 20px;
   }
 
   .image-right {
     max-width: 10%;
-    margin-left: 270px;
+    margin-left: 322px;
     margin-top: 20px;
   }
   .section12 {
@@ -2992,21 +2997,26 @@ a:hover {
     margin: 0; /* Elimina los márgenes laterales */
     width: auto; /* Ancho automático */
     padding: 10px; /* Ajusta el padding del contenedor */
-    font-size: 100%; /* Restablece el tamaño de fuente */
     margin-bottom: -100px; /* Ajusta el margen inferior */
-    height: auto; /* Altura automática */
+    height: auto;
+    margin-left: 77px;
+    margin-right: -63px;
+  }
+
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
   }
 
   .bold-text {
     transform: none; /* Elimina la transformación */
     margin-left: 10px; /* Restablece el margen izquierdo */
     text-align: center; /* Centra el texto */
-    font-size: 18px; /* Restablece el tamaño de fuente */
+    font-size: 15px; /* Restablece el tamaño de fuente */
   }
 
   .email-input,
   .subscribe-button {
-    width: 100%; /* Ancho completo */
     max-width: 300px; /* Ancho máximo */
     margin: 10px auto; /* Centra horizontalmente */
     position: static; /* Restablece la posición */
@@ -3055,7 +3065,11 @@ a:hover {
   }
 
   .footer-navigation li {
-    margin-left: 0;
+    margin-left: 61px;
+  }
+
+  .footer-input {
+    width: 29%;
   }
 
   .footer-button {
@@ -3063,7 +3077,7 @@ a:hover {
   }
 
   .footer-separator {
-    margin: 50px 0;
+    margin: 50px -190px;
   }
 
   .footer-bottom {
