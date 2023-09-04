@@ -4241,12 +4241,7 @@ a:hover {
 
 @media screen and (min-width: 1025px) and (max-width: 1599px) {
   body {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    background-color: #ffffff;
-    position: relative;
-    overflow: auto; /* Removed unnecessary margin and position properties */
+    overflow-x: hidden;
   }
 
   header {
