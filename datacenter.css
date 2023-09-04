@@ -2274,15 +2274,15 @@ a:hover {
 
   .footer-container {
     display: flex;
-    flex-wrap: wrap; /* Allow footer columns to wrap on small screens */
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
   }
 
   .footer-column {
-    width: 100%; /* Full width for columns on small screens */
-    margin-bottom: 20px; /* Added margin between columns */
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .footer-title {
@@ -2308,18 +2308,18 @@ a:hover {
     font-weight: bold;
     margin-bottom: 10px;
     color: #000000;
-    text-align: center; /* Centered text on small screens */
+    text-align: center;
   }
 
   .footer-text {
-    font-size: 16px; /* Reduced font size for better mobile readability */
+    font-size: 16px;
     line-height: 1.5;
     color: rgb(0, 0, 0);
     text-align: left;
-    padding-left: 10px; /* Adjusted padding for better spacing */
-    padding-right: 10px; /* Adjusted padding for better spacing */
-    margin: 0 auto; /* Centered the text */
-    max-width: 300px; /* Limited text width for mobile screens */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    max-width: 300px;
   }
 
   .footer-navigation {
@@ -2332,9 +2332,9 @@ a:hover {
   .footer-navigation li {
     margin-bottom: 8px;
     text-align: left;
-    margin-left: 10px; /* Adjusted margin for better spacing */
+    margin-left: 10px;
     line-height: 1.8;
-    font-size: 16px; /* Reduced font size for better mobile readability */
+    font-size: 16px;
   }
 
   .footer-navigation li a {
@@ -2344,15 +2344,15 @@ a:hover {
 
   .footer-navigation li a:hover {
     color: #ff00e6;
-    text-decoration: underline; /* Underlined links on hover for better feedback */
+    text-decoration: underline;
   }
 
   .footer-form {
     margin-top: 20px;
-    border: 2px solid #bc02ff; /* Added border style */
-    padding: 10px; /* Added padding for input elements */
-    border-radius: 5px; /* Added border radius for input elements */
-    text-align: left; /* Align form elements to the left */
+    border: 2px solid #bc02ff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
   }
 
   .footer-form div {
@@ -2378,9 +2378,9 @@ a:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 10px; /* Reduced top margin for better spacing */
-    margin-bottom: 10px; /* Reduced bottom margin for better spacing */
-    margin-left: 10px; /* Adjusted left margin for better spacing */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
   }
 
   .footer-button:hover {
@@ -2388,9 +2388,9 @@ a:hover {
   }
 
   .footer-separator {
-    height: 1px; /* Adjusted separator height for better appearance */
+    height: 1px;
     background-color: #f203ff;
-    margin: 20px 0; /* Reduced top and bottom margin for better spacing */
+    margin: 20px 0;
   }
 
   .footer-bottom {
@@ -2457,6 +2457,10 @@ a:hover {
 
 /*----------Media Queries 481px to 768px---------------*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .mobile-menu {
     display: block;
   }
