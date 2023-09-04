@@ -1261,22 +1261,7 @@ a:hover {
 /* Styles for screens with a width ranging from 32px to 480px */
 @media screen and (min-width: 320px) and (max-width: 480px) {
   body {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    background-color: #ffffff;
-    position: relative;
-    margin-left: 0;
-    margin-right: 0;
-    overflow: auto;
-  }
-
-  header {
-    background-color: #eeeeee;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
+    overflow-x: hidden;
   }
 
   .sticky-header {
@@ -1287,16 +1272,11 @@ a:hover {
   }
 
   .logo {
-    margin-left: 20px; /* Reduced margin for smaller screens */
+    margin-left: 2px; /* Reduced margin for smaller screens */
   }
 
   .logo img {
     width: 150px; /* Reduced logo size for smaller screens */
-  }
-
-  .menu {
-    margin-left: 20px; /* Reduced margin for smaller screens */
-    font-size: 18px; /* Reduced font size for smaller screens */
   }
 
   .menu ul {
@@ -1330,7 +1310,7 @@ a:hover {
   }
 
   .top-menu {
-    display: flex;
+    display: none;
     font-weight: normal;
     align-items: center;
     margin-top: 2px;
@@ -1427,7 +1407,7 @@ a:hover {
   }
 
   .top-menu .Language a {
-    display: flex;
+    display: none;
     align-items: center;
     padding: 5px;
     text-decoration: none;
@@ -1446,7 +1426,7 @@ a:hover {
   }
 
   .top-menu .Language span {
-    display: block;
+    display: none;
     margin-top: 3px;
     color: #000000;
     font-size: 10px;
@@ -1479,15 +1459,15 @@ a:hover {
   }
 
   .mobile-menu {
-    display: none;
+    display: block;
   }
 
   .open-menu-button {
     display: block;
     position: fixed;
     top: 20px;
-    right: 20px;
-    font-size: 20px; /* Reduced font size for smaller screens */
+    right: 130px;
+    font-size: 20px;
     cursor: pointer;
     z-index: 1001;
   }
