@@ -5486,7 +5486,6 @@ a:hover {
   .image81 {
     width: 50%;
     margin-left: -179px;
-    margin-left: 222px;
   }
 
   .vertical-separator1,
@@ -5517,18 +5516,19 @@ a:hover {
   }
 
   .text-container .title1 {
-    margin-left: -150px;
+    margin-left: -430px;
+    margin-top: 171px;
   }
 
   .text-container .text1 {
-    margin-left: -11px;
+    margin-left: -294px;
   }
 
   .text-container .title2 {
-    margin-left: -70px;
+    margin-left: -344px;
   }
 
   .text-container .text2 {
-    margin-left: -46px;
+    margin-left: -239px;
   }
 }
