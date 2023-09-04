@@ -2176,6 +2176,7 @@ p[data-text="learn2"] {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    flex-direction: column;
   }
 
   .footer-column {
@@ -2183,27 +2184,31 @@ p[data-text="learn2"] {
   }
 
   .footer-title,
-  .footer-title1,
-  .footer-title2 {
-    font-size: 24px;
+  .footer-title1 {
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #000000;
+    margin-left: 130px;
   }
 
   .footer-title1 {
     color: #ff00cc;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 150px;
+  }
+
+  .footer-title2 {
+    margin-left: 40px;
   }
 
   .footer-text {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 1.5;
     color: #000000;
     text-align: left;
-    padding-right: 15px;
-    margin-left: -250px;
+    margin-left: 11px;
+    margin-right: -330px;
   }
 
   .footer-navigation {
@@ -2215,9 +2220,10 @@ p[data-text="learn2"] {
   .footer-navigation li {
     margin-bottom: 8px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 107px;
     line-height: 1.8;
     font-size: 20px;
+    margin-right: -250px;
   }
 
   .footer-navigation li a {
@@ -2239,15 +2245,17 @@ p[data-text="learn2"] {
     color: #000000;
     margin-top: 50px;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 60px;
     text-align: center;
+    margin-right: -211px;
   }
 
   .footer-input {
-    width: 100%;
+    width: 220%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-left: 70px;
   }
 
   .footer-button {
@@ -2260,7 +2268,7 @@ p[data-text="learn2"] {
     transition: background-color 0.3s;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 70px;
+    margin-left: 114px;
   }
 
   .footer-button:hover {
@@ -2283,7 +2291,7 @@ p[data-text="learn2"] {
 
   .footer-logo img {
     height: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-bottom: 30px;
   }
 
