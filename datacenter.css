@@ -5026,6 +5026,7 @@ a:hover {
     margin-top: 100px;
     background-color: #000000;
     margin-bottom: 300px;
+    margin-left: -45px;
   }
 
   .video-background video {
@@ -5165,14 +5166,15 @@ a:hover {
     margin-left: 260px;
   }
 
-  .text-left,
-  .text-right {
+  .text-left {
     color: black;
     font-weight: bold;
   }
 
   .text-right {
-    margin-top: 31px;
+    margin-top: 18px;
+    color: black;
+    font-weight: bold;
   }
 
   .line-left,
@@ -5221,7 +5223,7 @@ a:hover {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -38px;
+    margin-left: -8px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -5240,7 +5242,7 @@ a:hover {
     font-size: 60px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: 674px;
+    margin-left: 140px;
     margin-top: -30px;
     text-align: left;
     margin-right: -530px;
@@ -5256,12 +5258,12 @@ a:hover {
   }
 
   .image13 {
-    width: 100%;
+    width: 55%;
     max-width: 680px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -165px;
+    margin-left: 651px;
+    margin-right: -95px;
+    margin-top: -277px;
   }
 
   .curved-section {
