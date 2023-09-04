@@ -5496,4 +5496,20 @@ a:hover {
     margin-left: -253px;
     margin-right: -173px;
   }
+
+  .text-container .title1 {
+    margin-left: -238px;
+  }
+
+  .text-container .text1 {
+    margin-left: 111px;
+  }
+
+  .text-container .title2 {
+    margin-left: -186px;
+  }
+
+  .text-container .text2 {
+    margin-left: -74px;
+  }
 }
