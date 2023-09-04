@@ -5445,6 +5445,12 @@ a:hover {
   body {
     overflow-x: hidden;
   }
+
+  .para {
+    margin-left: 34px;
+    margin-right: 64px;
+    text-align: justify;
+  }
   .sub-title80 {
     margin-left: 53px;
   }
@@ -5460,22 +5466,32 @@ a:hover {
   }
 
   .image80 {
-    margin-left: 944px;
+    margin-left: 920px;
+  }
+
+  .sub-title81 {
+    margin-left: -106px;
   }
 
   .title81 {
-    margin-left: -39px;
+    margin-left: -110px;
   }
 
   .text81 {
-    font-size: 23px;
-    margin-left: -182px;
-    margin-right: -22px;
+    font-size: 25px;
+    margin-left: -102px;
+    margin-right: -152px;
   }
 
   .image81 {
     width: 50%;
     margin-left: -179px;
+  }
+
+  .vertical-separator1,
+  .vertical-separator2,
+  .vertical-separator3 {
+    height: 12.4%;
   }
 
   .para2 {
@@ -5485,8 +5501,8 @@ a:hover {
 
   .video-background {
     position: relative;
-    width: 157%;
-    height: 133vh;
+    width: 142%;
+    height: 96vh;
     overflow: hidden;
     margin-top: 100px;
     background-color: #000000;
@@ -5496,18 +5512,18 @@ a:hover {
   }
 
   .text-container .title1 {
-    margin-left: -238px;
+    margin-left: -150px;
   }
 
   .text-container .text1 {
-    margin-left: 111px;
+    margin-left: -11px;
   }
 
   .text-container .title2 {
-    margin-left: -186px;
+    margin-left: -70px;
   }
 
   .text-container .text2 {
-    margin-left: -74px;
+    margin-left: -46px;
   }
 }
