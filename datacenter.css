@@ -2104,7 +2104,6 @@ a:hover {
     display: block;
     max-width: 20%;
     margin-left: 146px;
-    border: red solid 2px;
   }
 
   .image-right {
@@ -2112,7 +2111,6 @@ a:hover {
     max-width: 8%;
     margin-left: 166px;
     margin-top: 36px;
-    border: blue solid 2px;
   }
 
   .text-left,
@@ -2126,7 +2124,7 @@ a:hover {
     width: 50px;
     height: 3px;
     background-color: rgb(255, 0, 242);
-    margin-left: 138px;
+    margin-left: 141px;
     margin-right: 0;
   }
 
