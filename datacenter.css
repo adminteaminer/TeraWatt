@@ -1748,10 +1748,11 @@ a:hover {
   }
 
   .text80 {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     margin-bottom: 20px;
-    margin-left: 22px;
+    margin-left: 13px;
+    margin-right: 13px;
   }
 
   .boton31 {
@@ -1952,6 +1953,7 @@ a:hover {
     font-size: 36px; /* Adjusted font size */
     color: #000000;
     margin-bottom: 20px;
+    margin-top: -325px;
   }
 
   .separator2 {
@@ -2100,14 +2102,15 @@ a:hover {
 
   .image-left {
     display: block;
-    max-width: 20%; /* Adjusted max-width for responsiveness */
-    margin-left: 0; /* Removed left margin */
+    max-width: 20%;
+    margin-left: 128px;
   }
 
   .image-right {
     display: block;
-    max-width: 10%; /* Adjusted max-width for responsiveness */
-    margin-left: 0; /* Removed left margin */
+    max-width: 8%;
+    margin-left: 148px;
+    margin-top: 36px;
   }
 
   .text-left,
@@ -2121,8 +2124,8 @@ a:hover {
     width: 50px;
     height: 3px;
     background-color: rgb(255, 0, 242);
-    margin-left: 0; /* Removed left margin */
-    margin-right: 0; /* Removed right margin */
+    margin-left: 138px;
+    margin-right: 0;
   }
 
   .subtitle-left,
@@ -2768,7 +2771,7 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 106px;
     margin-left: 1px;
-    margin-right: -81px;
+    margin-right: 2px;
   }
   .video-background {
     position: relative;
@@ -2837,7 +2840,7 @@ a:hover {
     text-align: left;
     margin-top: 50px;
     margin-bottom: 10px;
-    margin-left: -110px;
+    margin-left: -72px;
   }
 
   .text-container .title1 {
@@ -2846,7 +2849,7 @@ a:hover {
     text-align: left;
     margin-top: 50px;
     margin-bottom: 10px;
-    margin-left: -110px;
+    margin-left: -130px;
   }
 
   .text-container .text2 {
@@ -2854,7 +2857,7 @@ a:hover {
     color: #000000;
     text-align: left;
     margin-top: 0;
-    margin-left: -100px;
+    margin-left: -70px;
   }
 
   .text-container .text1 {
@@ -2949,15 +2952,15 @@ a:hover {
   }
 
   .image-left {
-    max-width: 20%;
-    margin-left: 284px;
+    max-width: 15%;
+    margin-left: 300px;
     margin-top: 20px;
   }
 
   .image-right {
-    max-width: 10%;
-    margin-left: 322px;
-    margin-top: 20px;
+    max-width: 8%;
+    margin-left: 341px;
+    margin-top: 60px;
   }
   .section12 {
     display: block;
@@ -2969,7 +2972,7 @@ a:hover {
 
   .title15 {
     font-size: 20px;
-    margin-left: 100px;
+    margin-left: 82px;
     margin-top: 100px;
   }
 
@@ -2980,7 +2983,7 @@ a:hover {
   .title16 {
     font-size: 36px;
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 94px;
   }
 
   .image13 {
@@ -3013,10 +3016,10 @@ a:hover {
     margin: 0; /* Elimina los márgenes laterales */
     width: auto; /* Ancho automático */
     padding: 10px; /* Ajusta el padding del contenedor */
-    margin-bottom: -100px; /* Ajusta el margen inferior */
+    margin-bottom: -112px; /* Ajusta el margen inferior */
     height: auto;
-    margin-left: 77px;
-    margin-right: -63px;
+    margin-left: 33px;
+    margin-right: 17px;
   }
 
   .subscription-form {
@@ -3081,7 +3084,7 @@ a:hover {
   }
 
   .footer-navigation li {
-    margin-left: 61px;
+    margin-left: 74px;
   }
 
   .footer-input {
