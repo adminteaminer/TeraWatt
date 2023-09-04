@@ -5447,6 +5447,9 @@ a:hover {
 }
 
 @media screen and (min-width: 1600px) {
+  body {
+    overflow-x: hidden;
+  }
   .sub-title80 {
     margin-left: 53px;
   }
