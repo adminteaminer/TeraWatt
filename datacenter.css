@@ -5018,6 +5018,8 @@ a:hover {
     color: black;
     text-align: center;
     margin-top: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 
   .video-background {
