@@ -1465,8 +1465,8 @@ a:hover {
   .open-menu-button {
     display: block;
     position: fixed;
-    top: 20px;
-    right: 130px;
+    top: 40px;
+    right: 24px;
     font-size: 20px;
     cursor: pointer;
     z-index: 1001;
@@ -1516,10 +1516,18 @@ a:hover {
   }
 
   h1 {
-    font-size: 40px; /* Reduced font size for smaller screens */
+    font-size: 38px;
     color: #ffffff;
-    margin-top: 0px;
+    margin-top: 90px;
     font-family: "Poppins", sans-serif;
+  }
+
+  .main-title5 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
   }
 
   .text {
@@ -1663,18 +1671,26 @@ a:hover {
   }
 
   .sub-heading {
-    font-size: 14px; /* Adjusted font size */
-    margin-bottom: 5px; /* Reduced margin */
+    font-size: 14px;
+    margin-bottom: 26px;
+    color: white;
+    margin-left: 55px;
+    margin-top: -30px;
   }
 
   .card-heading {
-    font-size: 18px; /* Adjusted font size */
-    margin-bottom: 5px; /* Reduced margin */
+    font-size: 14px;
+    margin-bottom: 3px;
+    margin-top: -3px;
+    text-align: center;
   }
 
   .desc {
-    font-size: 16px; /* Adjusted font size */
-    margin-bottom: 5px; /* Reduced margin */
+    font-size: 10px;
+    margin-bottom: -7px;
+    margin-left: 6px;
+    text-align: center;
+    margin-top: -4px;
   }
 
   .link {
@@ -1722,18 +1738,20 @@ a:hover {
   }
 
   .title80 {
-    font-size: 30px; /* Adjusted font size */
+    font-size: 30px;
     color: black;
-    margin-bottom: 20px; /* Reduced bottom margin */
-    margin-left: 0; /* Removed left margin */
+    margin-bottom: 20px;
+    margin-left: 0;
     line-height: 1;
+    margin-top: 220px;
+    text-align: center;
   }
 
   .text80 {
-    font-size: 20px; /* Adjusted font size */
+    font-size: 20px;
     color: black;
-    margin-bottom: 20px; /* Reduced bottom margin */
-    margin-left: 0; /* Removed left margin */
+    margin-bottom: 20px;
+    margin-left: 22px;
   }
 
   .boton31 {
@@ -1792,21 +1810,22 @@ a:hover {
     position: absolute;
     top: 5%;
     width: 1px;
-    height: 13.4%;
+    height: 1022px;
     background-color: #f700ff;
     transform: translateX(-50%);
   }
 
   .vertical-separator1 {
-    left: 25%;
+    left: 51%;
+    margin-top: 976px;
   }
 
   .vertical-separator2 {
-    left: 50%;
+    left: 51%;
   }
 
   .vertical-separator3 {
-    left: 76%;
+    left: 51%;
   }
 
   .cards-container {
@@ -1817,7 +1836,7 @@ a:hover {
 
   .card {
     width: calc(
-      48% - 10px
+      40% - 10px
     ); /* Adjusted card width and margin for better spacing */
     background-color: #fff;
     margin-bottom: 20px; /* Reduced bottom margin */
@@ -1851,52 +1870,58 @@ a:hover {
   .section81 {
     display: flex;
     align-items: center;
-    margin-top: 100px; /* Reduced top margin */
-    margin-bottom: 100px; /* Reduced bottom margin */
+    margin-top: 100px;
+    margin-bottom: 100px;
     margin-left: 0px;
     margin-right: 0px;
   }
 
   .image81 {
-    width: 90%; /* Adjusted image width for better visibility */
+    width: 90%;
     height: auto;
     border-radius: 10px;
-    margin-top: 50px; /* Reduced top margin */
-    margin-left: -10px; /* Adjusted left margin */
+    margin-top: -303%;
+    margin-left: 6px;
   }
 
   .content81 {
     display: flex;
     margin-top: 50px; /* Reduced top margin */
     flex-direction: column;
-    margin-left: 10px; /* Adjusted left margin */
+    margin-left: -190px; /* Adjusted left margin */
   }
 
   .sub-title81 {
-    font-size: 16px; /* Adjusted font size */
+    font-size: 16px;
     color: rgb(204, 0, 255);
-    margin-bottom: 5px; /* Reduced bottom margin */
+    margin-bottom: 77px;
     font-weight: bold;
     text-align: left;
-    margin-top: 20px; /* Reduced top margin */
+    margin-top: 93px;
+    margin-left: -30px;
   }
 
   .title81 {
-    font-size: 36px; /* Adjusted font size */
+    font-size: 36px;
     color: black;
-    margin-bottom: 30px; /* Reduced bottom margin */
+    margin-bottom: 123px;
     line-height: 1;
-    text-align: left;
-    margin-right: -10px; /* Adjusted right margin */
+    text-align: center;
+    margin-right: -10px;
+    margin-right: -10px;
+    margin-left: -150px;
+    margin-top: -68px;
   }
 
   .text81 {
-    font-size: 18px; /* Adjusted font size */
+    font-size: 18px;
     color: black;
-    margin-bottom: 30px; /* Reduced bottom margin */
+    margin-bottom: 356px;
     text-align: left;
     display: inline-block;
-    margin-right: -10px; /* Adjusted right margin */
+    margin-right: -10px;
+    margin-left: -124px;
+    margin-top: -64px;
   }
   .boton32 {
     display: inline-block; /* Corrected typo */
@@ -2068,13 +2093,6 @@ a:hover {
     position: static; /* Removed absolute positioning */
   }
 
-  .main-title5 {
-    font-size: 24px; /* Adjusted font size */
-    color: black;
-    text-align: center;
-    margin-bottom: 10px; /* Adjusted bottom margin */
-  }
-
   .section1,
   .section2 {
     flex-basis: 100%; /* Adjusted for responsiveness */
@@ -2210,19 +2228,7 @@ a:hover {
   }
 
   .curved-section {
-    position: relative;
-    background-color: #424141;
-    box-shadow: 0 0 8px #0d00ff;
-    border: #a200ff;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 0 auto; /* Centered the section */
-    font-family: "Poppins", sans-serif;
-    font-size: 16px; /* Adjusted font size for better readability */
-    color: white;
-    z-index: 1;
-    width: 100%; /* Full width */
-    max-width: 320px; /* Adjusted max-width for responsiveness */
+    display: none;
   }
 
   .bold-text {
@@ -2292,7 +2298,8 @@ a:hover {
     font-weight: bold;
     margin-bottom: 10px;
     color: #ff00cc;
-    text-align: center; /* Centered text on small screens */
+    text-align: center;
+    margin-left: -9px;
   }
 
   .footer-title2 {
@@ -2318,6 +2325,7 @@ a:hover {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-left: 140px;
   }
 
   .footer-navigation li {
@@ -2348,14 +2356,14 @@ a:hover {
 
   .footer-form div {
     color: #000000;
-    margin-top: 20px; /* Reduced top margin for better spacing */
-    font-size: 16px; /* Reduced font size for better mobile readability */
-    text-align: left; /* Adjusted text alignment for form labels */
-    margin-left: 10px; /* Adjusted left margin for better spacing */
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: -9px;
   }
 
   .footer-input {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -2399,10 +2407,10 @@ a:hover {
   }
 
   .footer-trademark-text {
-    font-size: 16px; /* Reduced font size for better mobile readability */
+    font-size: 9px;
     color: #000000;
-    text-align: left; /* Adjusted text alignment for trademark text */
-    margin-left: 10px; /* Adjusted left margin for better spacing */
+    text-align: left;
+    margin-left: -140px;
   }
 
   .footer-trademark-button {
