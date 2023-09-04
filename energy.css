@@ -2019,57 +2019,67 @@ p[data-text="learn2"] {
 
   /* Adjust individual image positions */
   .container7 .image1 {
-    margin-left: 1050px;
-    margin-top: -710px;
+    margin-left: 54px;
+    margin-top: -30px;
     margin-bottom: 400px;
+    width: 65%;
   }
 
   .container7 .image20 {
-    margin-left: 30px;
-    margin-top: -1000px;
+    margin-left: 50px;
+    margin-top: -390px;
     margin-bottom: 400px;
+    width: 65%;
   }
 
   .container7 .image30 {
-    margin-left: 1830px;
-    margin-top: -930px;
+    margin-left: 50px;
+    margin-top: -390px;
     margin-bottom: 950px;
+    width: 65%;
   }
 
   .container7 .image4 {
-    margin-left: 1050px;
-    margin-top: -850px;
+    margin-left: 43px;
+    margin-top: -9px;
     margin-bottom: 700px;
+    width: 65%;
   }
 
   .container7 .image5 {
-    margin-left: 30px;
-    margin-top: -850px;
+    margin-left: 43px;
+    margin-top: -700px;
     margin-bottom: 700px;
+    width: 65%;
   }
 
   .container7 .image6 {
-    margin-left: 1830px;
-    margin-top: -1235px;
+    margin-left: 43px;
+    margin-top: -697px;
     margin-bottom: 1000px;
+    width: 65%;
   }
 
   .container7 .image7 {
-    margin-left: 950px;
-    margin-top: -300px;
-    margin-bottom: 200px;
+    margin-left: 36px;
+    margin-top: 15px;
+    margin-bottom: 473px;
+    width: 40%;
+    margin-right: -28%;
   }
 
   .container7 .image8 {
-    margin-left: 30px;
-    margin-top: -400px;
-    margin-bottom: 200px;
+    margin-left: -179px;
+    margin-top: 19px;
+    margin-bottom: 719px;
+    width: 40%;
   }
 
   .container7 .image9 {
-    margin-left: 1730px;
-    margin-top: -460px;
-    margin-bottom: 850px;
+    margin-left: -160px;
+    margin-top: -150px;
+    margin-bottom: 588px;
+    width: 40%;
   }
 
   /* Shared CSS class for images */
@@ -2082,15 +2092,17 @@ p[data-text="learn2"] {
 
   /* Image positions */
   .container7 .image10 {
-    margin-left: 1130px;
-    margin-top: -800px;
-    margin-bottom: 675px;
+    margin-left: -181px;
+    margin-top: -737px;
+    margin-bottom: 595px;
+    width: 40%;
   }
 
   .container7 .image11 {
-    margin-left: 1560px;
-    margin-top: -1800px;
-    margin-bottom: 700px;
+    margin-left: 215px;
+    margin-top: -935px;
+    margin-bottom: 773px;
+    width: 40%;
   }
 
   /* Curved section */
