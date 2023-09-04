@@ -2772,8 +2772,8 @@ a:hover {
   }
   .video-background {
     position: relative;
-    width: 94%;
-    height: 107vh;
+    width: 108%;
+    height: 50vh;
     overflow: hidden;
     background-color: #000000;
     margin-top: 50px;
@@ -2781,7 +2781,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1px;
+    margin-left: -16px;
   }
 
   .video-background video {
@@ -2816,7 +2816,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 0px;
+    margin-left: -90px;
+    margin-top: -34px;
   }
 
   .text-container h4 {
@@ -2830,7 +2831,6 @@ a:hover {
     font-size: 12px;
   }
 
-  .text-container .title1,
   .text-container .title2 {
     font-size: 18px;
     color: #d400ff;
@@ -2840,8 +2840,24 @@ a:hover {
     margin-left: -110px;
   }
 
-  .text-container .text1,
+  .text-container .title1 {
+    font-size: 18px;
+    color: #d400ff;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: -110px;
+  }
+
   .text-container .text2 {
+    font-size: 15px;
+    color: #000000;
+    text-align: left;
+    margin-top: 0;
+    margin-left: -100px;
+  }
+
+  .text-container .text1 {
     font-size: 15px;
     color: #000000;
     text-align: left;
