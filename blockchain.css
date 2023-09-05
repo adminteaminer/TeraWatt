@@ -2146,11 +2146,12 @@ header {
   }
 
   .title82 {
-    font-size: 21px;
+    font-size: 20px;
     color: black;
     margin-bottom: 50px;
-    margin-left: 47px;
+    margin-left: 8px;
     line-height: 1;
+    margin-top: 13px;
   }
 
   .text82 {
@@ -2165,7 +2166,7 @@ header {
     color: rgb(204, 0, 255);
     margin-bottom: 10px;
     font-weight: bold;
-    margin-left: -290px;
+    margin-left: -319px;
     margin-top: 109px;
   }
 
@@ -2174,24 +2175,24 @@ header {
     color: black;
     margin-bottom: 50px;
     line-height: 1;
-    margin-left: -358px;
+    margin-left: -319px;
+    margin-top: 20px;
   }
 
   .text83 {
     font-size: 13px;
     color: black;
-    margin-bottom: 50px;
     margin-left: -452px;
     text-align: center;
     margin-right: 186px;
-    margin-top: -32px;
+    margin-top: -18px;
   }
 
   .image83 {
-    width: 125%;
+    width: 157%;
     height: auto;
-    margin-left: -81px;
-    margin-top: -234%;
+    margin-left: -100px;
+    margin-top: -443%;
     border-radius: 12px;
   }
 
@@ -2253,8 +2254,8 @@ header {
   }
 
   .title15 {
-    font-size: 18px;
-    margin-left: 20px;
+    font-size: 12px;
+    margin-left: 43px;
     margin-top: 20px;
     align-items: center;
   }
@@ -2262,38 +2263,38 @@ header {
   .title15::before {
     width: 30px;
     margin-top: 8px;
-    margin-left: -40px;
+    margin-left: -42px;
   }
 
   .title16 {
-    font-size: 80px;
+    font-size: 29px;
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-left: 15px;
-    margin-top: -30px;
+    margin-top: -1px;
     text-align: left;
   }
 
   .image13 {
-    width: 70%;
+    width: 62%;
     height: auto;
-    margin-left: 60px;
-    margin-top: -96px;
+    margin-left: 108px;
+    margin-top: -95px;
     margin-bottom: 300px;
   }
 
   .content15 {
-    font-size: 17px;
-    margin-left: -210px;
-    margin-top: 830px;
+    font-size: 12px;
+    margin-left: -199px;
+    margin-top: 360px;
     text-align: center;
     position: absolute;
   }
 
   .bold-text {
-    font-size: 10px;
+    font-size: 4px;
     text-align: center;
-    margin-left: -251px;
+    margin-left: -336px;
     margin-right: -135px;
   }
 
@@ -2303,11 +2304,11 @@ header {
     box-shadow: 0 0 8px#0d00ff;
     border: #a200ff;
     border-radius: 5px;
-    margin-left: 17px;
+    margin-left: -5px;
     margin-right: 250px;
     font-family: "Poppins", sans-serif;
     color: white;
-    margin-bottom: -150px;
+    margin-bottom: -138px;
     z-index: 1;
     padding: 1px 141px;
     padding-left: 161px;
