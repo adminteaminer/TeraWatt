@@ -1497,6 +1497,15 @@ p[data-text="learn2"] {
     padding-left: 20px;
   }
 
+  .text-container .text1 {
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    margin-top: 17px;
+    font-family: Poppins, sans-serif;
+    margin-left: -46px;
+    text-align: left;
+  }
+
   .text-container h6 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -1547,18 +1556,18 @@ p[data-text="learn2"] {
   }
 
   .title {
-    font-size: 36px;
+    font-size: 31px;
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-top: 20px;
     z-index: 1;
     text-align: center;
     line-height: 1.2;
-    margin-left: 84px;
+    margin-left: 1px;
   }
 
   .image {
-    width: 80%; /* Adjust image width */
+    width: 63%; /* Adjust image width */
     max-width: 300px; /* Added max-width for responsiveness */
     height: auto;
     margin-top: 20px; /* Adjust as needed */
@@ -1566,6 +1575,7 @@ p[data-text="learn2"] {
     transform: translateX(100%);
     transition: opacity 0.8s, transform 0.8s;
     border-radius: 10px;
+    margin-left: -134px;
   }
 
   .section:hover .image {
@@ -1605,8 +1615,8 @@ p[data-text="learn2"] {
 
   .section .bold-text {
     font-weight: bold;
-    margin-left: -7px;
-    font-size: 36px;
+    margin-left: -48px;
+    font-size: 31px;
   }
 
   .section .normal-text {
@@ -1666,17 +1676,18 @@ p[data-text="learn2"] {
   }
 
   .title2 {
-    font-size: 30px; /* Adjust font size */
+    font-size: 31px; /* Adjust font size */
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-top: 20px; /* Adjust as needed */
     z-index: 1;
-    text-align: center; /* Center title text */
-    line-height: 1.2; /* Improved readability */
+    text-align: -webkit-match-parent;
+    line-height: 1.2;
+    margin-left: 1px;
   }
 
   .image2 {
-    width: 80%; /* Adjust image width */
+    width: 63%; /* Adjust image width */
     max-width: 300px; /* Added max-width for responsiveness */
     height: auto;
     margin-top: 20px; /* Adjust as needed */
@@ -1684,6 +1695,7 @@ p[data-text="learn2"] {
     transform: translateX(100%);
     transition: opacity 0.8s, transform 0.8s;
     border-radius: 10px;
+    margin-left: -134px;
   }
 
   .section2:hover .image2 {
@@ -1749,17 +1761,18 @@ p[data-text="learn2"] {
   }
 
   .title3 {
-    font-size: 30px; /* Adjust font size */
+    font-size: 31px; /* Adjust font size */
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-top: 20px; /* Adjust as needed */
     z-index: 1;
     text-align: center; /* Center title text */
     line-height: 1.2; /* Improved readability */
+    margin-left: 1px;
   }
 
   .image3 {
-    width: 80%; /* Adjust image width */
+    width: 63%; /* Adjust image width */
     max-width: 300px; /* Added max-width for responsiveness */
     height: auto;
     margin-top: 20px; /* Adjust as needed */
@@ -1767,6 +1780,7 @@ p[data-text="learn2"] {
     transform: translateX(100%);
     transition: opacity 0.8s, transform 0.8s;
     border-radius: 10px;
+    margin-left: -134px;
   }
 
   .section3:hover .image3 {
@@ -1830,7 +1844,7 @@ p[data-text="learn2"] {
   .overlay2 {
     position: relative; /* Use relative positioning for responsive background */
     width: 100%;
-    height: 192px;
+    height: 200px;
     padding-bottom: 0.25%;
     background-image: url(https://terawatt.s3.us-east-2.amazonaws.com/img/energy+img.png);
     background-repeat: no-repeat;
@@ -1900,7 +1914,7 @@ p[data-text="learn2"] {
 
   .quienes-somos2 {
     margin: 0 20px; /* Adjust margins for spacing */
-    font-size: 18px; /* Adjust font size for readability */
+    font-size: 16px; /* Adjust font size for readability */
     font-family: "Poppins", sans-serif;
   }
 
@@ -1916,7 +1930,7 @@ p[data-text="learn2"] {
   }
 
   .container2 img {
-    width: 10%; /* Adjust image size */
+    width: 7%; /* Adjust image size */
     margin-left: auto; /* Center horizontally */
     margin-right: auto; /* Center horizontally */
   }
@@ -1934,7 +1948,7 @@ p[data-text="learn2"] {
     font-weight: bold;
     color: #000; /* Change default text color */
     cursor: pointer;
-    font-size: 18px; /* Adjust font size for readability */
+    font-size: 15px; /* Adjust font size for readability */
   }
 
   .sub-menu li:hover {
@@ -2019,67 +2033,71 @@ p[data-text="learn2"] {
 
   /* Adjust individual image positions */
   .container7 .image1 {
-    margin-left: 54px;
-    margin-top: -30px;
+    margin-left: -2px;
+    margin-top: -4px;
     margin-bottom: 400px;
-    width: 65%;
+    width: 37%;
   }
 
   .container7 .image20 {
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: -390px;
     margin-bottom: 400px;
-    width: 65%;
+    width: 37%;
   }
 
   .container7 .image30 {
-    margin-left: 50px;
+    margin-left: 1px;
     margin-top: -390px;
     margin-bottom: 950px;
-    width: 65%;
+    width: 37%;
   }
 
   .container7 .image4 {
-    margin-left: 43px;
-    margin-top: -9px;
+    margin-left: 15px;
+    margin-top: -7px;
     margin-bottom: 700px;
-    width: 65%;
+    width: 37%;
+    margin-right: 149px;
   }
 
   .container7 .image5 {
-    margin-left: 43px;
-    margin-top: -700px;
+    margin-left: 157px;
+    margin-top: -778px;
     margin-bottom: 700px;
-    width: 65%;
+    width: 37%;
   }
 
   .container7 .image6 {
-    margin-left: 43px;
-    margin-top: -697px;
+    margin-left: -64px;
+    margin-top: -824px;
     margin-bottom: 1000px;
-    width: 65%;
+    width: 37%;
+    margin-right: 73px;
   }
 
   .container7 .image7 {
-    margin-left: 36px;
+    margin-left: 32px;
     margin-top: 15px;
-    margin-bottom: 473px;
-    width: 40%;
-    margin-right: -28%;
+    margin-bottom: 660px;
+    width: 37%;
+    margin-right: -32%;
   }
 
   .container7 .image8 {
-    margin-left: -179px;
-    margin-top: 19px;
-    margin-bottom: 719px;
-    width: 40%;
+    margin-left: -171px;
+    margin-top: 4px;
+    margin-bottom: 858px;
+    width: 37%;
+    margin-right: 80px;
   }
 
   .container7 .image9 {
-    margin-left: -160px;
-    margin-top: -150px;
-    margin-bottom: 588px;
-    width: 40%;
+    margin-left: -217px;
+    margin-top: -145px;
+    margin-bottom: 608px;
+    width: 37%;
+    margin-right: 53px;
   }
 
   /* Shared CSS class for images */
@@ -2092,17 +2110,19 @@ p[data-text="learn2"] {
 
   /* Image positions */
   .container7 .image10 {
-    margin-left: -181px;
-    margin-top: -737px;
-    margin-bottom: 595px;
-    width: 40%;
+    margin-left: -189px;
+    margin-top: -743px;
+    margin-bottom: 732px;
+    width: 37%;
+    margin-right: -13px;
   }
 
   .container7 .image11 {
-    margin-left: 215px;
-    margin-top: -935px;
-    margin-bottom: 773px;
-    width: 40%;
+    margin-left: 209px;
+    margin-top: -976px;
+    margin-bottom: 811px;
+    width: 37%;
+    margin-right: 121px;
   }
 
   /* Curved section */
@@ -2111,18 +2131,25 @@ p[data-text="learn2"] {
     background-color: #424141;
     box-shadow: 0 0 8px #0d00ff;
     border: #a200ff;
-    padding: 20px;
+    padding: 2px;
     border-radius: 5px;
-    padding-left: 0;
+    padding-left: 130px;
     padding-right: 0;
-    margin-left: 260px;
-    margin-right: 250px;
+    margin-left: -328px;
+    margin-right: -27px;
     font-family: "Poppins", sans-serif;
     font-size: 150%;
     color: white;
-    margin-top: -600px;
+    margin-top: -760px;
     margin-bottom: -150px;
     z-index: 1;
+  }
+
+  .bold-text {
+    text-align: center;
+    transform: translateX(50px);
+    margin-left: 68px;
+    font-size: 8px;
   }
 
   /* Subscription form */
@@ -2185,11 +2212,11 @@ p[data-text="learn2"] {
 
   .footer-title,
   .footer-title1 {
-    font-size: 20px;
+    font-size: 13px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #000000;
-    margin-left: 130px;
+    margin-left: 153px;
   }
 
   .footer-title1 {
@@ -2199,16 +2226,17 @@ p[data-text="learn2"] {
   }
 
   .footer-title2 {
-    margin-left: 40px;
+    margin-left: 119px;
+    font-size: 13px;
   }
 
   .footer-text {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 1.5;
     color: #000000;
-    text-align: left;
+    text-align: center;
     margin-left: 11px;
-    margin-right: -330px;
+    margin-right: -300px;
   }
 
   .footer-navigation {
@@ -2220,9 +2248,9 @@ p[data-text="learn2"] {
   .footer-navigation li {
     margin-bottom: 8px;
     text-align: left;
-    margin-left: 107px;
+    margin-left: 146px;
     line-height: 1.8;
-    font-size: 20px;
+    font-size: 13px;
     margin-right: -250px;
   }
 
@@ -2244,7 +2272,7 @@ p[data-text="learn2"] {
   .footer-form div {
     color: #000000;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 13px;
     margin-left: 60px;
     text-align: center;
     margin-right: -211px;
@@ -2255,11 +2283,11 @@ p[data-text="learn2"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: 70px;
+    margin-left: 86px;
   }
 
   .footer-button {
-    padding: 10px 20px;
+    padding: 5px 20px;
     background-color: #626161;
     color: #fff;
     border: none;
@@ -2268,7 +2296,7 @@ p[data-text="learn2"] {
     transition: background-color 0.3s;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 114px;
+    margin-left: 135px;
   }
 
   .footer-button:hover {
