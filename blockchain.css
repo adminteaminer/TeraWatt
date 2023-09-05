@@ -1740,7 +1740,7 @@ header {
 
   .video-background {
     width: 100%;
-    height: 43vh;
+    height: 45vh;
   }
 
   .text-container hr {
@@ -1790,8 +1790,16 @@ header {
     margin-left: -2px;
   }
 
-  .pane1 img {
+  .panel1 img {
     margin: 10px 78px;
+  }
+
+  .panel2 img {
+    margin: 10px 84px;
+  }
+
+  .panel3 img {
+    margin: 10px 82px;
   }
 
   .panel-text {
@@ -1819,17 +1827,16 @@ header {
   }
 
   .texto-adicional2 {
-    font-size: 17px;
-    margin-top: 0;
+    font-size: 14px;
     margin-bottom: 20px;
     margin-left: 0px;
-    margin-top: 82px;
+    margin-top: -70px;
   }
 
   .texto-adicional1,
   .texto-adicional3,
   .texto-adicional4 {
-    font-size: 17px;
+    font-size: 14px;
     margin-top: 0;
     margin-bottom: 20px;
     margin-left: 0px;
