@@ -2436,6 +2436,22 @@ p[data-text="learn2"] {
     margin-bottom: 15px;
     text-align: center;
   }
+
+  .get-started-button {
+    text-align: center;
+    border: 1px solid #ee0bc8;
+    margin-left: 261px;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+  }
   .video-background video,
   .overlay {
     width: 100%;
@@ -4201,6 +4217,7 @@ p[data-text="learn2"] {
     text-decoration: none;
     font-size: 14px;
   }
+
   .get-started-button:hover {
     background: linear-gradient(to bottom right, #5900ff, #a200ff, #f700ff);
     color: #fff;
