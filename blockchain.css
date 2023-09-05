@@ -1650,6 +1650,11 @@ header {
     padding: 5px;
   }
 
+  .logo img {
+    width: 219px;
+    margin-left: -47px;
+  }
+
   .menu {
     display: none;
     margin-left: 10px;
@@ -1702,7 +1707,7 @@ header {
     font-size: 16px;
     margin-top: 37px;
     margin-right: 250px;
-    margin-left: -531px;
+    margin-left: -487px;
   }
 
   .title1 {
@@ -1735,7 +1740,7 @@ header {
 
   .video-background {
     width: 100%;
-    height: 56vh;
+    height: 43vh;
   }
 
   .text-container hr {
@@ -1744,30 +1749,34 @@ header {
   }
 
   .container2 {
-    margin-left: 30px;
-    font-size: 20px;
+    margin-left: 14px;
+    font-size: 24px;
+    text-align: center;
   }
 
   .container2 a {
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 1px;
   }
 
   .quienes-somos2 {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 16px;
+    text-align: justify;
   }
 
   .join-us hr {
     margin-top: 15px;
-    width: 70%;
-    margin-left: 50px;
+    width: 74%;
+    margin-left: 47px;
   }
 
   .container2 img {
     width: 22%;
     margin-left: -25px;
+    margin-bottom: 19px;
+    margin-top: -60px;
   }
 
   .faq-section {
@@ -1778,7 +1787,11 @@ header {
   .accordion {
     padding: 10px;
     font-size: 11px;
-    margin-left: 10px;
+    margin-left: -2px;
+  }
+
+  .pane1 img {
+    margin: 10px 78px;
   }
 
   .panel-text {
@@ -1805,14 +1818,21 @@ header {
     margin-bottom: 10px;
   }
 
-  .texto-adicional1,
-  .texto-adicional2,
-  .texto-adicional3,
-  .texto-adicional4 {
-    font-size: 12px;
+  .texto-adicional2 {
+    font-size: 17px;
     margin-top: 0;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-top: 82px;
+  }
+
+  .texto-adicional1,
+  .texto-adicional3,
+  .texto-adicional4 {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 0px;
   }
 
   .image-container img {
@@ -1845,31 +1865,33 @@ header {
   }
 
   .container3 {
-    margin-left: 70px;
-    font-size: 36px;
+    margin-left: 14px;
+    font-size: 24px;
+    text-align: center;
   }
 
   .container3 a {
-    font-size: 36px;
+    font-size: 24px;
     margin-left: 0px;
   }
 
   .quienes-somos3 {
-    margin-left: 30px;
-    margin-right: 24px;
-    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
     text-align: justify;
   }
 
   .join-us2 hr {
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 70%;
+    margin-top: 15px;
+    margin-left: 47px;
+    width: 75%;
   }
 
   .container3 img {
     width: 16%;
-    margin-left: -53px;
+    margin-left: 22px;
+    display: flex;
   }
 
   .slideshow-container {
@@ -1923,22 +1945,17 @@ header {
   }
 
   .overlay2 .title2 {
-    font-size: 20px;
-    margin-top: -44px;
+    font-size: 25px;
+    margin-top: -5px;
     font-weight: bold;
   }
 
   .overlay2 .text6 {
-    font-size: 14px;
-    margin-top: 68px;
-    margin-left: -16px;
+    display: none;
   }
 
   .overlay2 .text7 {
-    font-size: 14px;
-    margin-top: 110px;
-    margin-left: -166px;
-    margin-right: 170px;
+    display: none;
   }
 
   .overlay2 .bold-text6 {
@@ -2009,8 +2026,8 @@ header {
   .texto30 {
     text-align: center;
     margin: 1px 0;
-    margin-left: -59px;
-    margin-right: 53px;
+    margin-left: -28px;
+    margin-right: 23px;
     font-size: 14px;
   }
 
@@ -2025,7 +2042,7 @@ header {
   .titulo30 {
     text-align: center;
     margin: 10px 0;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-right: 50px;
     font-size: 16px;
   }
@@ -2038,6 +2055,7 @@ header {
     margin-left: 105px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-top: -67px;
   }
 
   .image80,
@@ -2061,24 +2079,25 @@ header {
     font-size: 16px;
     color: black;
     margin-bottom: 50px;
-    margin-left: 4px;
+    margin-left: 9px;
+    text-align: center;
   }
 
   .image81 {
-    width: 121%;
+    width: 129%;
     height: auto;
-    margin-left: -85px;
-    margin-top: -280%;
-    border-radius: 0px;
+    margin-left: -80px;
+    margin-top: -378%;
+    border-radius: 8px;
+    margin-bottom: -83px;
   }
 
   .sub-title81 {
     font-size: 20px;
     color: rgb(204, 0, 255);
-    margin-left: -290px;
+    margin-left: -237px;
     font-weight: bold;
-    margin-bottom: 41px;
-    margin-top: 75px;
+    margin-top: -33px;
   }
 
   .title81 {
