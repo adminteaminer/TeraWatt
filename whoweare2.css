@@ -721,6 +721,10 @@ header {
     text-align: justify;
   }
 
+  h2 {
+    text-align: center;
+  }
+
   .title2 {
     font-size: 25px;
     text-align: center;
