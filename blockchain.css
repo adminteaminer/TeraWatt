@@ -1642,6 +1642,10 @@ header {
 
 /*--------------------------------------- Media Querie 320px to 480px---------------------------------------------------------*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
   header {
     padding: 5px;
   }
