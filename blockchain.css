@@ -2008,9 +2008,9 @@ header {
   .texto20,
   .texto30 {
     text-align: center;
-    margin: 10px 0;
-    margin-left: -68px;
-    margin-right: -64px;
+    margin: 1px 0;
+    margin-left: -59px;
+    margin-right: 53px;
     font-size: 14px;
   }
 
@@ -5701,12 +5701,12 @@ header {
 
   .container2 {
     font-size: 60px;
-    margin-left: 100px;
+    margin-left: 96px;
   }
 
   .container2 a {
     font-size: 60px;
-    margin-left: 64px;
+    margin-left: 33px;
   }
 
   .container2 img {
@@ -5715,11 +5715,32 @@ header {
   }
 
   .join-us hr {
-    margin: 20px 72px;
+    margin: 20px 36px;
   }
 
   .quienes-somos2 {
-    margin: 20px 130px;
+    margin: 36px 130px;
+  }
+
+  .container3 {
+    margin-left: 113px;
+  }
+
+  .container3 img {
+    width: 8%;
+    margin-right: -10px;
+    margin-left: 139px;
+    display: flex;
+    margin-bottom: -29px;
+  }
+
+  .container3 a {
+    margin-left: 2px;
+  }
+
+  .join-us2 hr {
+    margin-top: 11px;
+    margin-left: 9px;
   }
 
   .overlay2 .text-container2 {
@@ -5753,7 +5774,7 @@ header {
     justify-content: center;
     margin-top: 10px;
     position: absolute;
-    top: 40.5%;
+    top: 40.75%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -5775,7 +5796,7 @@ header {
     padding-bottom: 100px;
     color: #fff;
     position: absolute;
-    top: 39.7%;
+    top: 39.95%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -5802,12 +5823,22 @@ header {
     margin-right: 0px;
   }
   .imagen10 img {
-    width: 40%;
+    width: 52%;
     height: auto;
     border-radius: 10px;
-    margin-left: 98px;
+    margin-left: 61px;
     padding-right: 15px;
   }
+
+  .titulo10 {
+    margin-top: -17px;
+  }
+
+  .boton31 {
+    margin-left: 9px;
+    margin-right: 157px;
+  }
+
   .imagen20 img {
     width: 30%;
     height: auto;
@@ -5946,7 +5977,7 @@ header {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -177px;
+    margin-left: -162px;
     margin-top: 158px;
     text-align: left;
     display: flex;
@@ -5965,16 +5996,16 @@ header {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -710px;
+    margin-left: -645px;
     margin-top: 486px;
     text-align: left;
   }
 
   .image13 {
-    width: 550px;
+    width: 486px;
     height: auto;
-    margin-left: 116%;
-    margin-top: -550px;
+    margin-left: 136%;
+    margin-top: -453px;
   }
 
   .curved-section {
