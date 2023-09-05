@@ -2533,20 +2533,19 @@ p[data-text="learn2"] {
 
   .image {
     width: 80%;
-    margin-left: -40%;
+    margin-left: -31%;
     margin-top: 0;
     opacity: 1;
-    transform: translateY(0); /* Cambio de translateX a translateY */
-    position: fied; /* Cambio a posición fija */
-    top: 0; /* Fijar la imagen en la parte superior */
+    transform: translateY(0);
+    position: static;
   }
 
   .content8 {
-    font-size: 16px;
-    margin-top: 20px;
-    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 41px;
+    margin-left: 46px;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 32px;
   }
 
   .custom-button {
@@ -2580,18 +2579,19 @@ p[data-text="learn2"] {
 
   .image2 {
     width: 80%;
-    margin-left: -40%;
-    margin-top: -30px;
+    margin-left: -31%;
+    margin-top: 0;
     opacity: 1;
-    transform: translateY(0); /* Cambio de translateX a translateY */
+    transform: translateY(0);
     position: static; /* Cambio a posición estática */
   }
 
   .content9 {
-    font-size: 16px;
-    margin-top: 20px;
-    margin-left: 0;
+    font-size: 18px;
+    margin-top: 41px;
+    margin-left: 46px;
     text-align: center;
+    margin-right: 32px;
   }
 
   .custom-button {
@@ -2602,7 +2602,7 @@ p[data-text="learn2"] {
 
   .section2 .bold-text2 {
     font-weight: bold;
-    margin-left: -100px;
+    margin-left: 8px;
   }
 
   .section2 .normal-text2 {
@@ -2626,7 +2626,7 @@ p[data-text="learn2"] {
 
   .image3 {
     width: 80%;
-    margin-left: -40%;
+    margin-left: -31%;
     margin-top: 0;
     opacity: 1;
     transform: translateY(0); /* Cambio de translateX a translateY */
@@ -2634,10 +2634,11 @@ p[data-text="learn2"] {
   }
 
   .content10 {
-    font-size: 16px;
-    margin-top: 20px;
-    margin-left: 0;
+    font-size: 18px;
+    margin-top: 41px;
+    margin-left: 46px;
     text-align: center;
+    margin-right: 32px;
   }
 
   .custom-button {
@@ -2648,6 +2649,7 @@ p[data-text="learn2"] {
 
   .section3 .bold-text3 {
     font-weight: bold;
+    margin-left: 8px;
   }
 
   .section3 .normal-text3 {
