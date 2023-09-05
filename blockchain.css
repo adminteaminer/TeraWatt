@@ -4532,7 +4532,7 @@ header {
     text-align: left;
     font-size: 50px; /* Adjust font size for better readability */
     font-family: "Poppins", sans-serif;
-    margin-left: 20px; /* Adjust margin for better alignment */
+    margin-left: 68px;
   }
 
   .text-container h1 {
@@ -4556,7 +4556,7 @@ header {
     color: #000;
     font-size: 40px;
     text-decoration: none;
-    margin-left: 166px; /* Adjust margin for better alignment */
+    margin-left: 2px;
     transition: color 0.3s ease;
   }
 
@@ -4568,21 +4568,23 @@ header {
     margin: 20px 70px; /* Adjust margins for better spacing */
     font-size: 20px;
     font-family: "Poppins", sans-serif;
+    margin-top: 38px;
   }
 
   .join-us hr {
     background-color: #bc02ff;
     height: 3px;
     border: none;
-    margin: 20px 167px; /* Adjust margin for better spacing */
+    margin: 20px 6px;
     width: 300px;
   }
 
   .container2 img {
     max-width: 100%;
     height: auto;
-    margin-right: 20px; /* Adjust margin for better alignment */
+    margin-right: 20px;
     margin-left: 0;
+    display: flex;
   }
 
   .faq-section {
@@ -4619,9 +4621,12 @@ header {
   }
 
   .panel-text {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 26px;
+    margin-right: 85px;
+    margin-left: 60px;
+    text-align: justify;
   }
 
   .texto-adicional1,
@@ -4629,9 +4634,11 @@ header {
   .texto-adicional3,
   .texto-adicional4 {
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0;
-    margin-left: 20px; /* Adjust margin for better alignment */
+    margin-left: 198px;
+    margin-right: 93px;
+    text-align: justify;
   }
 
   .texto-adicional2 {
@@ -4723,9 +4730,9 @@ header {
   }
 
   .container3 {
-    margin-left: 20px; /* Adjust margin for better alignment */
+    margin-left: 70px;
     text-align: left;
-    font-size: 50px; /* Adjust font size for better readability */
+    font-size: 50px;
     font-family: "Poppins", sans-serif;
   }
 
@@ -4733,7 +4740,7 @@ header {
     color: #000;
     font-size: 40px;
     text-decoration: none;
-    margin-left: 110px; /* Adjust margin for better alignment */
+    margin-left: 6px;
   }
 
   .container3 a:hover {
@@ -4745,6 +4752,7 @@ header {
     margin-bottom: 20px;
     font-size: 20px;
     font-family: "Poppins", sans-serif;
+    margin-top: 42px;
   }
 
   .join-us2 hr {
@@ -4752,16 +4760,17 @@ header {
     height: 3px;
     border: none;
     margin-top: 10px; /* Adjust margin for better spacing */
-    margin-left: 110px; /* Adjust margin for better alignment */
+    margin-left: 8px; /* Adjust margin for better alignment */
     width: 300px;
     margin-bottom: 20px; /* Adjust margin for better spacing */
   }
 
   .container3 img {
-    max-width: 100%;
+    width: 9%;
     height: auto;
     margin-right: 20px;
-    margin-left: 0;
+    margin-left: 14px;
+    display: flex;
   }
 
   .slideshow-container {
@@ -4976,7 +4985,7 @@ header {
     padding-bottom: 100px;
     color: #fff;
     position: absolute;
-    top: 44.05%;
+    top: 45.05%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -4990,7 +4999,7 @@ header {
     z-index: 2;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 46.2%;
+    top: 45.6%;
     left: 50%;
     font-weight: bold;
   }
@@ -5000,7 +5009,7 @@ header {
     justify-content: center;
     margin-top: 10px;
     position: absolute;
-    top: 44.7%;
+    top: 47.3%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -5053,6 +5062,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 102%;
+    margin-bottom: 150px;
   }
 
   .seccion-carta {
@@ -5201,7 +5211,7 @@ header {
     color: black;
     margin-bottom: 50px;
     line-height: 1;
-    margin-left: 37%;
+    margin-left: 34%;
     margin-right: -47%;
   }
 
@@ -5211,15 +5221,15 @@ header {
     margin-bottom: 10px;
     font-weight: bold;
     margin-top: -369px;
-    margin-left: 37%;
+    margin-left: 34%;
   }
 
   .text81 {
     font-size: 15px;
     color: black;
     margin-bottom: 50px;
-    margin-left: 39%;
-    margin-right: -33%;
+    margin-left: 35%;
+    margin-right: -243%;
   }
 
   .image81 {
@@ -5288,7 +5298,7 @@ header {
     font-size: 15px;
     color: black;
     margin-bottom: 50px;
-    margin-left: 56%;
+    margin-left: 45%;
     margin-right: -51%;
     margin-top: -25px;
   }
@@ -5346,11 +5356,6 @@ header {
     margin-right: -9px;
   }
 
-  .boton32 {
-    margin-left: 214px;
-    margin-left: -168px;
-  }
-
   .boton31:hover,
   .boton32:hover,
   .boton33:hover,
@@ -5363,6 +5368,13 @@ header {
   .boton32 {
     background-color: #000000;
     color: #fff;
+  }
+
+  .boton32 {
+    background-color: #000000;
+    color: #fff;
+    margin-left: 187px;
+    margin-right: -234px;
   }
 
   .boton33,
@@ -5391,8 +5403,8 @@ header {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -777px;
-    margin-top: 650px;
+    margin-left: 6px;
+    margin-top: -327px;
     text-align: left;
   }
 
@@ -5427,10 +5439,6 @@ header {
     margin-top: 150px;
   }
 
-  .content15 {
-    margin-top: 15px;
-  }
-
   .title15::before {
     content: "";
     position: absolute;
@@ -5443,15 +5451,15 @@ header {
   }
 
   .title16 {
-    font-size: 80px;
-    margin-top: -30px;
+    font-size: 60px;
+    margin-top: -80px;
   }
 
   .image13 {
-    width: 380px;
+    width: 363px;
     height: auto;
-    margin-left: 85%;
-    margin-top: -381px;
+    margin-left: 98%;
+    margin-top: -245px;
   }
 
   /* Common styles for buttons */
@@ -5729,7 +5737,7 @@ header {
   .container3 img {
     width: 8%;
     margin-right: -10px;
-    margin-left: 139px;
+    margin-left: 25px;
     display: flex;
     margin-bottom: -29px;
   }
