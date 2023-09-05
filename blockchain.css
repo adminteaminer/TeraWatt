@@ -5977,18 +5977,19 @@ header {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -162px;
+    margin-left: -98px;
     margin-top: 158px;
     text-align: left;
     display: flex;
   }
 
   .title16 {
-    font-size: 80px;
+    font-size: 60px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -110px;
+    margin-left: -96px;
     margin-top: -30px;
+    margin-right: -94px;
     text-align: left;
   }
 
@@ -5996,16 +5997,16 @@ header {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -645px;
-    margin-top: 486px;
+    margin-left: -580px;
+    margin-top: 357px;
     text-align: left;
   }
 
   .image13 {
-    width: 486px;
+    width: 395px;
     height: auto;
-    margin-left: 136%;
-    margin-top: -453px;
+    margin-left: 140%;
+    margin-top: -294px;
   }
 
   .curved-section {
