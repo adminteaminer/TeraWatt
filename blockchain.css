@@ -4985,7 +4985,7 @@ header {
     padding-bottom: 100px;
     color: #fff;
     position: absolute;
-    top: 45.05%;
+    top: 46.05%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -4999,7 +4999,7 @@ header {
     z-index: 2;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 45.6%;
+    top: 46.6%;
     left: 50%;
     font-weight: bold;
   }
@@ -5009,7 +5009,7 @@ header {
     justify-content: center;
     margin-top: 10px;
     position: absolute;
-    top: 47.3%;
+    top: 48.3%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -5289,9 +5289,9 @@ header {
     color: black;
     margin-bottom: 50px;
     line-height: 1;
-    margin-right: -43%;
-    margin-top: -22%;
-    margin-left: 544px;
+    margin-right: -96%;
+    margin-top: -41%;
+    margin-left: 46%;
   }
 
   .text83 {
