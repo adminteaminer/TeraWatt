@@ -1830,7 +1830,7 @@ header {
     font-size: 14px;
     margin-bottom: 20px;
     margin-left: 0px;
-    margin-top: -70px;
+    margin-top: 12px;
   }
 
   .texto-adicional1,
@@ -2001,8 +2001,8 @@ header {
   }
 
   .seccion-carta {
-    width: 230px;
-    height: 250px;
+    width: 139px;
+    height: 122px;
     background-color: #f2f2f2;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
@@ -2033,15 +2033,16 @@ header {
   .texto30 {
     text-align: center;
     margin: 1px 0;
-    margin-left: -28px;
-    margin-right: 23px;
-    font-size: 14px;
+    margin-left: -67px;
+    margin-right: -40px;
+    font-size: 10px;
   }
 
   .seccion-carta img {
     max-width: 80%;
     height: auto;
-    margin-left: -166px;
+    margin-left: -73px;
+    margin-top: -31px;
   }
 
   .titulo10,
@@ -2052,6 +2053,7 @@ header {
     margin-left: 10px;
     margin-right: 50px;
     font-size: 16px;
+    margin-top: -13px;
   }
 
   .sub-title80,
