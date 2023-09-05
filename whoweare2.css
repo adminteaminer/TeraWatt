@@ -514,6 +514,18 @@ header {
     margin-bottom: 20px;
   }
 
+  .logo img {
+    width: 170px;
+  }
+
+  .get-started-button {
+    border: 1px solid #ee0bc8;
+    font-size: 14px;
+    margin-left: -81px;
+    padding: 5px 13px;
+    margin-top: 41px;
+  }
+
   .menu {
     margin: 0;
     padding: 0;
@@ -566,6 +578,27 @@ header {
     margin-bottom: 15px;
     text-align: center;
   }
+
+  .title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .title2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .text2 {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
   .footer {
     padding-top: -500px;
     margin-bottom: 0;
