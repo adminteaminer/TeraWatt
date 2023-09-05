@@ -4358,6 +4358,9 @@ header {
 
 /*-----------------------Media Queries for 1025px to 1200px------------------*/
 @media screen and (min-width: 1025px) and (max-width: 1599px) {
+  body {
+    overflow-x: hidden;
+  }
   .sticky-header {
     position: fixed;
     top: 0;
@@ -4374,10 +4377,7 @@ header {
   }
 
   .menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 20px;
+    margin-left: 370px;
   }
 
   .menu ul {
@@ -4386,17 +4386,18 @@ header {
     padding: 0;
     display: flex;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
   }
 
   .menu ul li {
     margin-left: 20px;
+    padding: 5px;
   }
 
   .menu ul li a {
     color: #000;
     text-decoration: none;
     transition: color 0.1s ease;
+    font-size: 16px;
   }
 
   .menu ul li a:hover {
@@ -4408,12 +4409,14 @@ header {
     font-weight: bold;
     align-items: center;
     margin-top: 2px;
-    margin-right: 20px;
+    font-size: 16px;
   }
 
   .top-menu li {
-    margin-right: 20px;
+    margin-right: 30px;
+    margin: 10px;
     position: relative;
+    font-size: small;
   }
 
   .top-menu li:hover {
@@ -4497,10 +4500,10 @@ header {
 
   .get-started-button {
     text-align: center;
-    border: 2px solid #ee0bc8;
-    margin-left: 20px;
-    background-color: #eee;
-    color: #000;
+    border: 1px solid #ee0bc8;
+    margin-left: 56px;
+    background-color: #eeeeee;
+    color: #000000;
     padding: 10px 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
@@ -4508,13 +4511,17 @@ header {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .get-started-button:hover {
     background: linear-gradient(to bottom right, #5900ff, #a200ff, #f700ff);
     color: #fff;
     box-shadow: 0 0 30px rgb(251, 3, 247);
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   .container2 {
@@ -5595,6 +5602,88 @@ header {
 @media screen and (min-width: 1600px) {
   body {
     overflow-x: hidden;
+  }
+
+  /*Menu*/
+
+  .menu {
+    margin-left: 370px;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .menu ul li {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .menu ul li a {
+    color: #030303;
+    text-decoration: none;
+    transition: color 0.1s ease;
+    font-size: 16px; /* Added unit (e.g., px) to font size */
+  }
+
+  .menu ul li a:hover {
+    color: #f809f4;
+  }
+
+  .top-menu {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 2px;
+    font-size: 16px; /* Added unit (e.g., px) to font size */
+  }
+
+  .top-menu li {
+    margin-right: 30px;
+    margin: 10px;
+    position: relative;
+    font-size: small;
+  }
+
+  .top-menu li:hover {
+    color: #ff9100;
+  }
+
+  .top-menu .signin a {
+    color: rgb(0, 0, 0);
+  }
+
+  .top-menu .signin a:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 8px #dd12d3;
+    border-radius: 2px;
+    background-color: #dd12d3;
+    transition: background-color 0.6s ease;
+  }
+
+  .get-started-button {
+    text-align: center;
+    border: 1px solid #ee0bc8;
+    margin-left: 56px;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   .text-container h2 {

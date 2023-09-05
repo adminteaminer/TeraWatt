@@ -2352,7 +2352,6 @@ a:hover {
 
   .footer-form {
     margin-top: 20px;
-    border: 2px solid #bc02ff;
     padding: 10px;
     border-radius: 5px;
     text-align: left;
@@ -4263,15 +4262,6 @@ a:hover {
     overflow-x: hidden;
   }
 
-  header {
-    background-color: #eeeeee;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    justify-content: space-between; /* Improved alignment */
-  }
-
   .sticky-header {
     position: fixed;
     top: 0;
@@ -4284,13 +4274,11 @@ a:hover {
   }
 
   .logo img {
-    max-width: 250px; /* Ensured logo doesn't exceed a certain width */
+    max-width: 250px;
   }
 
   .menu {
-    margin-right: 50px; /* Adjusted margin for better spacing */
-    font-size: 20px;
-    font-weight: normal;
+    margin-left: 370px;
   }
 
   .menu ul {
@@ -4300,20 +4288,18 @@ a:hover {
     display: flex;
     align-items: center;
     font-family: "Roboto", sans-serif;
-    font-weight: normal;
   }
 
   .menu ul li {
     margin-left: 30px;
-    padding: 10px 5px;
     font-size: 20px;
   }
 
   .menu ul li a {
-    color: #000000;
+    color: #030303;
     text-decoration: none;
     transition: color 0.1s ease;
-    font-weight: normal;
+    font-size: 16px;
   }
 
   .menu ul li a:hover {
@@ -4326,14 +4312,15 @@ a:hover {
 
   .top-menu {
     display: flex;
+    font-weight: bold;
     align-items: center;
     margin-top: 2px;
-    margin-right: 50px; /* Adjusted margin for better spacing */
-    margin-left: auto; /* Moved menu to the right side */
+    font-size: 16px; /* Moved menu to the right side */
   }
 
   .top-menu li {
-    margin: 10px 20px; /* Adjusted margin for better spacing */
+    margin-right: 30px;
+    margin: 10px;
     position: relative;
     font-size: small;
   }
@@ -4452,8 +4439,8 @@ a:hover {
 
   .get-started-button {
     text-align: center;
-    border: 2px solid #ee0bc8;
-    margin-left: 80px;
+    border: 1px solid #ee0bc8;
+    margin-left: 56px;
     background-color: #eeeeee;
     color: #000000;
     padding: 10px 20px;
@@ -4463,7 +4450,7 @@ a:hover {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .get-started-button:hover {
@@ -5468,6 +5455,84 @@ a:hover {
 @media screen and (min-width: 1600px) {
   body {
     overflow-x: hidden;
+  }
+
+  /*Menú*/
+
+  .menu {
+    margin-left: 370px;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .menu ul li {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .menu ul li a {
+    color: #030303;
+    text-decoration: none;
+    transition: color 0.1s ease;
+    font-size: 16px; /* Added unit (e.g., px) to font size */
+  }
+
+  .menu ul li a:hover {
+    color: #f809f4;
+  }
+
+  .top-menu {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 2px;
+    font-size: 16px; /* Added unit (e.g., px) to font size */
+  }
+
+  .top-menu li {
+    margin-right: 30px;
+    margin: 10px;
+    position: relative;
+    font-size: small;
+  }
+
+  .top-menu li:hover {
+    color: #ff9100;
+  }
+
+  .top-menu .signin a {
+    color: rgb(0, 0, 0);
+  }
+
+  .top-menu .signin a:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 8px #dd12d3;
+    border-radius: 2px;
+    background-color: #dd12d3;
+    transition: background-color 0.6s ease;
+  }
+
+  .get-started-button {
+    text-align: center;
+    border: 1px solid #ee0bc8;
+    margin-left: 56px;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
   }
 
   .para {
