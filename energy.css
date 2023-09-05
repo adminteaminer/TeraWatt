@@ -2602,11 +2602,12 @@ p[data-text="learn2"] {
 
   .section2 .bold-text2 {
     font-weight: bold;
-    margin-left: 8px;
+    margin-left: -75px;
   }
 
   .section2 .normal-text2 {
     font-weight: normal;
+    margin-left: 6px;
   }
   .section3 {
     display: block;
