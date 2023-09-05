@@ -2517,6 +2517,11 @@ p[data-text="learn2"] {
     font-weight: bold;
   }
 
+  .section .normal-text{
+    font-weight: normal;
+    margin-left: 11px;
+  }
+
   .bold-text {
     font-size: 20px;
     position: absolute;
@@ -2526,14 +2531,14 @@ p[data-text="learn2"] {
   .hide {
     font-size: 60px;
     margin-top: 0px;
-    margin-left: -84px;
+    margin-left: -76px;
     font-weight: bold;
     display: block;
   }
 
   .image {
     width: 80%;
-    margin-left: -31%;
+    margin-left: -33%;
     margin-top: 0;
     opacity: 1;
     transform: translateY(0);
@@ -2751,9 +2756,10 @@ p[data-text="learn2"] {
   }
 
   .sub-menu li {
-    margin-right: 0;
-    margin-left: 30px;
+    margin-right: 75px;
+    margin-left: -11px;
     text-align: center;
+    display: inline;
   }
 
   .separator {
