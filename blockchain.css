@@ -2017,7 +2017,7 @@ header {
   .seccion-carta img {
     max-width: 80%;
     height: auto;
-    margin-left: -36px;
+    margin-left: -166px;
   }
 
   .titulo10,
@@ -5400,11 +5400,11 @@ header {
   }
 
   .content15 {
-    font-size: 30px;
+    font-size: 28px;
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-left: 6px;
-    margin-top: -327px;
+    margin-top: -284px;
     text-align: left;
   }
 
@@ -5442,8 +5442,8 @@ header {
   .title15::before {
     content: "";
     position: absolute;
-    top: 50%;
-    left: -50px;
+    top: 36%;
+    left: -1px;
     width: 40px;
     height: 3px;
     background-color: rgb(255, 0, 255);
@@ -5458,7 +5458,7 @@ header {
   .image13 {
     width: 363px;
     height: auto;
-    margin-left: 98%;
+    margin-left: 92%;
     margin-top: -245px;
   }
 
