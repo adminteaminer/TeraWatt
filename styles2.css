@@ -3173,9 +3173,9 @@ p[data-text="learn2"] {
   }
 
   .middle-section1 .number {
-    margin-left: 40px;
     margin-top: -923px;
   }
+
   .middle-section1 h4 {
     margin-left: -1px;
     margin-top: -57px;
@@ -3206,6 +3206,10 @@ p[data-text="learn2"] {
   .quienes-somos2 {
     margin-left: 0%;
     text-align: center;
+  }
+
+  .join-us {
+    margin-top: 88px;
   }
 
   .join-us hr {
