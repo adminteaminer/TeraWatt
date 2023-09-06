@@ -3705,28 +3705,36 @@ p[data-text="learn2"] {
     margin-left: 13%;
   }
 
-  .image35 {
-    left: 280px;
-  }
+  /* ---------------Images -----------*/
 
-  .image34 {
-    left: 380px;
-  }
-
-  .image33 {
-    left: 480px;
-  }
-
-  .image32 {
-    left: 680px;
+  .image30 {
+    left: 21px;
+    top: 506px;
   }
 
   .image31 {
-    left: 580px;
+    left: 281px;
+    top: 506px;
   }
 
-  .image30 {
-    left: 600px;
+  .image32 {
+    left: 356px;
+    top: 506px;
+  }
+
+  .image33 {
+    left: 432px;
+    top: 506px;
+  }
+
+  .image34 {
+    left: 508px;
+    top: 506px;
+  }
+
+  .image35 {
+    left: 587px;
+    top: 506px;
   }
 
   .section2 {
