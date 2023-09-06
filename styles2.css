@@ -3232,6 +3232,10 @@ p[data-text="learn2"] {
     margin-left: 75px;
   }
 
+  .join-us2 .quienes-somos2 .texto {
+    text-align: justify;
+  }
+
   .container7 p {
     margin-left: 12%;
     text-align: start;
