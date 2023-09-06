@@ -9502,12 +9502,29 @@ p[data-text="learn2"] {
     box-shadow: 0 0 30px rgb(251, 3, 247);
   }
 
+  .open-menu-button {
+    display: none;
+  }
+
+  .middle-section1 p.number {
+    margin-right: -111px;
+    margin-top: -129px;
+  }
+
+  .middle-section1 h4 {
+    margin-right: -170px;
+    margin-bottom: 170px;
+    margin-left: 135px;
+  }
+
   .description1 p {
     font-size: 20px;
   }
 
   .quienes-somos2 {
     font-size: 20px;
+    margin-right: 79px;
+    text-align: justify;
   }
 
   .join-us hr {
@@ -9518,6 +9535,11 @@ p[data-text="learn2"] {
     margin-left: 110px;
     width: 335px;
     margin-bottom: 50px;
+  }
+
+  .sub-menu li {
+    margin-right: 111px;
+    margin-left: 23px;
   }
 
   .container7 .image1 {
@@ -9594,45 +9616,50 @@ p[data-text="learn2"] {
   }
 
   .container7 #wallet-content h6 {
-    margin-top: 49px;
+    margin-top: 54px;
     margin-left: 105px;
     font-size: 24px;
   }
   .container7 .image7 {
     margin-left: 50%;
-    margin-top: -25%;
+    margin-top: -24%;
     width: 15%;
     height: auto;
-    margin-bottom: 448px;
+    margin-bottom: 567px;
     border-radius: 7px;
     box-shadow: 0 0 10px #535255;
   }
   .container7 .image8 {
     margin-left: 32px;
-    margin-top: -632px;
+    margin-top: -615px;
     width: 15%;
     height: auto;
-    margin-bottom: 200px;
+    margin-bottom: 322px;
     border-radius: 7px;
     box-shadow: 0 0 10px #535255;
   }
   .container7 .image9 {
-    margin-top: -793px;
+    margin-top: -910px;
     margin-left: 1303px;
     width: 15%;
     height: auto;
-    margin-bottom: 545px;
+    margin-bottom: 685px;
     border-radius: 7px;
     box-shadow: 0 0 10px #535255;
   }
 
   .join-us2 .titulo {
-    margin-top: 119px;
+    margin-top: -52px;
   }
 
   .join-us2 .titulo hr {
     width: 491px;
     margin-left: 84px;
+  }
+
+  .join-us2 .quienes-somos2 .texto {
+    margin-left: 15px;
+    margin-right: -65px;
   }
 
   .servicios h1 {
@@ -9653,6 +9680,7 @@ p[data-text="learn2"] {
     font-size: 20px;
     text-align: justify;
     margin-top: 1px;
+    margin-right: 16px;
   }
 
   .inversiones {
@@ -9666,9 +9694,10 @@ p[data-text="learn2"] {
 
   .inversiones p {
     font-size: 21px;
-    margin-left: 15px;
+    margin-left: 11px;
     text-align: justify;
     margin-top: -23px;
+    margin-right: 12px;
   }
 
   .inversiones hr {
@@ -9680,11 +9709,176 @@ p[data-text="learn2"] {
     margin-bottom: 50px;
   }
 
+  .video-background {
+    margin-top: 101px;
+  }
+
+  .text-contenido1 {
+    margin-left: 1px;
+    margin-left: 5px;
+    margin-right: 53px;
+    margin-bottom: 8px;
+    margin-top: 7px;
+  }
+
+  .text-contenido1 .title1 {
+    font-size: 31px;
+    border: white solid 4px;
+    margin-left: 4px;
+    margin-right: 980px;
+    margin-top: 27px;
+  }
+
+  .text-contenido1 .text1 {
+    border: #fafafa solid 2px;
+    margin-left: 4px;
+    margin-right: 980px;
+    margin-top: -2px;
+  }
+  .gif1 {
+    transform: translateY(-85%);
+    margin-left: 166px;
+    width: 34px;
+  }
+
+  .text-contenido2 {
+    margin-left: 1px;
+    margin-right: 53px;
+    margin-bottom: -180px;
+    margin-top: 342px;
+  }
+
+  .text-contenido2 .title2 {
+    font-size: 31px;
+    border: transparent;
+    margin-left: 4px;
+    margin-right: 980px;
+    margin-top: -31px;
+  }
+
+  .text-contenido2 .text2 {
+    margin-left: 4px;
+    margin-right: 980px;
+    margin-top: -15px;
+  }
+
+  .gif2 {
+    transform: translateY(-98%);
+    margin-left: 165px;
+  }
+
+  .text-contenido3 {
+    border: white solid 2px;
+    margin-left: 5px;
+    margin-right: 53px;
+    margin-bottom: 8px;
+    margin-top: 363px;
+  }
+
+  .text-contenido3 .title3 {
+    font-size: 31px;
+    border: white solid 4px;
+    margin-left: 3px;
+    margin-right: 905px;
+  }
+
+  .text-contenido3 .text3 {
+    border: white solid 2px;
+    margin-left: 4px;
+    margin-right: 980px;
+    margin-top: -10px;
+  }
+
+  .gif3 {
+    transform: translateY(-74%);
+    margin-left: 158px;
+  }
+
+  .text-contenido4 {
+    margin-left: 17px;
+    border: white solid 2px;
+    margin-right: 50px;
+    margin-top: -903px;
+  }
+
+  .text-contenido4 .title4 {
+    font-size: 31px;
+    border: white solid 4px;
+    margin-left: 926px;
+    margin-right: 7px;
+    margin-bottom: 45px;
+    margin-top: 25px;
+  }
+
+  .text-contenido4 .text4 {
+    border: white solid 2px;
+    margin-left: 951px;
+    margin-right: 62px;
+    margin-top: -22px;
+  }
+
+  .gif4 {
+    transform: translateY(-3%);
+    margin-left: 42%;
+  }
+
+  .text-contenido5 {
+    margin-left: 1px;
+    margin-left: 17px;
+    margin-right: 50px;
+    margin-top: 297px;
+    margin-bottom: -168px;
+  }
+
+  .text-contenido5 .title5 {
+    font-size: 31px;
+    margin-left: 950px;
+    margin-right: 7px;
+    margin-bottom: 38px;
+    margin-top: -31px;
+  }
+
+  .text-contenido5 .text5 {
+    margin-left: 951px;
+    margin-right: 3px;
+    margin-top: -60px;
+  }
+
+  .gif5 {
+    transform: translateY(-63%);
+  }
+
+  .text-contenido6 {
+    margin-left: 17px;
+    border: white solid 2px;
+    margin-right: 50px;
+    margin-top: 355px;
+  }
+
+  .text-contenido6 .title6 {
+    font-size: 31px;
+    border: white solid 4px;
+    margin-left: 950px;
+    margin-right: 7px;
+    margin-bottom: 38px;
+  }
+
+  .text-contenido6 .text6 {
+    border: white solid 2px;
+    margin-left: 951px;
+    margin-right: 3px;
+    margin-top: -60px;
+  }
+
+  .gif6 {
+    transform: translateY(-66%);
+  }
+
   .image {
-    width: 100%;
+    width: 36%;
     height: auto;
-    margin-left: -6%;
-    margin-top: 200px;
+    margin-left: -7%;
+    margin-top: 293px;
     opacity: 0;
     transform: translateX(100%);
     transition: opacity 0.8s, transform 0.8s;
@@ -9699,12 +9893,47 @@ p[data-text="learn2"] {
   .section .normal-text {
     font-weight: normal;
     font-size: 131px;
+    margin-left: 16px;
+  }
+
+  .section .bold-text {
+    margin-left: 16px;
   }
 
   .content8 {
-    margin-left: -111%;
-    margin-top: 590px;
+    margin-left: -1578px;
+    margin-top: 550px;
     text-align: left;
-    font-size: 18px;
+    font-size: 24px;
+  }
+
+  .button-container {
+    margin-left: -72px;
+    margin-top: -40px;
+  }
+
+  .video-section .title9 {
+    top: 33%;
+    left: 34%;
+    font-size: 100px;
+  }
+
+  .video-section .normal-text {
+    font-size: 91px;
+    margin-left: 16%;
+  }
+
+  .video-section .bold-text {
+    font-size: 94px;
+    margin-left: 17%;
+  }
+
+  .video-section .content9 {
+    font-size: 20px;
+    top: 61%;
+    left: 46%;
+  }
+
+  .image30 {
   }
 }
