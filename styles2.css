@@ -3222,6 +3222,16 @@ p[data-text="learn2"] {
     margin-bottom: 50px;
   }
 
+  .join-us .titulo {
+    margin-top: -17px;
+  }
+
+  .sub-menu li {
+    display: initial;
+    margin-right: 8%;
+    margin-left: 75px;
+  }
+
   .container7 p {
     margin-left: 12%;
     text-align: start;
