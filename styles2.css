@@ -3405,6 +3405,7 @@ p[data-text="learn2"] {
     color: #000;
     margin-top: 2%;
     margin-left: 3%;
+    text-align: justify;
   }
 
   .card-section {
@@ -3456,6 +3457,7 @@ p[data-text="learn2"] {
     color: #000;
     margin-top: 2%;
     margin-left: 3%;
+    text-align: center;
   }
 
   .text-contenido {
