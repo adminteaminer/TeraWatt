@@ -9776,7 +9776,7 @@ p[data-text="learn2"] {
   }
 
   .text-contenido3 .title3 {
-    font-size: 31px;
+    font-size: 30px;
     border: white solid 4px;
     margin-left: 3px;
     margin-right: 905px;
@@ -9961,5 +9961,46 @@ p[data-text="learn2"] {
   .image35 {
     margin-left: 498px;
     top: 655px;
+  }
+
+  .section2 {
+    margin-top: -54px;
+  }
+
+  .image13 {
+    margin-left: 619px;
+    margin-top: -247px;
+  }
+
+  .content15 {
+    margin-left: -1002px;
+  }
+
+  .curved-section {
+    margin-left: 377px;
+    margin-right: 401px;
+  }
+
+  .footer-title {
+    margin-left: -288px;
+  }
+
+  .footer-title2 {
+    margin-left: -18px;
+  }
+
+  .footer-input {
+    width: 172%;
+    margin-left: -44px;
+  }
+
+  .footer-trademark-text {
+    font-size: 12px;
+    margin-left: -1050px;
+  }
+
+  .footer-form div {
+    margin-left: -49px;
+    margin-right: -104px;
   }
 }
