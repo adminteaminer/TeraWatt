@@ -795,6 +795,10 @@ media query responsive
     margin-left: 285px;
   }
 
+  .title {
+    font-size: 64px;
+  }
+
   .title2 {
     margin-top: -70px;
     font-size: 47px;
@@ -993,7 +997,7 @@ media query responsive
     overflow-x: hidden;
   }
   .menu {
-    margin-left: 290px;
+    margin-left: 247px;
   }
 
   .menu ul {
@@ -1115,7 +1119,7 @@ media query responsive
     overflow-x: hidden;
   }
   .menu {
-    margin-left: 370px;
+    margin-left: 513px;
   }
 
   .menu ul {
