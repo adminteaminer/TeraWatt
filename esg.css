@@ -270,90 +270,6 @@ media query responsive
   text-align: center;
 }
 
-/* Media Query para dispositivos móviles */
-@media screen and (max-width: 768px) {
-  /* ... (otros estilos) ... */
-
-  /* Estilos para el menú deslizable */
-  .mobile-menu {
-    display: block;
-  }
-
-  .menu {
-    display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  header {
-    padding: 10px;
-  }
-
-  .logo {
-    margin-left: 0;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .menu {
-    margin: 0;
-    padding: 0;
-  }
-
-  .menu ul {
-    display: block;
-    text-align: center;
-  }
-
-  .menu ul li {
-    margin: 0px 0;
-  }
-
-  /* ... (otros estilos) ... */
-
-  /* Estilos para el banner en dispositivos móviles */
-  .banner {
-    width: 90%;
-    padding: 10px;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-  }
-
-  .banner img {
-    width: 100%;
-  }
-
-  .top-menu .Language ul {
-    display: none;
-    position: static;
-    margin-left: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    z-index: 999;
-    border-radius: 0;
-  }
-
-  .top-menu .Language:hover ul {
-    display: none;
-  }
-
-  .language-menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .language-menu li {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 15px;
-    text-align: center;
-  }
-}
-/* termino media query responsive 1*/
-
-/*texto y titulo header */
-
 .container {
   max-width: 1200px;
   margin: 100px auto;
@@ -425,24 +341,6 @@ media query responsive
 }
 
 /* Media query para pantalla más pequeña */
-
-@media (max-width: 768px) {
-  .title {
-    font-size: 70px; /* Cambio de tamaño de fuente para dispositivos pequeños */
-  }
-
-  .image {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
-
-  .text {
-    font-size: 16px; /* Cambio de tamaño de fuente para dispositivos pequeños */
-    color: black;
-    margin-top: 20px;
-  }
-}
 
 /*termino media query */
 
@@ -638,93 +536,184 @@ media query responsive
   cursor: pointer;
 }
 
-/*-----------------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------------------
-  media query responsive
-  -------------------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------------------*/
-/* Media query para dispositivos con ancho máximo de 768px */
-@media (max-width: 768px) {
-  .footer {
-    padding: 20px 0;
-    margin: 0;
+/*-----------------------------------------------------Media Queries for 320px to 480px--------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+  header {
+    padding: 10px;
+  }
+
+  .logo {
+    margin-left: 0;
     text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu ul {
+    display: block;
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin: 0px 0;
+  }
+
+  .banner {
+    width: 90%;
+    padding: 10px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .top-menu .Language ul {
+    display: none;
+    position: static;
+    margin-left: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    z-index: 999;
+    border-radius: 0;
+  }
+
+  .top-menu .Language:hover ul {
+    display: none;
+  }
+
+  .language-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .language-menu li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 34px;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 88px;
+  }
+
+  .get-started-button {
+    font-size: 8px;
+    border: 1px solid #ee0bc8;
+    margin-left: -90px;
+    margin-top: 45px;
+    padding: 7px 11px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .title2 {
+    font-size: 24px;
+    margin-top: -96px;
+  }
+  .footer {
+    padding-top: -500px;
+    margin-bottom: 0;
   }
 
   .footer-container {
     flex-direction: column;
     align-items: center;
+    max-width: unset;
+    margin: 0;
   }
 
   .footer-column {
-    width: 100%;
-    margin: 20px 0;
-  }
-
-  .footer-title1,
-  .footer-title2 {
-    margin-left: 0;
+    width: 80%;
     text-align: center;
-    white-space: normal;
-  }
-
-  .footer-text {
-    margin-left: 100px;
-    text-align: center;
-    padding: 0;
-    margin-right: 100px;
+    margin-bottom: 20px;
   }
 
   .footer-title {
-    margin-left: 0px;
+    margin-left: -35px;
+    font-size: 14px;
   }
-  .footer-navigation {
+
+  .footer-title1 {
     text-align: center;
-    margin-left: 250px;
+    margin-left: 0;
+    margin-top: -33px;
+  }
+
+  .footer-title2 {
+    text-align: center;
+    display: block;
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .footer-text {
+    margin-left: 0;
+    padding: 0 15px;
+    margin-left: -8px;
+    margin-right: 24px;
+    text-align: justify;
+    font-size: 9px;
   }
 
   .footer-navigation li {
-    margin-left: 0;
+    margin-left: -4px;
+    text-align: center;
+    font-size: 14px;
   }
 
-  .footer-button {
-    margin-left: 0;
-  }
-
-  .footer-separator {
-    margin: 50px 0;
+  .footer-input {
+    width: 60%;
   }
 
   .footer-bottom {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
-    margin-right: 0;
-    margin-top: 20px;
+    margin: 0;
+  }
+
+  .footer-button {
+    margin-left: 1px;
   }
 
   .footer-logo img {
-    margin-left: 0;
+    margin: 20px 0;
+  }
+
+  .footer-form div {
+    font-size: 11px;
+    margin-left: 3px;
   }
 
   .footer-trademark-text {
     margin-left: 0;
-    text-align: center;
+    font-size: 13px;
   }
 
   .footer-trademark-button {
     margin: 10px 0;
   }
-
-  .redes-sociales {
-    margin-left: 0;
-    text-align: center;
-  }
-}
-
-/*termino de media query 13*/
-
-/*-----------------------------------------------------Media Queries for 320px to 480px--------------------------------------------*/
-@media screen and (min-width: 320px) and (max-width: 480px) {
 }
 
 /*------------------------------------------------------------Media Queries 481px to 768px----------------------------------**/
@@ -800,6 +789,17 @@ media query responsive
     text-align: center;
   }
 
+  .get-started-button {
+    font-size: 13px;
+    border: 1px solid #ee0bc8;
+    margin-left: 285px;
+  }
+
+  .title2 {
+    margin-top: -70px;
+    font-size: 47px;
+  }
+
   .footer {
     padding-top: -500px;
     margin-bottom: 0;
@@ -819,7 +819,7 @@ media query responsive
   }
 
   .footer-title {
-    margin-left: 0;
+    margin-left: -35px;
   }
 
   .footer-title1 {
@@ -837,11 +837,18 @@ media query responsive
   .footer-text {
     margin-left: 0;
     padding: 0 15px;
+    margin-left: -8px;
+    margin-right: 24px;
+    text-align: justify;
   }
 
   .footer-navigation li {
-    margin-left: 0;
+    margin-left: -237px;
     text-align: center;
+  }
+
+  .footer-input {
+    width: 28%;
   }
 
   .footer-bottom {
@@ -856,6 +863,7 @@ media query responsive
 
   .footer-trademark-text {
     margin-left: 0;
+    font-size: 13px;
   }
 
   .footer-trademark-button {
@@ -865,6 +873,118 @@ media query responsive
 
 /*-----------------------------------------Media Queries for 769px to 1024px-----------------------*/
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+  header {
+    padding: 10px;
+  }
+
+  .logo {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu ul {
+    display: block;
+    text-align: center;
+  }
+
+  .menu ul li {
+    margin: 0px 0;
+  }
+
+  .banner {
+    width: 90%;
+    padding: 10px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .top-menu .Language ul {
+    display: none;
+    position: static;
+    margin-left: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    z-index: 999;
+    border-radius: 0;
+  }
+
+  .top-menu .Language:hover ul {
+    display: none;
+  }
+
+  .language-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .language-menu li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 34px;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 88px;
+  }
+
+  .get-started-button {
+    font-size: 13px;
+    border: 1px solid #ee0bc8;
+    margin-left: 285px;
+  }
+
+  .title2 {
+    margin-top: 10px;
+  }
+
+  .footer-title {
+    margin-left: 97px;
+    margin-top: 28px;
+  }
+
+  .footer-title1 {
+    margin-left: 131px;
+  }
+
+  .footer-navigation li {
+    margin-left: 110px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+    margin-left: -39px;
+    margin-top: 16px;
+    margin-right: -124px;
+    text-align: justify;
+  }
+
+  .footer-trademark-text {
+    font-size: 15px;
+    margin-left: -731px;
+  }
 }
 
 /*-----------------------------------------Media Queries for 1025px to 1599px-----------------------*/
@@ -873,7 +993,7 @@ media query responsive
     overflow-x: hidden;
   }
   .menu {
-    margin-left: 370px;
+    margin-left: 290px;
   }
 
   .menu ul {
@@ -946,6 +1066,46 @@ media query responsive
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     font-size: 14px;
+  }
+
+  .title {
+    font-size: 75px;
+    margin-top: 107px;
+  }
+
+  .text {
+    margin-top: 57px;
+  }
+
+  .title2 {
+    font-size: 61px;
+    margin-top: -61px;
+  }
+
+  .footer-title {
+    margin-left: 120px;
+    margin-top: 28px;
+  }
+
+  .footer-title1 {
+    margin-left: 131px;
+  }
+
+  .footer-navigation li {
+    margin-left: 110px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+    margin-left: -12px;
+    margin-top: 16px;
+    margin-right: -124px;
+    text-align: justify;
+  }
+
+  .footer-trademark-text {
+    font-size: 1px;
+    margin-left: -525px;
   }
 }
 
@@ -1030,185 +1190,43 @@ media query responsive
     font-size: 14px;
   }
 
-  .text-container .title1 {
-    margin-left: -788px;
-    font-weight: bold;
-    margin-top: 510px;
-  }
-
-  .image {
-    width: 49%;
-    margin-left: -6%;
-  }
-
-  .image2 {
-    width: 48%;
-    margin-left: -6%;
-    margin-top: 216px;
-  }
-
-  .image3 {
-    width: 48%;
-    margin-left: -7%;
-  }
-
-  .text-container .text1 {
-    margin-left: -1050px;
-  }
-
   .title {
-    margin-left: 46px;
+    font-size: 75px;
+    margin-top: 107px;
   }
 
-  .content8 {
-    margin-left: -1578px;
-    margin-top: 604px;
+  .text {
+    margin-top: 57px;
   }
 
   .title2 {
-    margin-left: 46px;
-  }
-
-  .content9 {
-    margin-top: 589px;
-    margin-left: -1664px;
-  }
-
-  .title3 {
-    margin-left: 46px;
-  }
-
-  .content10 {
-    font-size: 24px;
-    font-family: "Poppins", sans-serif;
-    color: #000000;
-    margin-bottom: 10px;
-    text-align: left;
-    margin-top: 581px;
-    margin-left: -1690px;
-  }
-
-  .overlay2 .title {
-    margin-left: -1261px;
-    margin-top: -51px;
-  }
-
-  .video-container video {
-    top: 420px;
-    left: 880px;
-    width: 44%;
-    height: 44%;
-    object-fit: cover;
-  }
-
-  .join-us {
-    margin-top: 111px;
-  }
-
-  .quienes-somos2 {
-    text-align: justify;
-  }
-
-  .container7 .image1 {
-    margin-left: 854px;
-    margin-top: -876px;
-    margin-bottom: 884px;
-  }
-
-  .container7 .image20 {
-    margin-left: 28px;
-    margin-top: -926px;
-    margin-bottom: 884px;
-  }
-
-  .container7 .image30 {
-    margin-left: 20px;
-    width: 15%;
-    margin-top: -862px;
-    margin-bottom: 885px;
-  }
-
-  .container7 .image4 {
-    margin-left: 914px;
-    margin-top: -955px;
-    margin-bottom: 806px;
-    width: 12%;
-  }
-
-  .container7 .image5 {
-    margin-left: 20px;
-    margin-top: -956px;
-    margin-bottom: 781px;
-    width: 12%;
-  }
-
-  .container7 .image6 {
-    width: 12%;
-    margin-top: -1111px;
-    margin-left: 1373px;
-  }
-
-  .container7 #wallet-content h6 {
-    margin-top: 40px;
-  }
-
-  .container7 .image7 {
-    margin-left: 864px;
-    margin-top: -449px;
-    margin-bottom: 282px;
-  }
-
-  .container7 .image8 {
-    margin-left: 22px;
-    margin-top: -455px;
-    margin-bottom: 281px;
-  }
-
-  .container7 .image10 {
-    margin-top: -822px;
-    margin-bottom: 659px;
-    margin-left: 1001px;
-  }
-
-  .container7 .image11 {
-    margin-top: -1770px;
-    margin-bottom: 683px;
-    margin-left: 1286px;
-  }
-
-  .container7 .image9 {
-    margin-top: -470px;
-    margin-bottom: 842px;
-    margin-left: 1422px;
-  }
-
-  .curved-section {
-    margin-top: -370px;
-    margin-bottom: -160px;
-    padding: 10px;
-  }
-
-  .bold-text {
-    font-size: 12px;
-  }
-
-  .email-input {
-    margin-left: 494px;
-    margin-top: -60px;
-    padding: 8px;
-  }
-
-  .subscribe-button {
-    margin-top: -65px;
-    margin-left: 691px;
-  }
-
-  .footer-text {
-    font-size: 16px;
-    margin-left: -166px;
+    font-size: 61px;
+    margin-top: -61px;
   }
 
   .footer-title {
-    margin-left: -70px;
+    margin-left: 97px;
+    margin-top: 28px;
+  }
+
+  .footer-title1 {
+    margin-left: 131px;
+  }
+
+  .footer-navigation li {
+    margin-left: 110px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+    margin-left: -39px;
+    margin-top: 16px;
+    margin-right: -124px;
+    text-align: justify;
+  }
+
+  .footer-trademark-text {
+    font-size: 15px;
+    margin-left: -731px;
   }
 }
