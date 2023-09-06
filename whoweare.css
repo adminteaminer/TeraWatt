@@ -645,6 +645,121 @@ header {
 
 /*-----------------------------------------Media Queries for 1025px to 1599px-----------------------*/
 @media screen and (min-width: 1025px) and (max-width: 1599px) {
+  body {
+    overflow-x: hidden;
+  }
+  .menu {
+    margin-left: 290px;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .menu ul li {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .menu ul li a {
+    color: #030303;
+    text-decoration: none;
+    transition: color 0.1s ease;
+    font-size: 16px; /* Added unit (e.g., px) to font size */
+  }
+
+  .menu ul li a:hover {
+    color: #f809f4;
+  }
+
+  .top-menu {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 2px;
+    font-size: 16px; /* Added unit (e.g., px) to font size */
+  }
+
+  .top-menu li {
+    margin-right: 30px;
+    margin: 10px;
+    position: relative;
+    font-size: small;
+  }
+
+  .top-menu li:hover {
+    color: #ff9100;
+  }
+
+  .top-menu .signin a {
+    color: rgb(0, 0, 0);
+  }
+
+  .top-menu .signin a:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 8px #dd12d3;
+    border-radius: 2px;
+    background-color: #dd12d3;
+    transition: background-color 0.6s ease;
+  }
+
+  .get-started-button {
+    text-align: center;
+    border: 1px solid #ee0bc8;
+    margin-left: 56px;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .title {
+    margin-top: 102px;
+    text-align: center;
+  }
+
+  .text {
+    margin-top: 40px;
+  }
+
+  .title2 {
+    text-align: center;
+    font-size: 27px;
+    margin-top: -66px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+    margin-left: -24px;
+  }
+
+  .footer-title2 {
+    margin-left: -6px;
+  }
+
+  .footer-button {
+    margin-left: 70px;
+  }
+
+  .footer-title {
+    margin-left: 20px;
+  }
+
+  .footer-trademark-text {
+    font-size: 13px;
+    margin-left: -500px;
+  }
 }
 
 /*-----------------------Media Queries for 1600px----------*/
@@ -729,8 +844,18 @@ header {
   }
 
   .title {
-    margin-top: 20px;
+    margin-top: 102px;
     text-align: center;
+  }
+
+  .text {
+    margin-top: 40px;
+  }
+
+  .title2 {
+    text-align: center;
+    font-size: 27px;
+    margin-top: -66px;
   }
 
   .footer-text {
@@ -740,5 +865,10 @@ header {
 
   .footer-title {
     margin-left: -70px;
+  }
+
+  .footer-trademark-text {
+    font-size: 13px;
+    margin-left: -685px;
   }
 }
