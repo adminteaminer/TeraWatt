@@ -1335,4 +1335,42 @@ header {
     text-decoration: none;
     font-size: 14px;
   }
+
+  /*Fin menu*/
+
+  .title {
+    margin-top: 126px;
+  }
+
+  .text {
+    margin-top: 67px;
+  }
+
+  .title2 {
+    text-align: center;
+    margin-top: -71px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .text2 {
+    margin-top: 14px;
+    font-size: 16px;
+  }
+
+  .footer-title {
+    margin-left: -81px;
+    margin-top: 32px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+    margin-left: -174px;
+  }
+  .footer-trademark-text {
+    font-size: 14px;
+    margin-left: -714px;
+  }
 }
