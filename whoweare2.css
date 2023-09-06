@@ -870,7 +870,7 @@ header {
 }
 
 /*---------------------------------------- Media Query 1025 to 1599px -------------------------------------------*/
-@media screen and (min-width: 1025px) and (max-width: 1599px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   body {
     overflow-x: hidden;
   }
