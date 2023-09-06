@@ -524,8 +524,8 @@ header {
 
   .get-started-button {
     border: 1px solid #ee0bc8;
-    font-size: 14px;
-    margin-left: -81px;
+    font-size: 10px;
+    margin-left: -17px;
     padding: 5px 13px;
     margin-top: 41px;
   }
@@ -591,12 +591,17 @@ header {
   .title2 {
     font-size: 20px;
     text-align: center;
+    margin-top: -48px;
   }
 
   .text2 {
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .texto {
+    text-align: justify;
   }
 
   h2 {
@@ -623,6 +628,7 @@ header {
 
   .footer-title {
     margin-left: 0;
+    font-size: 13px;
   }
 
   .footer-title1 {
@@ -635,19 +641,24 @@ header {
     display: block;
     margin-left: 0;
     margin-top: 10px;
+    font-size: 13px;
   }
 
   .footer-text {
     margin-left: 0;
     padding: 0 5px;
     text-align: justify;
-    font-size: 15px;
+    font-size: 11px;
   }
 
   .footer-navigation li {
     margin-left: 0;
     text-align: center;
     font-size: 16px;
+  }
+
+  .footer-navigation li a {
+    font-size: 13px;
   }
 
   .footer-input {
@@ -671,7 +682,7 @@ header {
 
   .footer-trademark-text {
     margin-left: 0;
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .footer-trademark-button {
