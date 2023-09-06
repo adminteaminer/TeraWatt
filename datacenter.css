@@ -5632,16 +5632,22 @@ a:hover {
   }
 
   .image13 {
-    width: 600px;
     width: 618px;
+    margin-top: -288px;
+    margin-left: 672px;
+    margin-right: 92px;
   }
 
   .title15 {
     margin-left: -17px;
   }
 
+  .title16 {
+    margin-left: -33px;
+  }
+
   .content15 {
-    margin-left: -1369px;
+    margin-left: -1403px;
     margin-top: 588px;
   }
 
