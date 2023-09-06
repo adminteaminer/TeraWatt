@@ -2874,6 +2874,7 @@ opacity: 1;
     font-size: 20px;
   }
   
+  /*
   .menu ul {
     list-style-type: none;
     margin: -9%;
@@ -2882,20 +2883,37 @@ opacity: 1;
     align-items: center;
     margin-left: -134%;
     font-family: "Roboto", sans-serif;
-    
-    
+  }*/
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
   }
+
   
+  /*
   .menu ul li {
     margin-left: 30px;
     padding: 10px 5px;
     font-size: 16px;
+  }*/
+
+  .menu ul li {
+    margin-left: 30px;
+    font-size: 20px;
   }
+
+
   
   .menu ul li a {
     color: #030303;
     text-decoration: none;
     transition: color 0.1s ease;
+    font-size: 16px;
    
   }
   
@@ -2904,22 +2922,42 @@ opacity: 1;
     
   }
   
+
+  /*
   .top-menu {
     display: flex;
     font-weight: bold;
     align-items: center;
     margin-top: 2px;
-    margin-right: 0px;
     margin-left: 300px;
     font-size: 20px;
+  }*/
+
+  .top-menu {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 2px;
+    font-size: 16px; /* Added unit (e.g., px) to font size */
   }
-  
+
+
+  /*
   .top-menu li {
     margin-right: 100px;
     margin: 10px;
     position: relative;
     font-size: 20px;
-  } 
+  } */
+
+  .top-menu li {
+    margin-right: 30px;
+    margin: 10px;
+    position: relative;
+    font-size: small;
+  }
+
+
   
   .top-menu li:hover {
     color: #ff9100; /* Cambio de color de las letras al pasar el mouse */
@@ -3044,6 +3082,8 @@ opacity: 1;
     color: #ff6b9a;
   }
   
+
+  /*
   .get-started-button {
     text-align: center;
     border: 2px solid #ee0bc8;
@@ -3060,6 +3100,26 @@ opacity: 1;
     font-size: 20px;
     margin-top: -16px;
   }
+
+  */
+
+  .get-started-button {
+    text-align: center;
+    border: 1px solid #ee0bc8;
+    margin-left: 56px;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+
     
   .get-started-button:hover {
     background: linear-gradient(to bottom right, #5900ff, #a200ff, #f700ff );
