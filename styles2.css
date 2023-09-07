@@ -6376,8 +6376,8 @@ p[data-text="learn2"] {
 
   .content15 {
     font-size: 18px;
-    margin-left: -585px;
-    margin-top: 530px;
+    margin-left: -266px;
+    margin-top: 556px;
     text-align: center;
     margin-right: 50px;
     margin-bottom: 90px;
@@ -6473,7 +6473,7 @@ p[data-text="learn2"] {
   }
   .curved-section {
     padding: 0px 200px;
-    margin-left: 60px;
+    margin-left: 148px;
   }
 
   .bold-text {
@@ -6538,6 +6538,8 @@ p[data-text="learn2"] {
 
   .footer-trademark-text {
     margin-left: 0;
+    font-size: 12px;
+    margin-top: -180px;
   }
 
   .footer-trademark-button {
