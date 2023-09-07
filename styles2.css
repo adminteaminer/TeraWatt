@@ -2144,12 +2144,6 @@ p[data-text="learn2"] {
     font-size: 40px;
   }
 
-  .description1 p {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    margin-left: 0;
-  }
   .join-us {
     text-align: center;
     padding-left: 50px;
@@ -5895,7 +5889,7 @@ p[data-text="learn2"] {
   }
 
   .container1 p {
-    font-size: 15px;
+    font-size: 24px;
     margin-left: 0;
     margin-top: -10px;
     text-align: center;
@@ -5948,10 +5942,13 @@ p[data-text="learn2"] {
     color: #bc02ff;
     margin-bottom: 10px;
   }
+
   .description1 p {
-    font-size: 1em;
+    font-size: 16px;
     line-height: 1.4;
     margin-left: 10px;
+    text-align: center;
+    margin-right: 10px;
   }
 
   .custom-hr {
@@ -5967,15 +5964,17 @@ p[data-text="learn2"] {
   }
 
   .quienes-somos2 {
-    margin-left: 20px;
+    margin-left: -47px;
     margin-bottom: 30px;
-    font-size: 14px;
+    font-size: 16px;
+    text-align: justify;
   }
 
   .join-us hr {
-    margin-left: 125px;
-    width: 70%;
-    margin-bottom: 20px;
+    margin-left: 298px;
+    width: 38%;
+    margin-bottom: 63px;
+    margin-top: -29px;
   }
 
   .container2 img {
