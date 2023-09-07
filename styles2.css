@@ -2482,14 +2482,6 @@ p[data-text="learn2"] {
     text-align: center;
   }
 
-  .video-section .content9 {
-    font-size: 16px;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-  }
-
   .image30,
   .image31,
   .image32,
@@ -2499,7 +2491,6 @@ p[data-text="learn2"] {
     width: 30px;
     margin-left: -400px;
     bottom: 5%;
-    display: none;
   }
   .section2 {
     margin-top: 20px;
@@ -6254,7 +6245,7 @@ p[data-text="learn2"] {
   }
 
   .title {
-    font-size: 60px;
+    font-size: 28px;
     margin-top: 40px;
     margin-left: 0;
     line-height: 1.2;
@@ -6272,13 +6263,15 @@ p[data-text="learn2"] {
     font-size: 16px;
     margin-top: 20px;
     margin-left: 0;
-    text-align: center;
+    text-align: justify;
   }
+
   .section .bold-text {
     font-weight: bold;
     font-size: 40px;
-    margin-left: 50px;
+    margin-left: 7px;
   }
+
   .custom-button {
     margin-top: -500px;
     margin-left: 0px;
@@ -6292,7 +6285,7 @@ p[data-text="learn2"] {
   .video-section .normal-text {
     font-weight: bold;
     font-size: 30px;
-    margin-left: -60%;
+    margin-left: -56%;
   }
 
   .video-section .bold-text {
@@ -6303,19 +6296,20 @@ p[data-text="learn2"] {
 
   .video-section .title9 {
     font-size: 30px;
-    top: 30%;
-    left: 26%;
+    top: 24%;
+    left: 29%;
     transform: translate(-50%, -50%);
     line-height: 1.2;
     text-align: center;
   }
 
   .video-section .content9 {
-    font-size: 16px;
-    top: 35%;
+    font-size: 12px;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+    margin-left: 2px;
+    margin-right: -190px;
   }
 
   .image30,
@@ -6324,11 +6318,31 @@ p[data-text="learn2"] {
   .image33,
   .image34,
   .image35 {
-    width: 30px;
-    margin-left: -400px;
-    bottom: 5%;
-    display: none;
+    width: 52px;
+    margin-left: -408px;
+    bottom: 12%;
   }
+
+  .image30 {
+    left: 491px;
+  }
+
+  .image31 {
+    left: 560px;
+  }
+
+  .image32 {
+    left: 636px;
+  }
+
+  .image33 {
+    left: 707px;
+  }
+
+  .image34 {
+    left: 778px;
+  }
+
   .section2 {
     margin-top: 20px;
     padding-bottom: 150px;
