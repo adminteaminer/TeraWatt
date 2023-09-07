@@ -1228,13 +1228,7 @@ p[data-text="learn2"] {
   }
 
   .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px; /* Adjust as needed */
+    display: none;
   }
 
   .menu ul li {
@@ -1389,18 +1383,18 @@ p[data-text="learn2"] {
 
   .get-started-button {
     text-align: center;
-    border: 2px solid #ee0bc8;
-    margin-left: 10px; /* Adjust as needed */
+    border: 1px solid #ee0bc8;
+    margin-left: -895px;
     background-color: #eeeeee;
     color: #000000;
-    padding: 5px 10px; /* Adjust as needed */
+    padding: 5px 10px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
     font-weight: bold;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    font-size: 14px; /* Adjust as needed */
+    font-size: 9px;
   }
 
   .get-started-button:hover {
@@ -1416,8 +1410,8 @@ p[data-text="learn2"] {
   .open-menu-button {
     display: block;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 6px;
+    right: 270px;
     font-size: 24px;
     cursor: pointer;
     z-index: 1001;
@@ -1437,7 +1431,8 @@ p[data-text="learn2"] {
   }
 
   .slidebar.open {
-    right: 0;
+    right: 232px;
+    top: 83px;
   }
 
   .slidebar ul {
@@ -2126,7 +2121,7 @@ p[data-text="learn2"] {
     background-color: #424141;
     box-shadow: 0 0 8px #0d00ff;
     border: #a200ff;
-    padding: 2px;
+    padding: 30px;
     border-radius: 5px;
     padding-left: 130px;
     padding-right: 0;
@@ -2155,24 +2150,23 @@ p[data-text="learn2"] {
   }
 
   .email-input {
-    padding: 20px;
-    border: 2px solid #e600ff;
-    border-radius: 5px 0 0 5px;
-    margin-left: 1200px;
-    margin-top: -100px;
-    position: absolute;
+    margin-left: 211px;
+    width: 50%;
+    margin-top: 10px;
+    position: relative;
+    padding: 2px;
   }
 
   .subscribe-button {
-    padding: 10px 20px;
+    padding: 5px 13px;
     background-color: rgb(124, 123, 124);
     color: #ffffff;
     border: none;
     font-weight: bold;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    margin-left: 1400px;
-    margin-top: -100px;
+    margin-left: 314px;
+    margin-top: 61px;
     position: absolute;
   }
 
