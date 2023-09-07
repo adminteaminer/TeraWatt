@@ -4809,161 +4809,75 @@ p[data-text="learn2"] {
   }
 
   .text-contenido1 .title1 {
-    font-size: 18px;
-    color: #d400ff;
-    text-align: left;
-    margin-left: 70px;
-    margin-bottom: 12px;
-    margin-top: 40px;
+    display: none;
   }
 
   .text-contenido1 .text1 {
-    font-size: 30px;
-    color: #000000;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 7%;
+    display: none;
   }
 
   .gif1 {
-    display: block;
-    margin: 0 100px;
-    margin-top: -30px;
-    transform: translateY(-90%);
-    width: 30px;
-    height: auto;
+    display: none;
   }
+
   .text-contenido2 .title2 {
-    font-size: 18px;
-    color: #d400ff;
-    text-align: left;
-    margin-left: 70px;
-    margin-bottom: 10px;
-    margin-top: 50px;
+    display: none;
   }
 
   .text-contenido2 .text2 {
-    font-size: 30px;
-    color: #000000;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 7%;
+    display: none;
   }
 
   .gif2 {
-    display: block;
-    margin: 0 auto;
-    margin-top: -40px;
-    transform: translateY(-60%);
-    width: 50px;
-    height: auto;
-    margin-left: 100px;
+    display: none;
   }
 
   .text-contenido3 .title3 {
-    font-size: 18px;
-    color: #d400ff;
-    text-align: left;
-    margin-left: 14%;
-    margin-bottom: 10px;
-    margin-top: 50px;
+    display: none;
   }
 
   .text-contenido3 .text3 {
-    font-size: 30px;
-    color: #000000;
-    text-align: center;
-    margin-top: -30px;
-    margin-left: 12px;
+    display: none;
   }
 
   .gif3 {
-    display: block;
-    margin-top: -40px;
-    transform: translateY(-50%);
-    width: 60px;
-    height: auto;
-    margin-left: 36%;
+    display: none;
   }
 
   .text-contenido4 .title4 {
-    font-size: 18px;
-    color: #d400ff;
-    text-align: center;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    margin-top: 70px;
-    margin-right: 6px;
+    display: none;
   }
 
   .text-contenido4 .text4 {
-    font-size: 30px;
-    color: #000000;
-    text-align: center;
-    margin-top: 2%;
-    margin-left: 5%;
+    display: none;
   }
 
   .gif4 {
-    display: block;
-    margin: 0 auto;
-    margin-top: -60px;
-    transform: translateY(-50%);
-    width: 40px;
-    height: auto;
-    margin-left: 43%;
+    display: none;
   }
 
   .text-contenido5 .title5 {
-    font-size: 18px;
-    color: #d400ff;
-    text-align: left;
-    margin-left: 100px;
-    margin-bottom: 10px;
-    margin-top: 200px;
+    display: none;
   }
 
   .text-contenido5 .text5 {
-    font-size: 30px;
-    color: #000000;
-    text-align: center;
-    margin-top: -40px;
-    margin-left: 12px;
+    display: none;
   }
 
   .gif5 {
-    display: block;
-    margin: -22px 60px;
-    margin-top: -40px;
-    transform: translateY(-50%);
-    width: 60px;
-    height: auto;
+    display: none;
   }
 
   .text-contenido6 .title6 {
-    font-size: 18px;
-    color: #d400ff;
-    text-align: left;
-    margin-left: 111px;
-    margin-bottom: 20px;
-    margin-top: -224px;
+    display: none;
   }
 
   .text-contenido6 .text6 {
-    font-size: 30px;
-    color: #000000;
-    text-align: center;
-    margin-top: -62px;
-    margin-left: 12px;
+    display: none;
   }
 
   .gif6 {
-    display: block;
-    margin: -22px 41px;
-    margin-top: -45px;
-    transform: translateY(-50%);
-    width: 80px;
-    height: auto;
+    display: none;
   }
 
   .section {
@@ -5219,10 +5133,10 @@ p[data-text="learn2"] {
   }
 
   .title15 {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -10px;
+    margin-left: 5px;
     margin-top: 120px;
     text-align: center;
     display: flex;
@@ -5231,16 +5145,16 @@ p[data-text="learn2"] {
   .title15::before {
     content: "";
     position: absolute;
-    margin-top: 50px;
-    margin-left: 10px;
-    width: 210px;
+    margin-top: 4px;
+    margin-left: -20px;
+    width: 18px;
     height: 3px;
     background-color: rgb(255, 0, 255);
     transform: translateY(-50%);
   }
 
   .title16 {
-    font-size: 25px;
+    font-size: 19px;
     font-family: "Poppins", sans-serif;
     color: #000;
     margin-left: 5px;
@@ -5249,20 +5163,22 @@ p[data-text="learn2"] {
   }
 
   .image13 {
-    width: 150px;
+    width: 236px;
     height: auto;
-    margin-left: 60%;
-    margin-top: 240px;
+    margin-left: 3%;
+    margin-top: -86px;
   }
 
   .content15 {
-    font-size: 14px;
+    font-size: 10px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -162px;
-    margin-top: 554px;
-    text-align: left;
+    margin-left: -262px;
+    margin-top: 443px;
+    text-align: center;
+    margin-right: -3px;
   }
+
   .button-container {
     display: flex;
     justify-content: flex-start;
