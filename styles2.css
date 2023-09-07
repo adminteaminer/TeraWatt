@@ -5825,7 +5825,8 @@ p[data-text="learn2"] {
   }
 
   .get-started-button {
-    margin-left: 0;
+    margin-left: 238px;
+    font-size: 12px;
   }
 
   .open-menu-button {
