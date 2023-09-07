@@ -3829,7 +3829,7 @@ p[data-text="learn2"] {
   }
 
   .menu {
-    margin-left: 100px;
+    margin-left: -125px;
     font-size: 16px;
   }
 
@@ -3934,6 +3934,8 @@ p[data-text="learn2"] {
 
   .open-menu-button {
     display: block;
+    top: 28px;
+    right: 12px;
   }
 
   .slidebar {
@@ -5883,7 +5885,7 @@ p[data-text="learn2"] {
     font-size: 16px;
     margin-left: 0;
     margin-top: 41px;
-    text-align: justify;
+    text-align: center;
   }
 
   .quienes-somos1 img {
@@ -6022,7 +6024,7 @@ p[data-text="learn2"] {
   .container7 .image9 {
     width: 20%;
     height: auto;
-    margin-left: 102px;
+    margin-left: 100px;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 400px;
@@ -6524,6 +6526,10 @@ p[data-text="learn2"] {
   .footer-navigation li {
     margin-left: 0;
     text-align: center;
+  }
+
+  .footer-input {
+    width: 52%;
   }
 
   .footer-bottom {
