@@ -5889,10 +5889,10 @@ p[data-text="learn2"] {
   }
 
   .container1 p {
-    font-size: 24px;
+    font-size: 16px;
     margin-left: 0;
-    margin-top: -10px;
-    text-align: center;
+    margin-top: 41px;
+    text-align: justify;
   }
 
   .quienes-somos1 img {
@@ -6072,6 +6072,24 @@ p[data-text="learn2"] {
     margin-top: 10px;
     margin-left: 15px;
   }
+
+  .servicios h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .servicios .services {
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 26px;
+  }
+
+  .inversiones h1 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+
   .slide-wrapper {
     display: flex;
     gap: 10px;
