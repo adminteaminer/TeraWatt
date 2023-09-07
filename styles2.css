@@ -2458,11 +2458,7 @@ p[data-text="learn2"] {
     margin-left: 0;
     text-align: center;
   }
-  .section .bold-text {
-    font-weight: bold;
-    font-size: 40px;
-    margin-left: 50px;
-  }
+
   .custom-button {
     margin-top: -500px;
     margin-left: 0px;
@@ -3795,13 +3791,6 @@ p[data-text="learn2"] {
 /*-----------------------------------------Media queries para 320px and 480px------------------------------------------------------------*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
   body {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    background-color: #ebebf8;
-    position: relative;
-    margin-left: 0;
-    margin-right: 0;
     overflow-x: hidden;
   }
 
@@ -3999,15 +3988,17 @@ p[data-text="learn2"] {
     font-family: "Roboto", sans-serif;
     margin-left: 0px;
   }
+
   .container0 h1 {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 8px;
-    margin-left: -89px;
+    margin-left: -84px;
     margin-right: -104px;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
-    margin-top: 32%;
+    margin-top: 61%;
     font-weight: bold;
+    text-align: center;
   }
 
   .Image1 a {
@@ -4043,7 +4034,7 @@ p[data-text="learn2"] {
     transition: background-color 0.1s ease;
     text-decoration: none;
     margin-right: 10px;
-    margin-left: 130px;
+    margin-left: 42px;
     font-size: 10px;
   }
 
@@ -4072,6 +4063,8 @@ p[data-text="learn2"] {
     width: 10%;
     transition: box-shadow 0.1s ease;
     border-radius: 15px;
+    margin-left: 80px;
+    margin-top: -24px;
   }
 
   .Image1 img:hover {
@@ -4088,13 +4081,14 @@ p[data-text="learn2"] {
   }
 
   .container1 p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 12px;
     margin-left: 10px;
     position: relative;
     margin-top: -9px;
     font-family: "Poppins", sans-serif;
     color: #000000;
+    text-align: justify;
   }
 
   .quienes-somos1 img {
@@ -4226,13 +4220,13 @@ p[data-text="learn2"] {
     height: 2px;
     border: none;
     margin-top: 0px;
-    margin-left: 60px;
+    margin-left: 37px;
     width: 217px;
     margin-bottom: 50px;
   }
 
   .container2 img {
-    width: 11%;
+    width: 4%;
     margin-left: -10px;
   }
 
@@ -4282,7 +4276,7 @@ p[data-text="learn2"] {
 
   .container7 #pow-pools-content h6 {
     color: #4c4b4b;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 98px;
     margin-bottom: 0px;
     font-weight: bold;
@@ -4303,7 +4297,7 @@ p[data-text="learn2"] {
 
   .container7 #blockchain-content h6 {
     color: #4c4b4b;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 112px;
     margin-bottom: 0px;
     font-weight: bold;
@@ -4313,7 +4307,7 @@ p[data-text="learn2"] {
 
   .container7 #wallet-content h6 {
     color: #4c4b4b;
-    margin-top: -15px;
+    margin-top: 20px;
     margin-left: 135px;
     margin-bottom: 0px;
     font-weight: bold;
@@ -4324,7 +4318,7 @@ p[data-text="learn2"] {
   p[data-text="main"] {
     color: rgb(0, 0, 0);
     margin-left: 111px;
-    font-size: 11px;
+    font-size: 14px;
     margin-top: 14px;
     margin-right: 0px;
     text-align: justify;
@@ -4340,10 +4334,10 @@ p[data-text="learn2"] {
 
   p[data-text="main2"] {
     color: rgb(0, 0, 0);
-    margin-left: 90px;
+    margin-left: 118px;
     font-size: 14px;
     margin-top: 14px;
-    margin-right: -17px;
+    margin-right: 8px;
     text-align: justify;
     padding-bottom: 120%;
   }
@@ -4482,8 +4476,8 @@ p[data-text="learn2"] {
     margin-top: 1px;
     border: none;
     border-top: 3px solid #bc02ff;
-    width: 300px;
-    margin-left: -40px;
+    width: 208px;
+    margin-left: -8px;
     margin-bottom: 50px;
   }
 
@@ -4581,6 +4575,7 @@ p[data-text="learn2"] {
     font-size: 14px;
     margin-left: 2px;
     margin-top: 8px;
+    text-align: justify;
   }
 
   .card-section {
@@ -5012,11 +5007,11 @@ p[data-text="learn2"] {
   }
 
   .content8 {
-    font-size: 20px;
+    font-size: 14px;
     font-family: "Poppins", sans-serif;
     color: #000000;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: justify;
     margin-top: 12px;
     margin-left: 20px;
   }
@@ -5035,11 +5030,13 @@ p[data-text="learn2"] {
 
   .section .bold-text {
     font-weight: bold;
+    font-size: 40px;
+    margin-left: 1px;
   }
 
   .section .normal-text {
     font-weight: normal;
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .video-section {
@@ -5078,18 +5075,18 @@ p[data-text="learn2"] {
   }
   .video-section .bold-text {
     font-weight: bold;
-    font-size: 31px;
-    margin-left: 42%;
+    font-size: 26px;
+    margin-left: 104%;
   }
 
   .video-section .normal-text {
     font-weight: normal;
     font-size: 15px;
-    margin-left: 43%;
+    margin-left: 111%;
   }
 
   .video-section .content9 {
-    font-size: 14px;
+    font-size: 5px;
     position: absolute;
     top: 55%;
     left: 46%;
@@ -5102,8 +5099,8 @@ p[data-text="learn2"] {
 
   .image30 {
     position: absolute;
-    left: 860px;
-    bottom: 15%;
+    left: -145px;
+    bottom: 13%;
     margin-left: 200px;
     width: 6%;
     z-index: 2;
@@ -5120,8 +5117,8 @@ p[data-text="learn2"] {
 
   .image31 {
     position: absolute;
-    left: 890px;
-    bottom: 15%;
+    left: 60px;
+    bottom: 13%;
     margin-left: 20px;
     width: 6%;
     opacity: 0.8;
@@ -5138,8 +5135,8 @@ p[data-text="learn2"] {
 
   .image32 {
     position: absolute;
-    left: 740px;
-    bottom: 15%;
+    left: 82px;
+    bottom: 13%;
     margin-left: 20px;
     width: 6%;
     opacity: 0.8;
@@ -5156,8 +5153,8 @@ p[data-text="learn2"] {
 
   .image33 {
     position: absolute;
-    left: 590px;
-    bottom: 15%;
+    left: 105px;
+    bottom: 13%;
     margin-left: 20px;
     width: 6%;
     opacity: 0.8;
@@ -5174,8 +5171,8 @@ p[data-text="learn2"] {
 
   .image34 {
     position: absolute;
-    left: 440px;
-    bottom: 15%;
+    left: 128px;
+    bottom: 13%;
     margin-left: 20px;
     width: 6%;
     opacity: 0.8;
@@ -5191,8 +5188,8 @@ p[data-text="learn2"] {
 
   .image35 {
     position: absolute;
-    left: 290px;
-    bottom: 15%;
+    left: 152px;
+    bottom: 13%;
     margin-left: 20px;
     width: 6%;
     opacity: 0.8;
@@ -5262,8 +5259,8 @@ p[data-text="learn2"] {
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -220px;
-    margin-top: 250px;
+    margin-left: -162px;
+    margin-top: 554px;
     text-align: left;
   }
   .button-container {
@@ -5600,11 +5597,11 @@ p[data-text="learn2"] {
   }
 
   .footer-title {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #000000;
-    margin-left: -600px;
+    margin-left: -14px;
   }
 
   .footer-title1 {
@@ -5617,21 +5614,22 @@ p[data-text="learn2"] {
   }
 
   .footer-title2 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #000000;
     text-align: left;
-    margin-left: -80px;
+    margin-left: -52px;
   }
 
   .footer-text {
-    font-size: 16px;
+    font-size: 11px;
     line-height: 1.5;
     color: rgb(0, 0, 0);
     text-align: left;
-    margin-left: -140px;
-    margin-right: -130px;
+    margin-left: -119px;
+    margin-right: -117px;
+    text-align: justify;
   }
 
   .footer-navigation {
@@ -5647,6 +5645,7 @@ p[data-text="learn2"] {
     padding-left: 9px;
     margin-left: -55px;
     margin-right: -60px;
+    font-size: 18px;
   }
 
   .footer-navigation li a {
@@ -5667,15 +5666,15 @@ p[data-text="learn2"] {
   .footer-form div {
     color: #000000;
     margin-top: 50px;
-    margin-right: -124px;
-    margin-left: -100px;
+    margin-right: -111px;
+    margin-left: -94px;
   }
   .footer-input {
-    width: 423%;
+    width: 307%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-left: -120px;
+    margin-left: -54px;
   }
 
   .footer-button {
