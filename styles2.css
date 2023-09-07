@@ -5909,15 +5909,15 @@ p[data-text="learn2"] {
   }
 
   .quienes-somos1 hr {
-    margin-top: -2%; /* Adjust margin-top as needed */
-    margin-left: 171px; /* Reset margin-left */
-    width: 30%; /* Adjust width as needed */
+    margin-top: -2%;
+    margin-left: 270px;
+    width: 21%;
   }
 
   .middle-section1 {
-    flex-direction: column; /* Stack content vertically */
-    text-align: center; /* Center text */
-    margin-top: 5%; /* Adjust margin-top as needed */
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
     margin-left: 0;
   }
 
