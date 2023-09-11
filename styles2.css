@@ -3940,7 +3940,8 @@ p[data-text="learn2"] {
   }
 
   .slidebar.open {
-    right: 0;
+    right: 118px;
+    top: 87px;
   }
 
   .slidebar ul {
