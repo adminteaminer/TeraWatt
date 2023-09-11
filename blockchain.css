@@ -1702,13 +1702,13 @@ header {
 
   .slidebar.open {
     right: 0;
-    top: 65px;
+    top: 75px;
   }
   .text-container h2 {
     font-size: 16px;
     margin-top: 37px;
-    margin-right: 221px;
-    margin-left: -543px;
+    margin-right: 167px;
+    margin-left: -515px;
   }
 
   .title1 {
