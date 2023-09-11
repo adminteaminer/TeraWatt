@@ -1459,7 +1459,7 @@ p[data-text="learn2"] {
   .video-background video {
     position: absolute;
     top: 0;
-    right: 161px;
+    right: 54px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -2268,11 +2268,12 @@ p[data-text="learn2"] {
   }
 
   .footer-input {
-    width: 220%;
+    width: 240%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-left: 86px;
+    font-size: 12px;
   }
 
   .footer-button {
@@ -2286,6 +2287,7 @@ p[data-text="learn2"] {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 130px;
+    font-size: 12px;
   }
 
   .footer-button:hover {
@@ -2328,7 +2330,7 @@ p[data-text="learn2"] {
     transition: background-color 0.3s;
     margin-right: 100px;
     margin-top: -100px;
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .footer-trademark-button:hover {
