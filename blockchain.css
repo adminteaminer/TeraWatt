@@ -1702,6 +1702,7 @@ header {
 
   .slidebar.open {
     right: 0;
+    top: 57px;
   }
   .text-container h2 {
     font-size: 16px;
