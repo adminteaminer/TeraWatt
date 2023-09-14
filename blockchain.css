@@ -1728,6 +1728,7 @@ header {
 
   .text-container .card {
     width: calc(15% - 20px);
+    background-color: transparent;
   }
 
   .text-container .card img {
@@ -1806,6 +1807,8 @@ header {
   .panel-text {
     font-size: 14px;
     margin: 17px 0;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
   }
 
   .panel1,
@@ -1832,6 +1835,8 @@ header {
     margin-bottom: 20px;
     margin-left: 0px;
     margin-top: 12px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
   }
 
   .texto-adicional1,
@@ -1841,6 +1846,8 @@ header {
     margin-top: 0;
     margin-bottom: 20px;
     margin-left: 0px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
   }
 
   .image-container img {
@@ -2002,8 +2009,10 @@ header {
   }
 
   .seccion-carta {
-    width: 139px;
-    height: 122px;
+    width: 98%;
+    /*width: 139px;*/
+    /*height: 122px;*/
+    height: 33%;
     background-color: #f2f2f2;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
@@ -2012,8 +2021,10 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-right: 0px;
+    /*margin-right: 0px;*/
+    margin-left: 1%;
     margin-bottom: 20px;
+    padding-right: 22%;
   }
 
   .seccion-carta .imagen10,
@@ -2037,12 +2048,14 @@ header {
     margin-left: -67px;
     margin-right: -40px;
     font-size: 10px;
+    font-family: "Poppins", sans-serif;
   }
 
   .seccion-carta img {
     max-width: 80%;
     height: auto;
-    margin-left: -73px;
+    /*margin-left: -73px;*/
+    margin-left: -34px;
     margin-top: -31px;
   }
 
@@ -2051,8 +2064,10 @@ header {
   .titulo30 {
     text-align: center;
     margin: 10px 0;
-    margin-left: 10px;
-    margin-right: 50px;
+    /*margin-left: 10px;*/
+    margin-left: -3px;
+    /*margin-right: 50px;*/
+    margin-right: -5px;
     font-size: 16px;
     margin-top: -13px;
   }
@@ -2065,7 +2080,9 @@ header {
     margin-left: 9px;
     font-weight: bold;
     margin-bottom: 10px;
-    margin-top: -67px;
+    /*margin-top: -67px;*/
+    margin-top: -9%;
+    font-family: "Poppins", sans-serif;
   }
 
   .image80,
@@ -2084,6 +2101,7 @@ header {
     margin-left: 7px;
     line-height: 1;
     margin-top: 11px;
+    font-family: "Poppins", sans-serif;
   }
 
   .text80 {
@@ -2092,6 +2110,7 @@ header {
     margin-bottom: 50px;
     margin-left: 9px;
     text-align: justify;
+    font-family: "Poppins", sans-serif;
   }
 
   .boton31 {
@@ -2099,28 +2118,49 @@ header {
     margin-left: 82px;
   }
 
+  .section81 {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 180%;
+  }
+
+  .content81 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .image81 {
-    width: 158%;
+    /*width: 158%;*/
+    width: 131%;
     height: auto;
-    margin-left: -103px;
-    margin-top: -438%;
+    /*margin-left: -103px;*/
+    margin-left: -92px;
+    /*margin-top: -438%;*/
+    margin-top: -242%;
     border-radius: 12px;
   }
 
   .sub-title81 {
     font-size: 15px;
     color: rgb(204, 0, 255);
-    margin-left: -306px;
+    /*margin-left: -306px;*/
+    margin-left: -470px;
     font-weight: bold;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
+    margin-top: -370px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
   }
 
   .title81 {
     font-size: 19px;
     color: black;
     line-height: 1;
-    margin-left: -305px;
-    margin-top: 11px;
+    /*margin-left: -305px;*/
+    margin-left: -460px;
+    margin-top: -10px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
   }
 
   .text81 {
@@ -2128,10 +2168,13 @@ header {
     color: black;
     margin-left: -466px;
     text-align: justify;
-    padding-right: 173px;
-    padding-left: 164px;
-    margin-top: -24px;
-    margin-right: 21px;
+    /*padding-right: 173px;*/
+    padding-right: 158px;
+    /*padding-left: 164px;*/
+    padding-left: 54px;
+    margin-top: -50px;
+    margin-right: -116px;
+    font-family: "Poppins", sans-serif;
   }
 
   .boton32 {
@@ -2142,8 +2185,8 @@ header {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.1s ease;
-    margin-left: 0px;
-    margin-right: 100px;
+    margin-left: -310px;
+    margin-right: 125px;
   }
 
   .title82 {
@@ -2168,6 +2211,7 @@ header {
     font-weight: bold;
     margin-left: -306px;
     margin-top: 1px;
+    font-family: "Poppins", sans-serif;
   }
 
   .title83 {
@@ -2177,6 +2221,7 @@ header {
     line-height: 1;
     margin-left: -308px;
     margin-top: 20px;
+    font-family: "Poppins", sans-serif;
   }
 
   .text83 {
@@ -2186,6 +2231,7 @@ header {
     text-align: justify;
     margin-right: 200px;
     margin-top: -18px;
+    font-family: "Poppins", sans-serif;
   }
 
   .image83 {
