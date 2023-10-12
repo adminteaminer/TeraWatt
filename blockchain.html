@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+  <!--Metadatos-->
   <meta charset="UTF-8">
+  <meta name="description" content="TERAWATT BLOCKCHAIN">
+  <meta name="keywords" content="BLOCKCHAIN">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+  <!--Título-->
   <title>TERAWATT</title>
 
-  <!--Estilos-->
+  <!--CSS-->
   <link rel="stylesheet" type="text/css" href="blockchain.css">
 
   <!--Bootstrap-->
@@ -13,10 +21,28 @@
   
   <!--JavaScript-->
   <script src="script.js"></script>
+
+
+  <!--
+  <style>
+    /* Estilos para las opciones de lenguaje */
+    .navbar .dropdown-menu a {
+      display: flex;
+      align-items: center;
+    }
   
+    .navbar .dropdown-menu img {
+      width: 20px; /* Ajusta el tamaño de las imágenes según tus preferencias */
+      height: auto; /* Ajusta la altura de las imágenes según tus preferencias */
+      margin-right: 10px; /* Espacio entre la imagen y el texto */
+    }
+  </style>
+  -->
+
 </head>
 
 <body>
+
   <div class="mobile-menu">
     <div class="open-menu-button" id="openMenu">&#9776;</div>
     <div class="slidebar" id="slidebar">
@@ -41,6 +67,8 @@
       });
     });
   </script>
+
+
 
   <header class="sticky-header">
     <a href="index.html" class="logo">
@@ -74,67 +102,181 @@
     </nav>
     <a class="get-started-button" href="login.html">INVERSORES</a>
   </header>
+
+
+
+  <!--
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="" width="160" height="40" class="d-inline-block align-text-top">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <a class="nav-link active" aria-current="page" href="energy.html">Energias</a>
+          <a class="nav-link active" aria-current="page" href="blockchain.html">Blockchain</a>
+          <a class="nav-link active" aria-current="page" href="datacenter.html">Centro de Datos</a>
+          <a class="nav-link active" aria-current="page" href="whoweare.html">Sobre Nosotros</a>
+          <li class="nav-item">
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/pngwing.com.png" alt="English Icon">English</a></li>
+              <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/icono_espa%C3%B1a.png" alt="Spanish Icon">Español</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  -->
   
+
+
+
+  <!-- Sección Inicial-->
+<div class="container-fluid">
   <div class="video-background">
     <!-- <video src="img/header blockchain.mp4" autoplay loop muted></video> -->
     <div class="overlay">
+      <div class="row">
       <div class="text-container">
-        <h2>Elevamos el Estándar del Desarrollo </h2>
-        <h1 class="title1" id="animated-text">
+        <h2 class="col-12 col-md-12 ">Elevamos el Estándar del Desarrollo </h2>
+        <h1 class=" col-12 col-md-12 title1" id="animated-text">
           <br>
           "< Con un equipo de clase mundial. >"<br> 
           
         </h1>
         <hr>
-        <div class="cards-container">
-          <div class="card">
-            <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/team.png" alt="Imagen 1">
-            <p>Equipos de desarrollo <br> Nearshore y Onshore</p>
-          </div>
-          <div class="card">
-            <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/aplicaciones+web.png" alt="Imagen 2">
-            <p>Software personalizado<br>
-              Aplicaciones web y móviles</p>
-          </div>
-          <div class="card">
-            <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/consolturia+web.png" alt="Imagen 3">
-            <p>Consultoría, Arquitectura<br>
-               IA y Planificación
-            </p>
-          </div>
-          <div class="card">
-            <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/pruebas+web.png" alt="Imagen 4">
-            <p>Diseño UI/UX Prototipos<br>  y Pruebas de Usuario
-            </p>
+
+      <div class="row row-cols-4 row-cols-md-4 g-4">
+        <div class="col">
+    <div class="card h-100">
+      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/team.png" class="card-img-top" alt="Imagen 1">
+      <div class="card-body">
+        <p class="card-text">Equipos de desarrollo <br> Nearshore y Onshore</p>
+      </div>
+    </div>
+        </div>
+        <div class="col">
+    <div class="card h-100">
+      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/aplicaciones+web.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Software personalizado<br> Aplicaciones web y móviles</p>
+      </div>
+    </div>
+        </div>
+        <div class="col">
+    <div class="card h-100">
+      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/consolturia+web.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Consultoría, Arquitectura<br> IA y Planificación</p>
+      </div>
+    </div>
+        </div>
+        <div class="col">
+    <div class="card h-100">
+      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/pruebas+web.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Diseño UI/UX Prototipos<br>  y Pruebas de Usuario</p>
+      </div>
+    </div>
+        </div>
+      </div>
+
+        <!--
+
+        <div class="container">
+          <div class="row cartas-row">
+            <div class="col-lg-3 col-md-3 col-sm-3 mb-4">
+              <div class="card">
+                <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/team.png" alt="Imagen 1" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Equipos de desarrollo <br> Nearshore y Onshore</p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-3 col-sm-3 mb-4">
+              <div class="card">
+                <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/aplicaciones+web.png" alt="Imagen 2" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Software personalizado<br> Aplicaciones web y móviles</p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-3 col-sm-3 mb-4">
+              <div class="card">
+                <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/consolturia+web.png" alt="Imagen 3" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Consultoría, Arquitectura<br> IA y Planificación</p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-lg-3 col-md-3 col-sm-3 mb-4">
+              <div class="card">
+                <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/pruebas+web.png" alt="Imagen 4" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Diseño UI/UX Prototipos<br>  y Pruebas de Usuario</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        -->
+
+
+
+      </div>
       </div>
     </div>
   </div>
+</div>
   
 
 
+<!--Sección Un mundo cambiante-->
+
+  <div class="container">
       <div class="join-us">
-        <div class="container2"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/mundo.gif" alt="GIF" />
-          Un mundo cambiante necesita <br> <a href="#">desarrolladores tecnologicos</a>
-          <hr>
-        </div>  
-        <div class="quienes-somos2">
-          En el dinámico escenario actual, nuestra Compañia se posiciona como un referente en el universo tecnológico. Nuestro lema es claro: "Un mundo cambiante necesita líderes innovadores". En Tera Watt, creemos en el poder de la tecnología para transformar el futuro. Por eso, buscamos y nutrimos a los mejores desarrolladores tecnológicos, expertos en IA, blockchain, softwares y dApps.
+        <div class="row">
+          <div class="col-12 col-md-12 container2"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/mundo.gif" alt="GIF" />
+            Un mundo cambiante necesita <br> <a href="#">desarrolladores tecnologicos</a>
+            <hr>
+          </div>  
+          <div class=" col-12 col-md-12 quienes-somos2">
+            En el dinámico escenario actual, nuestra Compañia se posiciona como un referente en el universo tecnológico. Nuestro lema es claro: "Un mundo cambiante necesita líderes innovadores". En Tera Watt, creemos en el poder de la tecnología para transformar el futuro. Por eso, buscamos y nutrimos a los mejores desarrolladores tecnológicos, expertos en IA, blockchain, softwares y dApps.
 
-          Somos el crisol donde la creatividad y la ingeniería se fusionan para crear soluciones punteras y disruptivas. Cada día, trabajamos incansablemente para diseñar productos y servicios que impacten positivamente en la vida de las personas, empresas y comunidades.
-        </div> 
+            Somos el crisol donde la creatividad y la ingeniería se fusionan para crear soluciones punteras y disruptivas. Cada día, trabajamos incansablemente para diseñar productos y servicios que impacten positivamente en la vida de las personas, empresas y comunidades.
+          </div> 
+        </div>
       </div>
+  </div>
 
 
+
+
+      <!--Sección FAQ-->
+    <div class="container">
       <div class="faq-section">
-        <div class="image-container">
+        <div class="row">
+        <div class=" col-md-6 image-container">
             <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/fullstackimagen.png" alt="Imagen" id="faq-image">
         </div>
         <button class="accordion" onclick="toggleAccordion(this)">
           Que es la Blockchain?
         </button>
-        <div class="panel1">
+        <div class=" panel2">
           <span class="panel-text">La <span style="color: rgb(217, 0, 255);"> blockchain</span> es una base de datos distribuida y segura que registra transacciones de forma transparente e inmutable en bloques conectados. Cada bloque contiene información y enlaces criptográficos al bloque anterior, creando una cadena de bloques que garantiza la integridad y confianza en la información almacenada.</span>
           <img class="imagen1" src="https://terawatt.s3.us-east-2.amazonaws.com/img/btc_coin.png" alt="Imagen 1">
           
@@ -179,24 +321,32 @@
 
             <span style="color: rgb(217, 0, 255);"> Suecia: </span> En proceso de investigación y desarrollo para la "e-krona", realizando pruebas con el público para evaluar su viabilidad.<br>
             
-            <span style="color: rgb(217, 0, 255);"> Bahamas:</span>  Pionera en el lanzamiento de su CBDC "Sand Dollar", ya está en circulación y es utilizada en el país para transacciones diarias.</div>
-          
+            <span style="color: rgb(217, 0, 255);"> Bahamas:</span>  Pionera en el lanzamiento de su CBDC "Sand Dollar", ya está en circulación y es utilizada en el país para transacciones diarias.
+          </div>
         </div>
-      
-        
       </div>
+    </div>
+</div>
 
+
+
+  <!-----------------Expertos en desarrollo-------------->
+<div class="container">
       <div class="join-us2">
-        <div class="container3"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/lideres.gif" alt="GIF" />
+        <div class="row">
+        <div class="col-12 col-md-12 container3"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/lideres.gif" alt="GIF" />
           Expertos en desarrollo de <br> <a href="#"> las tecnologías más populares </a>
           <hr>
         </div> 
-        <div class="quienes-somos3">
+        <div class=" col-12 col-md-12 quienes-somos3">
           En Tera Watt, somos líderes en desarrollo tecnológico. Nuestro equipo de ingenieros, con más de 30 años de experiencia en la creacion de softwares y aplicativos , ademas nuestro equipo es experto  en la industria blockchain trabajando en esta area desde el año 2011. Destacamos por la elegancia e intuición en nuestro trabajo. en Tera Watt colaboramos estrechamente con gobiernos y multinacionales, impulsando nuevas tecnologías para lograr el éxito de todos los proyectos con rapidez y dinamismo, siempre enfocados en alcanzar objetivos comunes. Nuestra pasión y compromiso nos posicionan como pioneros en el mundo tecnológico y nos enorgullecemos de ser un referente en el campo del desarrollo. A continuacion les presentamos las principales tecnologias donde somos expertos: 
         </div> 
       </div>
+    </div>
+  </div>
 
 
+  <!-----------------------Sección Slider con Logos----------->
       <div class="slideshow-container">
         <div class="slide-wrapper">
           <div class="slide-item">
@@ -326,9 +476,10 @@
         </div>
 
 
+  <!--------------------Video Mundo----------------------->
         <div class="video-container">
             <video id="myVideo" autoplay playsinline loop muted>
-             <!--<source src="https://terawatt.s3.us-east-2.amazonaws.com/img/world.mp4"> -->
+         
              <source src="https://terawatt.s3.us-east-2.amazonaws.com/videos/world3.mp4">
             </video>    
           <div class="overlay2">
@@ -340,12 +491,12 @@
                 </div>
                 <script>
                     const video = document.getElementById('myVideo');
-                    video.playbackRate = 0.7; // Establecer la velocidad de reproducción al 70%
+                    video.playbackRate = 0.7; 
                 </script>    
             </div>
         </div>
-      
 
+  <!---------------------Sección Token Hashin------------------->
         <div class="carta">
           <div class="imagen imagen5">
             <a href=""><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/hashin-token.png" alt="Imagen 5"></a>
@@ -364,9 +515,7 @@
               seguridad y confianza.  </div>
           </div>
         </div>
-        
         <div class="titulo-centro">Desarrollamos la blockchain a tu medida</div>
-        
         <div class="cartas-pequenas">
           <div class="carta-pequena">
             <a href="blockchainprivada.html">
@@ -399,174 +548,225 @@
             </a>
           </div>
         </div>
-        
-        
-        
-        
 
-     
+  <!--------------------------Nuestro Equipo de desarrollo-------------------------------------->
+<div class="container">
+    <div class="titulo-personalizado">Nuestro equipo de Desarrollo</div>
+  <div class="row">
 
-
-<div class="titulo-personalizado">Nuestro equipo de Desarrollo</div>
-
-
-
-        
-
-<div class="contenedor-cartas">
-  <div class="seccion-carta">
-    <div class="imagen10">
-      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo.6.png" alt="Imagen 10">
-    </div>
-    <div class="titulo10">KORVUSS</div>
-    <div class="texto10">"Korvuss es una destacada empresa experta en el desarrollo full stack para software y aplicaciones. Nuestro equipo altamente capacitado y creativo se dedica apasionadamente a crear productos exclusivos y originales que se ajusten perfectamente a tus necesidades. "</div>
-    
-  </div>
-
-  <div class="seccion-carta">
-    <div class="imagen20">
-      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo.29.png" alt="Imagen 20">
-    </div>
-    <div class="titulo20">WE DO DIGITAL</div>
-    <div class="texto20">"We do digital, una empresa experta en desarrollo de blockchain y contratos inteligentes, con un equipo talentoso que desarrolla productos disruptivos en un mercado cambiante. ¡Visítalos y descubre  soluciones innovadoras!"</div>
-   
-  </div>
-
-  <div class="seccion-carta">
-    <div class="imagen30">
-      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo.29.png" alt="Imagen 30">
-    </div>
-    <div class="titulo30">DIGITAL SERVICES</div>
-    <div class="texto30">" DS es una empresa de asesorias tecnologicas, Entrega asesorias en todos los campos de la integracion digital , apoya fuertemente la descentralizacion en un enfoque empresarial y gubernamental, ¡Visítalos y descubre soluciones innovadoras!"</div>
-    
-  </div>
-</div>
-
-            
-<div class="section80">
-  <img class="image80" src="https://terawatt.s3.us-east-2.amazonaws.com/img/desarrollo+noreshore.png" alt="Imagen"> <!-- Cambiar 'imagen.jpg' con la ruta de tu imagen -->
-  <div class="content80">
-    <div class="sub-title80">Development</div>
-    <div class="title80">Equipos de desarrollo<br>
-      Nearshore y Onshore</div>
-    <div class="text80">
-      "Descubra en Tera Watt nuestros servicios de desarrollo Nearshore <br>
-      y Onshore. Con equipos altamente capacitados en países cercanos <br>
-      o locales, ofrecemos soluciones personalizadas para sus proyectos. <br>
-      Nuestra experiencia de 30 años y sólida red de socios aseguran <br>
-      resultados excepcionales. Confíe en nosotros para llevar su <br>
-      proyecto al siguiente nivel. Contáctenos y descubra cómo podemos <br>
-      superar sus expectativas en desarrollo de software."</div>
-      <a href="#" class="boton31"></a>
-  </div>
-</div>       
-
-<hr>
-
-<div class="section81">
-  <img class="image81" src="https://terawatt.s3.us-east-2.amazonaws.com/img/sofware+IA.png" alt="Imagen"> <!-- Cambiar 'imagen.jpg' con la ruta de tu imagen -->
-  <div class="content81">
-    <div class="sub-title81">Software</div>
-    <div class="title81">Software personalizado <br>
-      Aplicaciones web y móviles</div>
-
-    <div class="text81">
-      "En TeraWatt, ofrecemos soluciones de software personalizado y <br>
-      somos especialistas en desarrollo de aplicaciones blockchain e <br>
-      inteligencia artificial. Nuestro equipo calificado te ayuda a <br>
-      implementar tecnologías de vanguardia para mejorar la seguridad, <br>
-      eficiencia y transparencia de tus operaciones. Desde contratos <br>
-      inteligentes hasta algoritmos de IA, ofrecemos soluciones <br>
-      tecnológicas que impulsan tu negocio hacia el éxito digital. <br>
-      Trabajaremos contigo para adaptar nuestras soluciones a tus <br>
-      necesidades y alcanzar tus objetivos empresariales."
+   <div class="contenedor-cartas">
+      <div class=" col-12 col-md-4 col-lg-4 seccion-carta">
+        <div class="imagen10">
+          <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo.6.png" alt="Imagen 10">
+        </div>
+        <div class="titulo10">KORVUSS</div>
+        <div class="texto10">"Korvuss es una destacada empresa experta en el desarrollo full stack para software y aplicaciones. Nuestro equipo altamente capacitado y creativo se dedica apasionadamente a crear productos exclusivos y originales que se ajusten perfectamente a tus necesidades. "</div>
       </div>
 
-      <a href="#" class="boton32"></a>
-  </div>
-</div>       
-
-
-<hr>
-
-<div class="section82">
-  <img class="image82" src="https://terawatt.s3.us-east-2.amazonaws.com/img/consultoria.png" alt="Imagen"> <!-- Cambiar 'imagen.jpg' con la ruta de tu imagen -->
-  <div class="content82">
-    <div class="sub-title82">Asesorias</div>
-    <div class="title82">Consultoría, Arquitectura <br>
-      IA y Planificación</div>
-    <div class="text82">
-
-      "Somos líderes en el area de Consultoría de Arquitectura y <br>
-      Planificación de soluciones de Inteligencia Artificial (IA). <br>
-      Nuestro equipo altamente capacitado ofrece asesoramiento <br>
-      personalizado para el diseño y desarrollo de sistemas de IA, <br>
-      aprovechando al máximo la innovación tecnológica. Desde el <br>
-      análisis de requisitos hasta la implementación y optimización, <br>
-      nuestro enfoque integral garantiza resultados excepcionales. <br>
-      Confía en nuestros expertos para llevar tus proyectos de IA al <br>
-      siguiente nivel. Juntos, creamos el futuro con la potencia de <br>
-      la inteligencia artificial.""
-      </div>
-      <a href="#" class="boton31"></a>
-  </div>
-</div>       
-
-<hr>
-
-<div class="section83">
-  <img class="image83" src="https://terawatt.s3.us-east-2.amazonaws.com/img/software+y+web+app.jpg" alt="Imagen"> <!-- Cambiar 'imagen.jpg' con la ruta de tu imagen -->
-  <div class="content83">
-    <div class="sub-title83">Diseños</div>
-    <div class="title83">Diseño UI/UX Prototipos<br>
-      y Pruebas de Usuario</div>
-
-    <div class="text83">
-
-
-      "En Tera Watt, nos destacamos en Diseño UI/UX y Prototipos, así <br>
-      como en Pruebas de Usuario. Nuestro talentoso equipo de diseñadores <br>
-      y especialistas en experiencia de usuario (UX) trabaja para crear <br>
-      interfaces visuales y funcionales atractivas. Además, realizamos <br>
-      pruebas exhaustivas con usuarios reales para garantizar que cada <br>
-      diseño sea intuitivo y satisfactorio. Con nuestro enfoque centrado <br>
-      en el usuario, creamos productos digitales de alta calidad que <br>
-      satisfacen las necesidades y expectativas de tus clientes. <br>
-      Confía en nosotros para llevar tu proyecto al siguiente nivel con <br>
-      diseños impactantes y pruebas rigurosas."
+      <div class="col-12 col-md-4 col-lg-4 seccion-carta">
+        <div class="imagen20">
+          <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo.29.png" alt="Imagen 20">
+        </div>
+        <div class="titulo20">WE DO DIGITAL</div>
+        <div class="texto20">"We do digital, una empresa experta en desarrollo de blockchain y contratos inteligentes, con un equipo talentoso que desarrolla productos disruptivos en un mercado cambiante. ¡Visítalos y descubre  soluciones innovadoras!"
+        </div>
       </div>
 
-      <a href="#" class="boton32"></a>
+      <div class="col-12 col-md-4 col-lg-4 seccion-carta">
+        <div class="imagen30">
+          <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo.29.png" alt="Imagen 30">
+        </div>
+          <div class="titulo30">DIGITAL SERVICES</div>
+          <div class="texto30">" DS es una empresa de asesorias tecnologicas, Entrega asesorias en todos los campos de la integracion digital , apoya fuertemente la descentralizacion en un enfoque empresarial y gubernamental, ¡Visítalos y descubre soluciones innovadoras!"</div>
+      </div>
+    </div>
   </div>
-</div>       
-
-
-<div class="section2">
-  <div class="title-container2">
-    <h6 class="title15">Mensaje de Nuestra CMO & Funder Mss:</h6>
-      <h2 class="title16">Maria Paula Castaño
-      </h2>
-
-      <!------------------------------Foto MPTWM HERE-------------------------------------->
-     
-    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/maria+paula.png" alt="Imagen" class="image13">
-  </div>
-  <div class="content15">
-    "El mayor desafío para las empresas es <br>
-    adaptarse a un mundo en constante cambio. <br>
-    Las tecnologías actuales nos permiten realizar <br>
-    tareas 100 veces más rápidas que antes. <br>
-    Aquellos que comprenden y aplican el <br>
-    potencial tecnológico en su entorno son <br>quienes triunfan
-    en su mercado."
-   </div>
-
-    
 </div>
 
 
 
+<!--------------------------Sección Development, Software, Asesorias y Diseños-------------------------------------->      
 
+
+  <!-----------------------------Development------------------->
+<div class="container">
+  <div class="row">
+    <div class=" col-12 col-md-6">
+      <div class="section80">
+        <div class="content80">
+          <div class="sub-title80">Development</div>
+          <div class="title80">Equipos de desarrollo<br>Nearshore y Onshore</div>
+          <div class="text80">
+            "Descubra en Tera Watt nuestros servicios de desarrollo Nearshore <br>
+            y Onshore. Con equipos altamente capacitados en países cercanos <br>
+            o locales, ofrecemos soluciones personalizadas para sus proyectos. <br>
+            Nuestra experiencia de 30 años y sólida red de socios aseguran <br>
+            resultados excepcionales. Confíe en nosotros para llevar su <br>
+            proyecto al siguiente nivel. Contáctenos y descubra cómo podemos <br>
+            superar sus expectativas en desarrollo de software."
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <img class="image80" src="https://terawatt.s3.us-east-2.amazonaws.com/img/desarrollo+noreshore.png" alt="Imagen">
+    </div>
+    <hr>
+  </div>
+
+
+  <!---------------------------------------------Software
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <div class="section81">
+        <div class="content81">
+          <div class="sub-title81">Software</div>
+          <div class="title81">Software personalizado <br> Aplicaciones web y móviles</div>
+          <div class="text81">
+            "En TeraWatt, ofrecemos soluciones de software personalizado y <br>
+            somos especialistas en desarrollo de aplicaciones blockchain e <br>
+            inteligencia artificial. Nuestro equipo calificado te ayuda a <br>
+            implementar tecnologías de vanguardia para mejorar la seguridad, <br>
+            eficiencia y transparencia de tus operaciones. Desde contratos <br>
+            inteligentes hasta algoritmos de IA, ofrecemos soluciones <br>
+            tecnológicas que impulsan tu negocio hacia el éxito digital. <br>
+            Trabajaremos contigo para adaptar nuestras soluciones a tus <br>
+            necesidades y alcanzar tus objetivos empresariales."
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <img class="image81" src="https://terawatt.s3.us-east-2.amazonaws.com/img/sofware+IA.png" alt="Imagen">
+    </div>
+  </div>
+
+  ------------------------->
+
+    <div class="row">
+    <div class=" col-12 col-md-6">
+      <div class="section81">
+        <div class="content81">
+          <div class="sub-title81">Software</div>
+          <div class="title81">Software personalizado <br> Aplicaciones web y móviles</div>
+          <div class="text81">
+            "En TeraWatt, ofrecemos soluciones de software personalizado y <br>
+            somos especialistas en desarrollo de aplicaciones blockchain e <br>
+            inteligencia artificial. Nuestro equipo calificado te ayuda a <br>
+            implementar tecnologías de vanguardia para mejorar la seguridad, <br>
+            eficiencia y transparencia de tus operaciones. Desde contratos <br>
+            inteligentes hasta algoritmos de IA, ofrecemos soluciones <br>
+            tecnológicas que impulsan tu negocio hacia el éxito digital. <br>
+            Trabajaremos contigo para adaptar nuestras soluciones a tus <br>
+            necesidades y alcanzar tus objetivos empresariales."
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <img class="image81" src="https://terawatt.s3.us-east-2.amazonaws.com/img/sofware+IA.png" alt="Imagen">
+    </div>
+    <hr>
+  </div>
+
+<!------------------------Asesorias----------------->
+  <div class="row">
+  <div class=" col-12 col-md-6">
+    <div class="section82">
+      <div class="content82">
+        <div class="sub-title82">Asesorias</div>
+        <div class="title82">Consultoría, Arquitectura <br> IA y Planificación</div>
+        <div class="text82">
+          "Somos líderes en el área de Consultoría de Arquitectura y <br>
+          Planificación de soluciones de Inteligencia Artificial (IA). <br>
+          Nuestro equipo altamente capacitado ofrece asesoramiento <br>
+          personalizado para el diseño y desarrollo de sistemas de IA, <br>
+          aprovechando al máximo la innovación tecnológica. Desde el <br>
+          análisis de requisitos hasta la implementación y optimización, <br>
+          nuestro enfoque integral garantiza resultados excepcionales. <br>
+          Confía en nuestros expertos para llevar tus proyectos de IA al <br>
+          siguiente nivel. Juntos, creamos el futuro con la potencia de <br>
+          la inteligencia artificial."
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-12 col-md-6">
+    <img class="image82" src="https://terawatt.s3.us-east-2.amazonaws.com/img/consultoria.png" alt="Imagen">
+    </div>
+  <hr>
+  </div>
+
+
+
+<!--------------------------------------Diseños--------------------------->
+  <div class="row">
+    <div class=" col-12 col-md-6">
+      <div class="section83">
+        <div class="content83">
+          <div class="sub-title83">Diseños</div>
+          <div class="title83">Diseño UI/UX Prototipos<br> y Pruebas de Usuario</div>
+          <div class="text83">
+            "En Tera Watt, nos destacamos en Diseño UI/UX y Prototipos, así <br>
+            como en Pruebas de Usuario. Nuestro talentoso equipo de diseñadores <br>
+            y especialistas en experiencia de usuario (UX) trabaja para crear <br>
+            interfaces visuales y funcionales atractivas. Además, realizamos <br>
+            pruebas exhaustivas con usuarios reales para garantizar que cada <br>
+            diseño sea intuitivo y satisfactorio. Con nuestro enfoque centrado <br>
+            en el usuario, creamos productos digitales de alta calidad que <br>
+            satisfacen las necesidades y expectativas de tus clientes. <br>
+            Confía en nosotros para llevar tu proyecto al siguiente nivel con <br>
+            diseños impactantes y pruebas rigurosas."
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <img class="image83" src="https://terawatt.s3.us-east-2.amazonaws.com/img/software+y+web+app.jpg" alt="Imagen">
+    </div>
+    <hr>
+  </div>
+
+
+
+</div>     
+
+
+
+
+
+
+
+<!--------------------------------------------Sección CEO--------------------->
+<div class="container">
+  <div class="row">
+    <div class=" col-12 col-md-6">
+        <div class="title-container2">
+          <h6 class="title15">Mensaje de Nuestra CMO & Fundadora:</h6>
+          <h2 class="title16">Maria Paula Castaño</h2>
+        </div>
+        <div class="content15">
+          "El mayor desafío para las empresas es <br>
+          adaptarse a un mundo en constante cambio. <br>
+          Las tecnologías actuales nos permiten realizar <br>
+          tareas 100 veces más rápidas que antes. <br>
+          Aquellos que comprenden y aplican el <br>
+          potencial tecnológico en su entorno son <br>
+          quienes triunfan en su mercado."
+        </div>
+    </div>
+    <div class=" col-12 col-md-6">
+      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/maria+paula.png" alt="Imagen" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+
+
+
+<!----------------------------------------------Sección Curva--------------------->
+
+<div class="container">
   <div class="curved-section">
     <div class="bold-text">¡Si buscas embarcarte en un emocionante proyecto junto a nosotros, no dudes <br>
       en compartir tu correo! Nuestro equipo de asesores estará encantado de <br>
@@ -577,72 +777,77 @@
       <button class="subscribe-button">Enviar</button>
     </div>
     </div>
+</div>
 
 
 
 
 
-
-  <footer class="footer">
-    <div class="footer-separator"></div>
-    <div class="footer-container">
-      <div class="footer-column">
-        <h3 class="footer-title">Disclaimer</h3>
-        <div class="footer-text">La información contenida en este sitio web es de carácter general.
-          únicamente con fines informativos. Mientras nos esforzamos por mantener
-          la información actualizada y correcta, no hacemos
-          representaciones o garantías de ningún tipo, expresas o implícitas,
-          sobre la exhaustividad, exactitud, fiabilidad, idoneidad o
-          disponibilidad con respecto al sitio web o la información,
-          productos, servicios o gráficos relacionados contenidos en el sitio web
-          para cualquier propósito.</div>
-      </div>
-      <div class="footer-column">
-        <h3 class="footer-title1">____</h3>
-        <ul class="footer-navigation">
-          <li><a href="whoweare.html">Who We Are</a></li>
-          <li><a href="esg.html">Our Impact</a></li>
-          <li><a href="whatwedo.html">What We Do</a></li>
-          <li><a href="login.html">Investors</a></li>
-          
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3 class="footer-title1">____</h3>
-        <ul class="footer-navigation">
-          <li><a href="#"></a></li>
-          <li><a href="termofuse.html">Terms of Use</a></li>
-          <li><a href="#">
-            </a></li>
-          
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3 class="footer-title2">Newsletter Suscripción</h3>
-        <form class="footer-form" action="#">
-          <input type="email" placeholder="Ingresa tu correo electrónico" class="footer-input">
-          <button type="submit" class="footer-button">Suscribirse</button>
-          <div > 71 - 75 Shelton Street, WC2H 9JQ , London, United kingdom</div>
-          <div class="redes-sociales">
-            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/instagram.png" alt="Instagram"></a>
-            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/twetter.png" alt="Twitter"></a>
-            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/linkeding.png" alt="LinkedIn"></a>
-            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/facebook.png" alt="Facebook"></a>
-          </div>
-        </form>
-      </div>
+<!------------------------------------------Sección Footer-------------------------->
+<footer class="footer">
+  <div class="footer-separator"></div>
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3 class="footer-title">Disclaimer</h3>
+      <div class="footer-text">La información contenida en este sitio web es de carácter general.
+        únicamente con fines informativos. Mientras nos esforzamos por mantener
+        la información actualizada y correcta, no hacemos
+        representaciones o garantías de ningún tipo, expresas o implícitas,
+        sobre la exhaustividad, exactitud, fiabilidad, idoneidad o
+        disponibilidad con respecto al sitio web o la información,
+        productos, servicios o gráficos relacionados contenidos en el sitio web
+        para cualquier propósito.</div>
     </div>
-    <div class="footer-separator"></div>
-    <div class="footer-bottom">
-      <div class="footer-logo">
-        <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="Logo">
-      </div>
-      <div class="footer-trademark">
-        <div class="footer-trademark-text">© Copyright 2023 Tera Watt Limited Company. All Rights Reserved.</div>
-        <button class="footer-trademark-button" onclick="scrollToHeader()">Top-menu</button>
-
-      </div>
+    <div class="footer-column">
+      <h3 class="footer-title1">____</h3>
+      <ul class="footer-navigation">
+        <li><a href="whoweare.html">Who We Are</a></li>
+        <li><a href="esg.html">Our Impact</a></li>
+        <li><a href="whatwedo.html">What We Do</a></li>
+        <li><a href="login.html">Investors</a></li>
+        
+      </ul>
     </div>
-  </footer>
+    <div class="footer-column">
+      <h3 class="footer-title1">____</h3>
+      <ul class="footer-navigation">
+        <li><a href="#"></a></li>
+        <li><a href="termofuse.html">Terms of Use</a></li>
+        <li><a href="#">
+          </a></li>
+        
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3 class="footer-title2">Newsletter Suscripción</h3>
+      <form class="footer-form" action="#">
+        <input type="email" placeholder="Ingresa tu correo electrónico" class="footer-input">
+        <button type="submit" class="footer-button">Suscribirse</button>
+        <div > 71 - 75 Shelton Street, WC2H 9JQ , London, United kingdom</div>
+        <div class="redes-sociales">
+          <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/instagram.png" alt="Instagram"></a>
+          <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/twetter.png" alt="Twitter"></a>
+          <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/linkeding.png" alt="LinkedIn"></a>
+          <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/facebook.png" alt="Facebook"></a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="footer-separator"></div>
+  <div class="footer-bottom">
+    <div class="footer-logo">
+      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="Logo">
+    </div>
+    <div class="footer-trademark">
+      <div class="footer-trademark-text">© Copyright 2023 Tera Watt Limited Company. All Rights Reserved.</div>
+      <button class="footer-trademark-button" onclick="scrollToHeader()">Top-menu</button>
+
+    </div>
+  </div>
+</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

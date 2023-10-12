@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+  <!--Metadatos-->
   <meta charset="UTF-8">
   <meta name="description" content="TERAWATT" />
-  <meta name="keywords" content="TERAWATT, ENERGY, BLOCKCHAIN" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="TERAWATT, ENERGY, BLOCKCHAIN, DATACENTER" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Título-->
   <title>TERAWATT</title>
 
-  <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon"  href="favicon.ico">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-  <!--Estilos-->
+  <!--CSS-->
   <link rel="stylesheet" type="text/css" href="styles2.css">
   
   <!--Bootstrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"crossorigin="anonymous"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
   <!--JavaScript-->
   <script src="./script.js"></script>
@@ -30,11 +35,29 @@
       });
     });
   </script> 
+
+
+
+<style>
+  
+  .navbar .dropdown-menu a {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .dropdown-menu img {
+    width: 20px; 
+    height: auto; 
+    margin-right: 10px; 
+  }
+</style>
+
+
 </head>
 
 <body>
 
-  <!-- Menu-->
+<!-- Menu-->
   <div class="mobile-menu">
     <div class="open-menu-button" id="openMenu">&#9776;</div>
     <div class="slidebar" id="slidebar">
@@ -45,28 +68,27 @@
         <li><a href="datacenter.html">Centro de Datos</a></li>
         <li><a href="whoweare.html">Sobre Nosotros</a></li>
         <li><a href="whatwedo.html">Who We Are</a></li>
-        <!-- Agrega más elementos del menú aquí -->
       </ul>
     </div>
-  </div>
+  </div>  
 
-  <header class="sticky-header">
+
+
+
+     <div class="container contenedor-top">
+        <header class="sticky-header">
     <a href="index.html" class="logo">
       <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="Logo">
     </a>
-
     <nav class="menu">
       <ul class="top-menu">
         <li><a href="whoweare.html">Sobre Nosotros</a></li>
         <li class="Language">
           <a href="#">Idiomas</a>
           <ul id="language-menu" class="language-menu">
-
             <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/pngwing.com.png" alt="English Icon">English</a></li>
             <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/icono_espa%C3%B1a.png" alt="Spanish Icon">Español</a></li>
-            
-           
-          </ul>
+         </ul>
         </li>
         <li class="signin">
           <a href="#news-section">News</a>
@@ -77,225 +99,332 @@
         <li><a href="energy.html">Energias</a></li>
         <li><a href="blockchain.html">Blockchain</a></li>
         <li><a href="datacenter.html">Centro de Datos</a></li>
-        
-
       </ul>
     </nav>
     <a class="get-started-button" href="login.html">INVERSORES</a>
-  </header>
+        </header>
+    </div> 
+
+
+<!-- Menú Bootstrap comment
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light ">
+      <div class="container-fluid">
+        <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="" width="160" height="40" class="d-inline-block align-text-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto"> 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="energy.html">Energias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="blockchain.html">Blockchain</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="datacenter.html">Centro de Datos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="whoweare.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/pngwing.com.png" alt="English Icon">English</a></li>
+                <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/icono_espa%C3%B1a.png" alt="Spanish Icon">Español</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    -->
+
+
+    <!-- 
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="" width="160" height="40" class="d-inline-block align-text-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <a class="nav-link active" aria-current="page" href="energy.html">Energias</a>
+            <a class="nav-link active" aria-current="page" href="blockchain.html">Blockchain</a>
+            <a class="nav-link active" aria-current="page" href="datacenter.html">Centro de Datos</a>
+            <a class="nav-link active" aria-current="page" href="whoweare.html">Sobre Nosotros</a>
+            <li class="nav-item">
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/pngwing.com.png" alt="English Icon">English</a></li>
+                <li><a href="#"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/icono_espa%C3%B1a.png" alt="Spanish Icon">Español</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    -->
+
+    
+
 
  <!-- baner informativo despues de precionar el boton -->
-  <div class="banner" id="banner">
-    <!-- Contenido del banner -->
-    <!--<img src="img mineria/licencia_1000.png" alt="Banner Image"> -->
+ <!-- <div class="banner" id="banner"> -->
+    <!--<img src="img mineria/licencia_1000.png" alt="Banner Image">  
     <button class="close-button" onclick="document.getElementById('banner').style.display = 'none'">Cerrar</button>
   </div>
+
+  -->
+
+ 
 
   
 
   <!-- Hero Section -->
 
 
-  
-  <section class="hero">
-    <div class="video-container">
-      <video id="myVideo" autoplay loop muted>
-        <!-- <source src="https://terawatt.s3.us-east-2.amazonaws.com/img/4.mp4" type="video/mp4"> -->
-        <source src="https://terawatt.s3.us-east-2.amazonaws.com/videos/4.2.mp4" type="video/mp4">
-      </video>
+<section>
+  <div class="container-fluid">
+    <div class="hero align-items-stretch">
+        <div class="video-container">
+          <video id="myVideo" autoplay loop muted>
+            <source src="https://terawatt.s3.us-east-2.amazonaws.com/videos/4.2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <script>
+          const video = document.getElementById("myVideo");
+          video.playbackRate = 0.5;
+        </script>
+        <div class="row contenedor0">
+            <h1 class="col-12 col-md-12">
+              <br>
+              Soluciones Innovadoras en Energías y <br>
+              Tecnologías Avanzadas
+              </h1>
+            <p class="col-12 col-md-12">Tera Watt es líder en soluciones avanzadas de Inteligencia Artificial, <br>
+            energías limpias y blockchain, impulsando la transformación global <br>de tecnologías disruptivas para una 
+            gestión eficiente y sostenible. </p>
+            <div class="buttons">
+              <button class="Singup-button" onclick="window.location.href = 'wwww.hashin.org'">HASHIN TOKEN</button>
+            </div>
+            <hr>
+            <div class="Image1">
+              <a href="https://bitcoin.org/" target="_blank"><img src="https://media1.giphy.com/media/JRsxoRe8tYtUi1oUDd/giphy.gif?cid=ecf05e47oyhofj84ipt98yvsrg4g2ck1b92ccw1p3ncvduwe&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Imagen1"></a>
+            </div>
+        </div>
     </div>
-    
-    <script>
-      // Obtenemos el elemento de video
-      const video = document.getElementById("myVideo");
-    
-      // Ralentizamos la velocidad de reproducción a la mitad (0.5)
-      video.playbackRate = 0.5;
-    </script>
-    
-    <div class="container0">
-      <h1>
-         <br>
-        Soluciones Innovadoras en Energías y <br>
-        Tecnologías Avanzadas
-        </h1>
-      <p>Tera Watt es líder en soluciones avanzadas de Inteligencia Artificial, <br>
-      energías limpias y blockchain, impulsando la transformación global <br>de tecnologías disruptivas para una 
-      gestión eficiente y sostenible. </p>
-      <div class="buttons">
-        <button class="Singup-button" onclick="window.location.href = 'wwww.hashin.org'">HASHIN TOKEN</button>
-      </div>
-      <hr>
-      
-      <div class="Image1">
-        <a href="https://bitcoin.org/" target="_blank"><img src="https://media1.giphy.com/media/JRsxoRe8tYtUi1oUDd/giphy.gif?cid=ecf05e47oyhofj84ipt98yvsrg4g2ck1b92ccw1p3ncvduwe&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Imagen1"></a>
-      
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
+
 
 
 
    <!-- quienes somos  Section -->
-   <div class="container1" id="about-us-section">
-     <div class="quienes-somos1">
-      <p class="quienes-somos1"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/quienes+somos.gif" alt="GIF" />Quienes Somos</p>
-       
-       <hr>
-     </div>
-     <div class="middle-section1">
-       <p class="number">+100M</p>
-       <h4>Valor de los activos totales</h4>
-     </div>
-     <div class="middle-section2">
-       <p class="number">+25</p>
-       <h4>Inversiones activas en 7 paises</h4>
-     </div>
-      <div class="description1">
-        <p>SOMOS una empresa líder en tecnologías disruptivas con enfoque en Energías limpias, desarrollo Blockchain, Minería POW <br>
-        y proyectos de incubación. Nuestro objetivo es desarrollar soluciones sostenibles en energía renovable y aplicar <br>
-        la innovadora tecnología Blockchain en diversos sectores. A través de nuestro token nativo, Hashin e Hidrogam, <br>
-        impulsamos una red descentralizada y segura. Además, nos destacamos en la Minería POW para garantizar <br>
-        transacciones digitales confiables. Como líderes en el mercado tecnológico, ofrecemos oportunidades <br>
-        de inversión en startups, fomentando el crecimiento y diversificación de nuestras carteras de inversion.
-        </p>
+   <div class="contenedor1" id="about-us-section">
+      <div class="container-fluid">
+            <div class="row quienes-somos1">
+                <p class=" col-12 col-md-12 quienes-somos1"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/quienes+somos.gif" alt="GIF" />Quienes Somos <hr> </p>
+            </div>
       </div>
-   
+      <div class="container">
 
-      <hr class="custom-hr">
+            <!--Sección Izquierda-->
+            <div class="row middle-section1">
+              <div class="col-12 col-md-4 number">+100M</div>
+              <div class="col-12 col-md-4 texto1">Valor de los activos totales</div>
+            </div>
 
+            <!--Sección Derecha-->
+            <div class=" row middle-section2">
+              <div class=" col-12 col-md-4 number">+25</div>
+              <div class="col-12 col-md-4 texto2">Inversiones activas en 7 paises</div>
+            </div>
 
-    
-    
-
-
-          <div class="join-us">
-            <div class="container2"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/pago.gif" alt="GIF" />
-              Nuestro Portafolio
-              <hr>
-            </div>  
+            <!--Sección central-->
+              <div class="row description1">
+                    <div class="col-12 col-md-12 col-xl-12 col-xxl-12">SOMOS una empresa líder en tecnologías disruptivas con enfoque en Energías limpias, desarrollo Blockchain, Minería POW <br>
+                    y proyectos de incubación. Nuestro objetivo es desarrollar soluciones sostenibles en energía renovable y aplicar <br>
+                    la innovadora tecnología Blockchain en diversos sectores. A través de nuestro token nativo, Hashin e Hidrogam, <br>
+                    impulsamos una red descentralizada y segura. Además, nos destacamos en la Minería POW para garantizar <br>
+                    transacciones digitales confiables. Como líderes en el mercado tecnológico, ofrecemos oportunidades <br>
+                    de inversión en startups, fomentando el crecimiento y diversificación de nuestras carteras de inversion.</div>
+              </div>
+              <hr class="custom-hr">
+      </div>
+      
+      <!-- Nuestro Portafolio-->
+    <div class="contenedor2">
+      <div class="join-us">
+                <div>
+                  <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/pago.gif" alt="GIF" />
+                  <h2>Nuestro Portafolio</h2>
+                  <hr>
+              </div>
             <div class="quienes-somos2">
               En Tera Watt, nos destacamos por diversificar nuestras inversiones en diferentes carteras, hemos creando un entorno intercomunicado de diferentes tecnologias que nos impulsa a desarrollar proyectos de estándares mundiales. Nuestro enfoque de inversion se basa  en Energías limpias, desarrollo Blockchain, Minería POW y proyectos de incubación, con el objetivo de impulsar soluciones sostenibles en energía renovable y aplicar la innovadora tecnología Blockchain en diversos sectores. Nuestra visión es liderar el camino hacia un futuro más sostenible y prometedor.
             </div> 
-          </div>
+      </div>
+    </div>  
         
         
           
-          <div class="sub-menu">
-            <div class="container6">
-              <li id="pow-pools">Energias limpias</li>
-              <li id="blockchain">Blockchain dev</li>
-              <li id="wallet">Data Centers </li>
-            </div>
-          </div>
+
+    <!--Sección Energias Limpias, Blockchain Y DataCenter-->
+  <div class="sub-menu nav nav-tabs">
+      <div class="container">
+        <li id="pow-pools">Energias limpias</li>
+        <li id="blockchain">Blockchain dev</li>
+        <li id="wallet">Data Centers </li>
+        <div class="separator"></div>
+
+        
+          <div class="container">
+                <div class="contenedor7">
+                <div id="pow-pools-content">
+                <div class="row">
+                  <div class="col-lg-6">
+                      <h6 class="pow-pools-content">Energias Limpias con tecnologia de punta </h6>
+                      <p  data-text="main">Tera Watt es líder en energías limpias, enfocados en eólica, <br>
+                  solar y generación de hidrógeno. Con presencia destacada <br>
+                  en Latinoamérica (Chile, Colombia, Uruguay, Brasil), <br>
+                  desarrollamos proyectos de calidad que promueven un futuro <br>
+                  sostenible.<br>
+
+                  Trabajamos en estrecha colaboración con comunidades, <br>
+                  gobiernos y socios estratégicos para implementar soluciones <br>
+                  energéticas eficientes y sostenibles, reduciendo las <br>
+                  emisiones de carbono y fomentando la transición hacia <br>
+                  energías renovables.<br>
+                  
+                  Además, financiamos proyectos de gran escalabilidad para <br>
+                  asegurar su viabilidad y éxito. Nuestro compromiso es <br>
+                  contribuir a la mitigación del cambio climático y <br>
+                  promover un modelo energético limpio. <br>
+                  En Tera Watt, impulsamos el desarrollo de infraestructuras <br>
+                  energéticas responsables y respetuosas con el <br>
+                      medio ambiente.</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/1.png" alt="Image1">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/2.png" alt="Image2">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/3.png" alt="Image3">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                </div>
+                <div id="blockchain-content">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h6 class="Blockchain2">Desarrollamos soluciones full stack en blockchain</h6>
+                      <p class="blockchain" data-text="main">Con un enfoque especializado en contratos inteligentes, <br>
+                        soluciones DApps, DeFi, SAAS, IA y DEX, hemos liderado el <br>
+                        desarrollo full stack en blockchain. Nuestra experiencia <br>
+                        abarca desde la creación de contratos inteligentes seguros <br>
+                        y eficientes hasta la implementación de soluciones <br>
+                        descentralizadas, la integración de tecnologías DeFi y CEX, <br>
+                        el uso de inteligencia artificial para optimizar procesos
+                         <br>y el desarrollo de intercambios descentralizados. <br>
+                         Nuestro objetivo es impulsar la adopción de la tecnología <br>
+                         blockchain en diversos sectores, brindando soluciones <br>
+                         innovadoras y confiables que impulsen la transformación <br>
+                         digital y la creación de ecosistemas descentralizados.
+                        </p>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/4.png" alt="Image1">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/5.png" alt="Image2">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/6.png" alt="Image3">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                </div>
+                <div id="wallet-content">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h6 class="wallet-content">Energias Limpias con tecnologia de punta</h6>
+                      <p data-text="main">¡Somos los pioneros en el desarrollo de centros de datos <br>
+                        para la industria del big data y criptomonedas! Nuestra <br>
+                        experiencia se destaca por la creación de tecnologías <br>
+                        innovadoras y nuestra colaboración con los líderes del <br>
+                        mercado en enfriamiento por inmersión y viento para minería <br>
+                        POW. Con nuestro servicio "turnkey", nos encargamos de todo:<br>
+                         desde las evaluaciones técnicas y el diseño hasta la <br>
+                         planificación, construcción y puesta en marcha. Confía <br>
+                         en nosotros para tu proyecto de centro de datos, donde <br>
+                         combinamos nuestra experiencia y tecnologías de energía <br>
+                         para brindarte soluciones de vanguardia.</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/7.png" alt="Image1">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/8.png" alt="Image2">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="https://terawatt.s3.us-east-2.amazonaws.com/img/9.png" alt="Image3">
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                </div>
+            
+      
+    </div>
+</div>
+
+              <!--Sección Nuestros Socios-->
           
-          <div class="separator"></div>
-          
-          <div class="container7">
-            <div id="pow-pools-content">
-              <h6 class="pow-pools-content">Energias Limpias con tecnologia de punta </h6>
-              <p data-text="main">Tera Watt es líder en energías limpias, enfocados en eólica, <br>
-                solar y generación de hidrógeno. Con presencia destacada <br>
-                en Latinoamérica (Chile, Colombia, Uruguay, Brasil), <br>
-                desarrollamos proyectos de calidad que promueven un futuro <br>
-                sostenible.<br>
-
-                Trabajamos en estrecha colaboración con comunidades, <br>
-                gobiernos y socios estratégicos para implementar soluciones <br>
-                energéticas eficientes y sostenibles, reduciendo las <br>
-                emisiones de carbono y fomentando la transición hacia <br>
-                energías renovables.<br>
-                
-                Además, financiamos proyectos de gran escalabilidad para <br>
-                asegurar su viabilidad y éxito. Nuestro compromiso es <br>
-                contribuir a la mitigación del cambio climático y <br>
-                promover un modelo energético limpio. <br>
-                En Tera Watt, impulsamos el desarrollo de infraestructuras <br>
-                energéticas responsables y respetuosas con el <br>
-                medio ambiente.</p>
-             
-             <div class="image-container7">
-              <img class="image1" src="https://terawatt.s3.us-east-2.amazonaws.com/img/1.png" alt="Image1">
-              <img class="image2" src="https://terawatt.s3.us-east-2.amazonaws.com/img/2.png" alt="Image2">
-              <img class="image3" src="https://terawatt.s3.us-east-2.amazonaws.com/img/3.png" alt="Image3">
-            </div>
-            </div>
-          
-            <div id="blockchain-content">
-              <h6 class="Blockchain2">Desarrollamos soluciones full stack en blockchain</h6>
-              
-              <p data-text="main2">
-
-
-
-                
-                Con un enfoque especializado en contratos inteligentes, <br>
-                soluciones DApps, DeFi, SAAS, IA y DEX, hemos liderado el <br>
-                desarrollo full stack en blockchain. Nuestra experiencia <br>
-                abarca desde la creación de contratos inteligentes seguros <br>
-                y eficientes hasta la implementación de soluciones <br>
-                descentralizadas, la integración de tecnologías DeFi y CEX, <br>
-                el uso de inteligencia artificial para optimizar procesos
-                 <br>y el desarrollo de intercambios descentralizados. <br>
-                 Nuestro objetivo es impulsar la adopción de la tecnología <br>
-                 blockchain en diversos sectores, brindando soluciones <br>
-                 innovadoras y confiables que impulsen la transformación <br>
-                 digital y la creación de ecosistemas descentralizados.
-
-                </p>
-             
-              
-              <div class="image2-container7">
-                <img class="image4" src="https://terawatt.s3.us-east-2.amazonaws.com/img/4.png" alt="Image4">
-                <img class="image5" src="https://terawatt.s3.us-east-2.amazonaws.com/img/5.png" alt="Image5">
-                <img class="image6" src="https://terawatt.s3.us-east-2.amazonaws.com/img/6.png" alt="Image6">
-              </div>
-
-            </div>
-          
-            <div id="wallet-content">
-              <h6 class="wallet-content">Energias Limpias con tecnologia de punta</h6>
-              <p data-text="main2">
-                ¡Somos los pioneros en el desarrollo de centros de datos <br>
-                para la industria del big data y criptomonedas! Nuestra <br>
-                experiencia se destaca por la creación de tecnologías <br>
-                innovadoras y nuestra colaboración con los líderes del <br>
-                mercado en enfriamiento por inmersión y viento para minería <br>
-                POW. Con nuestro servicio "turnkey", nos encargamos de todo:<br>
-                 desde las evaluaciones técnicas y el diseño hasta la <br>
-                 planificación, construcción y puesta en marcha. Confía <br>
-                 en nosotros para tu proyecto de centro de datos, donde <br>
-                 combinamos nuestra experiencia y tecnologías de energía <br>
-                 para brindarte soluciones de vanguardia.</p>
-                
-
-                <div class="image3-container7">
-                  <img class="image7" src="https://terawatt.s3.us-east-2.amazonaws.com/img/7.png" alt="Image7">
-                  <img class="image8" src="https://terawatt.s3.us-east-2.amazonaws.com/img/8.png" alt="Image8">
-                  <img class="image9" src="https://terawatt.s3.us-east-2.amazonaws.com/img/9.png" alt="Image9">
-              </div>
-            </div>
-          </div>
-
-
-
-
+        <div class="container">
           <div class="join-us2">
             <div class="titulo"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/socios.gif" alt="GIF" />
               Nuestros Socios Globales
               <hr>
             </div>  
-            <div class="quienes-somos2">
-              <div class="texto">
+            <div class=" row quienes-somos2">
+              <div class="col-12 col-md-12 texto">
                 En Tera Watt, colaboramos con las principales empresas de la industria, donde hemos desarrollado un sólido modelo empresarial que nos brinda seguridad y dinamismo en la ejecución de cada proyecto. Nos enorgullece trabajar junto a los líderes del sector para cumplir nuestros objetivos y alcanzar la excelencia en cada emprendimiento. Este enfoque nos permite garantizar resultados de calidad y mantenernos a la vanguardia de la industria.
               </div>
             </div>
-            
           </div>
+        </div>
           
 
-
-
+          <!-------------------------------Slider con Logo de Socios-------------->
         
           <div class="slideshow-container">
             <div class="slide-wrapper">
@@ -434,11 +563,14 @@
                   <img class="slide-image" src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo.24.png" alt="Image 21">
                 </a>
               </div>
-
-              <!-- Agrega más imágenes aquí -->
             </div>
           
-            
+
+
+
+
+
+            <!--Servicios-->
               <div class="servicios">
                 <h1>Servicios</h1>
                 <hr>
@@ -455,6 +587,8 @@
 
             <div class="slideshow-container">
               <div class="card-section">
+                
+                <script src="script.js"></script>
                   <div class="card">
                     <div class="card-image">
                       <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/12.png" alt="Imagen 1">
@@ -543,152 +677,261 @@
                 <a class="next">&#10095;</a>
               </div>
             </div>
-           
+              
+            
+
+              
+
+              
+              
 
 
-
-
-              <div class="inversiones">
-                <h1>Nuestras Inversiones</h1>
-                <hr>
-                <p> En nuestra búsqueda por ser pioneros y líderes en la industria, en conjunto con nuestros inversores, hemos colaborado en proyectos en todo el mundo, alcanzando cifras importantes en diferentes modelos de inversión. Algunas de las inversiones  destacados son los siguientes;</p>
+            <!--Nuestras Inversiones-->
+            <div class="container">
+              <div class="row">
+                <div class=" col-12 col-md-12 inversiones">
+                  <h1>Nuestras Inversiones</h1>
+                  <hr>
+                  <p> En nuestra búsqueda por ser pioneros y líderes en la industria, en conjunto con nuestros inversores, hemos colaborado en proyectos en todo el mundo, alcanzando cifras importantes en diferentes modelos de inversión. Algunas de las inversiones  destacados son los siguientes;</p>
+                </div>
               </div>  
+            </div>
+            
+
+            <!--Sección Inversiones con Video y GIF-->
+            <div class="container">
+              <div class="video-background">
+                <video src="https://terawatt.s3.us-east-2.amazonaws.com/videos/Video2Twm.mp4" autoplay loop muted></video>
+                <div class="overlay">
+
+                  <div class="row justify-content-evenly">
+                    <div class="col-6 colder1">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/solar.gif" alt="GIF 1" class="gif1">
+                      <h4 class="title1">Proyectos de Energía Solar</h4>
+                      <p class="text1">+20M inversión</p>
+                    </div>
+                    <div class="col-6 colizq1">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/magnetico.gif" alt="GIF 3" class="gif3">
+                      <h4 class="title3">Proyectos de Energía Magnética</h4>
+                      <p class="text3">+65M inversión</p>
+                    </div>
+                  </div>
 
 
-            <div class="video-background">
-              <video src="hhttps://terawatt.s3.us-east-2.amazonaws.com/videos/Video2Twm.mp4" autoplay loop muted></video>
-              <!--<video src="https://terawatt.s3.us-east-2.amazonaws.com/gif/video+twm.mp4" autoplay loop muted></video> -->
-              <div class="overlay">
-                
-                <div class="text-contenido1">
-                  <h4 class="title1">
-                    Proyectos de Energia Solar
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/solar.gif" alt="GIF 1" class="gif1">
-                  </h4>
-                  <p class="text1">+20M inversión</p>
+                  <div class="row justify-content-evenly">
+                    <div class="col-6 colder2">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/eolica.gif" alt="GIF 2" class="gif2">
+                      <h4 class="title2">Proyectos de Energía Eólica</h4>
+                      <p class="text2">+100M inversión</p>
+                    </div>
+                    <div class="col-6 colizq2">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/magneto.gif" alt="GIF 4" class="gif4">
+                      <h4 class="title4">Proyectos Blockchain</h4>
+                      <p class="text4">+90M inversión</p>
+                    </div>
+                  </div>
 
-                </div>
-                <div class="text-contenido2">
-                  <h4 class="title2">
-                    Proyectos de Energia Eólica
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/eolica.gif" alt="GIF 2" class="gif2">
-                  </h4>
-                  <p class="text2">+100M inversión</p>
-                </div>
+                  <div class="row justify-content-evenly">
+                    <div class="col-6 colder3">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/contruccion.gif" alt="GIF 5" class="gif5">
+                      <h4 class="title5">Proyectos Real State</h4>
+                      <p class="text5">+300M inversión</p>
+                    </div>
+                    <div class="col-6 colizq3">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/social.gif" alt="GIF 6" class="gif6">
+                      <h4 class="title6">Proyectos Sociales</h4>
+                      <p class="text6">+25M inversión</p>
+                    </div>
+                  </div>
 
-                <div class="text-contenido3">
-                  <h4 class="title3">
-                    Proyectos de Energia Magnetica
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/magnetico.gif" alt="GIF 3" class="gif3">
-                  </h4>
-                  <p class="text3">+65M inversión</p>
-                </div>
-                <div class="text-contenido4">
-                  <h4 class="title4">
-                    Proyectos Blockchain
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/magneto.gif" alt="GIF 4" class="gif4">
-                  </h4>
-                  <p class="text4">+90M inversión</p>
-                </div>
-                <div class="text-contenido5">
-                  <h4 class="title5">
-                    Proyectos Real State
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/contruccion.gif" alt="GIF 5" class="gif5">
-                  </h4>
-                  <p class="text5">+300M inversión</p>
-                </div>
-                <div class="text-contenido6">
-                  <h4 class="title6">
-                    Proyectos Sociales
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/social.gif" alt="GIF 6" class="gif6">
-                  </h4>
-                  <p class="text6">+25M inversión</p>
+
                 </div>
               </div>
             </div>
-              
 
-            <div class="section">
-              <div class="title-container">
+
+            <!--
+                  <div class="row text-contenido1">
+                    <div class="col-12 col-md-4 text-md-start text-center">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/solar.gif" alt="GIF 1" class="gif1">
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <h4 class="title1">Proyectos de Energía Solar</h4>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-end text-center">
+                      <p class="text1">+20M inversión</p>
+                    </div>
+                  </div>
+
+                  -->
+
+            <!--
+                  <div class="row text-contenido2">
+                    <div class="col-12 col-md-4 text-md-start text-center">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/eolica.gif" alt="GIF 2" class="gif2">
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <h4 class="title2">Proyectos de Energía Eólica</h4>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-end text-center">
+                      <p class="text2">+100M inversión</p>
+                    </div>
+                  </div>
+              -->
+            <!--
+                  <div class="row text-contenido3">
+                    <div class="col-12 col-md-4 text-md-start text-center">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/magnetico.gif" alt="GIF 3" class="gif3">
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <h4 class="title3">Proyectos de Energía Magnética</h4>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-end text-center">
+                      <p class="text3">+65M inversión</p>
+                    </div>
+                  </div>
+              -->
+            <!--
+                  <div class="row text-contenido4">
+                    <div class="col-12 col-md-4 text-md-start text-center">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/magneto.gif" alt="GIF 4" class="gif4">
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <h4 class="title4">Proyectos Blockchain</h4>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-end text-center">
+                      <p class="text4">+90M inversión</p>
+                    </div>
+                  </div>
+              -->
+            <!--
+                  <div class="row text-contenido5">
+                    <div class="col-12 col-md-4 text-md-start text-center">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/contruccion.gif" alt="GIF 5" class="gif5">
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <h4 class="title5">Proyectos Real State</h4>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-end text-center">
+                      <p class="text5">+300M inversión</p>
+                    </div>
+                  </div>
+            -->
+            
+            <!--
+                  <div class="row text-contenido6">
+                    <div class="col-12 col-md-4 text-md-start text-center">
+                      <img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/social.gif" alt="GIF 6" class="gif6">
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <h4 class="title6">Proyectos Sociales</h4>
+                    </div>
+                    <div class="col-12 col-md-4 text-md-end text-center">
+                      <p class="text6">+25M inversión</p>
+                    </div>
+                  </div>
+
+              -->
+
+
+
+            
+
+            
+            
+          <!--Sección Inversiones Responsables-->
+          <div class="container">
+            <div class="row section">
+              <div class="col-12 col-md-6 title-container">
                 <h2 class="title">
                   <span class="normal-text">INVERSIONES </span><br>
                   <span class="bold-text">RESPONSABLES </span>
                 </h2>
-                <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/18.png" alt="Imagen" class="image">
+                <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/18.png" alt="Imagen" class=" col-12 col-md-12 image">
+              </div>
             </div>
 
-            <div></div>
-
-            <div class="content8">Estamos integrando los principios ESG en nuestra <br>
+              <div class=" content8">Estamos integrando los principios ESG en nuestra <br>
               estrategia de inversión y promoviendo estos estándares <br>
               en toda nuestra empresa, para obtener asi un futuro <br>
               sostenible y un impacto positivo en las comunidades.</div>
-           </div>
-           <div class="button-container">
-            <a href="esg.html" class="custom-button">Información</a>
-          </div>
+              </div>
+              <div class="button-container">
+                <a href="esg.html" class="custom-button">Información</a>
+              </div>
+          </div> 
+
+
+  
+
+
 
             
             
             
 
-
+            <!--Sección Centros Tecnológicos-->
+          <div class="container section-video">
             <div class="video-section">
-              <!--<video src="https://terawatt.s3.us-east-2.amazonaws.com/img/vista+aerea.mp4" autoplay loop muted></video> -->
               <video src="https://terawatt.s3.us-east-2.amazonaws.com/videos/Vistaaerea3.mp4" autoplay loop muted></video>
               <div class="overlay1"></div>
-              <h2 class="title9">
-                <span class="normal-text">CENTROS </span><br>
-                <span class="bold-text">TECNOLOGICOS </span>
+              <h2 class=" row title9">
+                <span class=" col-12 col-md-6 normal-text">CENTROS </span><br>
+                <span class="col-12 col-md-6 bold-text">TECNOLOGICOS </span>
               </h2>
-              <div class="content9">En terawatt, hemos creado los Business and Technology Center (B&T), espacios que combinan tecnología y negocios. Estos centros muestran nuestras y otras tecnologías a comunidades cercanas, generando un entorno educativo y empresarial innovador. Los B&T Centers impulsan el conocimiento y el intercambio de ideas, transformando la comercialización de nuevas tecnologías y generando oportunidades de crecimiento. Son plataformas dinámicas que promueven la adopción de tecnologías avanzadas en nuestras comunidades.</div>
-              
-              <div class="img-video">
+              <div class="col-12 col-md-7 content9">En terawatt, hemos creado los Business and Technology Center (B&T), espacios que combinan tecnología y negocios. Estos centros muestran nuestras y otras tecnologías a comunidades cercanas, generando un entorno educativo y empresarial innovador. Los B&T Centers impulsan el conocimiento y el intercambio de ideas, transformando la comercialización de nuevas tecnologías y generando oportunidades de crecimiento. Son plataformas dinámicas que promueven la adopción de tecnologías avanzadas en nuestras comunidades.</div>
+              <div class="row">
+                <div class="img-video">
                   <a href="http://example.com/1" target="_blank">
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/big+data+y+AI.png" alt="Imagen 30" class="image30">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/big+data+y+AI.png" alt="Imagen 30" class=" col-2 col-md-2 image30">
                   </a>
                   <a href="http://example.com/1" target="_blank">
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/agricultura+de+precision.png" alt="Imagen 31" class="image31">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/agricultura+de+precision.png" alt="Imagen 31" class=" col-2 col-md-2 image31">
                   </a>
                   <a href="http://example.com/1" target="_blank">
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/diversificacion+de+la+industria.png" alt="Imagen 32" class="image32">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/diversificacion+de+la+industria.png" alt="Imagen 32" class="col-2 col-md-2 image32">
                   </a>
                   <a href="http://example.com/1" target="_blank">
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/biotecnologia.png" alt="Imagen 33" class="image33">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/biotecnologia.png" alt="Imagen 33" class="col-2 col-md-2 image33">
                   </a>
                   <a href="http://example.com/1" target="_blank">
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/eficiencias+energeticas.png" alt="Imagen 34" class="image34">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/eficiencias+energeticas.png" alt="Imagen 34" class="col-2 col-md-2 image34">
                   </a>
                   <a href="http://example.com/1" target="_blank">
-                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/energia+renovable.png" alt="Imagen 35" class="image35">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/energia+renovable.png" alt="Imagen 35" class="col-2 col-md-2 image35">
                   </a>
+                </div>
+              </div>
             </div>
-              
-            </div>
+          </div>
             
             
-           
+
+           <!-- Mensaje CEO-->
+          <div class="container ">
             <div class="section2">
-              <div class="title-container2">
-                <h6 class="title15">Mensaje de Nuestro CEO & Cheirman Mr:</h6>
-                  <h2 class="title16">Mauricio Correa <br>Iturrieta
+              <div class=" row title-container2">
+                <h6 class=" col-12 col-md-12 title15">Mensaje de Nuestro CEO & Cheirman Mr:</h6>
+                  <h2 class="col-12 col-md-12 title16">Mauricio Correa <br>Iturrieta
                   </h2>
-                 <!------------------ ----------------------------------Mauro Image insert here---------------------------------->
-                <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/Mauricio+correa+2.png" alt="Imagen" class="image13">
               </div>
-              <div class="content15">"2023 es un año activo para Tera Watt, <br>
-                con más de 18 transacciones alineadas a nuestra <br>
-                estrategia de invertir en megatendencias globales. <br>
-                Expandimos nuestro liderazgo energético y desarrollo <br>
-                tecnológico en blockchain e hidrógeno. Catalizaremos <br>
-                motores económicos y estableceremos vínculos con <br>
-                economías líderes en un mercado competitivo."
-              </div>
+              <div class="row Mensaje">
+                <div class=" col-12 col-md-12 mt-5 content15">"2023 es un año activo para Tera Watt, <br>
+                  con más de 18 transacciones alineadas a nuestra <br>
+                  estrategia de invertir en megatendencias globales. <br>
+                  Expandimos nuestro liderazgo energético y desarrollo <br>
+                  tecnológico en blockchain e hidrógeno. Catalizaremos <br>
+                  motores económicos y estableceremos vínculos con <br>
+                  economías líderes en un mercado competitivo."
+                </div>
+                <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/Mauricio+correa+2.png" alt="Imagen" class=" col-6 -col-md-6 w-auto image13">
             </div>
+          </div>
+          </div>
             
           
           
-          
+          <!--Sección Noticias Relevantes-->
             <div class="content17">"Noticias Relevantes 2023"</div>
             <div class="custom-card-section" id="news-section">
               <div class="custom-card">
@@ -752,19 +995,22 @@
                 </div>
               </div>
             </div>
-            
-            
 
 
-            <div class="content18">Somos Noticia Mundial
+          <!--Sección Noticia Mundial-->
+
+          
+
+
+          <div class="content18">Somos Noticia Mundial
             <hr></div>
 
-            <div class="container">
+            <div class="contenedor55">
               <div class="box">
                 <a href="https://forbes.es/criptomonedas/144731/que-le-depara-el-futuro-a-la-mineria-de-bitcoin/" target="_blank"></a>
                 <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/forbes.png" alt="Imagen 1" class="box-image">
-                <div class="box-content"
-                  class="box-text1">"Qué le depara el futuro a <br>la minería de Bitcoin"
+                <div class="box-content11"
+                     class="box-text1">"Qué le depara el futuro a <br>la minería de Bitcoin"
                 </div>
               </div>
               <div class="box">
@@ -792,14 +1038,59 @@
                 </div>
               </div>
             </div>
-
-
-
-            
             
 
-  
+        <!--
+        <div class="container">
+            <div class="noticias">
+            <div class="content18">Somos Noticia Mundial
+              <hr></div>
+            <div class="row noticias">
+              <div class=" col-12 col-sm-12 col-md-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/forbes.png" alt="Imagen 1" class="box-image1">
+                    <p class="card-text somos-noticias-texto">Qué le depara el futuro a <br>la minería de Bitcoin</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/elmundo.png" alt="Imagen 2" class="box-image">
+                    <p class="card-text somos-noticias-texto">"Incubamos el futuro de LATAM <br> hacia las fuentes renovables"</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 mt-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/nbcnews.png" alt="Imagen 3" class="box-image2">
+                    <p class="card-text somos-noticias-texto">"Blockchenizacion, la megatendencia <br>de las empresas tecnologicas"</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 mt-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/bbcnews.png" alt="Imagen 4" class="box-image3">
+                    <p class="card-text somos-noticias-texto">"Los desarrollos en energia sostenible son la clave para el cambio climatico"</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-12 mt-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/bloomberg.png" alt="Imagen 5" class="box-image4">
+                    <p class="card-text somos-noticias-texto">"El Hidrogeno verde sera el <br> combustible del futuro"</p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+        </div>
 
+        -->
           
             <div class="curved-section">
               <div class="bold-text">Sé el primero en leer nuestra última historia <br>
@@ -811,8 +1102,8 @@
             
           
 
-            <footer class="footer">
-              <div class="footer-separator"></div>
+          <footer class="footer">
+            <div class="footer-separator"></div>
               <div class="footer-container">
                 <div class="footer-column">
                   <h3 class="footer-title">Disclaimer</h3>
@@ -859,6 +1150,7 @@
                   </form>
                 </div>
               </div>
+
               <div class="footer-separator"></div>
               <div class="footer-bottom">
                 <div class="footer-logo">
@@ -874,6 +1166,8 @@
 
 
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
   

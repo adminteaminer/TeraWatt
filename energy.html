@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TERAWATT</title>
+  <head>
+    <!--Metadatos-->
+    <meta charset="UTF-8" />
+    <meta name="description" content=" TERAWATT, ENERGY" />
+    <meta name="keywords" content="ENERGY" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!--Estilos-->
-  <link rel="stylesheet" type="text/css" href="energy.css">
-  
-  <!-- JavaScript-->
-  <script src="script.js"></script>
-  
-</head>
+    <!--Título-->
+    <title>TERAWATT</title>
 
-<body>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="energy.css" />
 
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript-->
+    <script src="script.js"></script>
+
+    <style>
+      /* Estilos para las opciones de lenguaje */
+      .navbar .dropdown-menu a {
+        display: flex;
+        align-items: center;
+      }
+
+      .navbar .dropdown-menu img {
+        width: 20px; /* Ajusta el tamaño de las imágenes según tus preferencias */
+        height: auto; /* Ajusta la altura de las imágenes según tus preferencias */
+        margin-right: 10px; /* Espacio entre la imagen y el texto */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!---->
   <div class="mobile-menu">
     <div class="open-menu-button" id="openMenu">&#9776;</div>
     <div class="slidebar" id="slidebar">
@@ -25,22 +51,24 @@
         <li><a href="datacenter.html">Centro de Datos</a></li>
         <li><a href="whoweare.html">Sobre Nosotros</a></li>
         <li><a href="whatwedo.html">Who We Are</a></li>
-        <!-- Agrega más elementos del menú aquí -->
+        
       </ul>
     </div>
   </div>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const openMenuButton = document.getElementById('openMenu');
-      const slidebar = document.getElementById('slidebar');
-      
-      openMenuButton.addEventListener('click', function () {
-        slidebar.classList.toggle('open');
-      });
-    });
-  </script>
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const openMenuButton = document.getElementById("openMenu");
+        const slidebar = document.getElementById("slidebar");
+
+        openMenuButton.addEventListener("click", function () {
+          slidebar.classList.toggle("open");
+        });
+      });
+    </script>
+
+    <!---->
   <header class="sticky-header">
     <a href="index.html" class="logo">
       <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo.tera.energy.png" alt="Logo">
@@ -74,395 +102,738 @@
     </nav>
     <a class="get-started-button" href="login.html">INVERSORES</a>
 
+
   </header>
-  
-  <main>
 
-    <div class="video-background">
-      <video src="https://terawatt.s3.us-east-2.amazonaws.com/videos/Header+Video+4.2.mp4" autoplay loop muted></video>
-       <!--<video src="https://terawatt.s3.us-east-2.amazonaws.com/img/header+video+4.mp4" autoplay loop muted></video>--> 
-        <div class="overlay">
-          <div class="text-container">
-            <h6 class="title1">
-              Desarrollo de <br>
-              Proyectos Energeticos
-              <hr>
-            </h6>
-            <p class="text1">SOLAR - EOLICA - HIDRIGENO</p>
-          </div>
-         
+  
+
+    <!-------------------------------------------------------------------Navbar
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <img
+          src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png"
+          alt=""
+          width="160"
+          height="40"
+          class="d-inline-block align-text-top"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <a class="nav-link active" aria-current="page" energy.htm="#"
+              >Energias</a
+            >
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="blockchain.html"
+              >Blockchain</a
+            >
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="datacenter.html"
+              >Centro de Datos</a
+            >
+            <a class="nav-link active" aria-current="page" href="whoweare.html"
+              >Sobre Nosotros</a
+            >
+            <li class="nav-item"></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Language
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a href="#"
+                    ><img
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/pngwing.com.png"
+                      alt="English Icon"
+                    />English</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/icono_espa%C3%B1a.png"
+                      alt="Spanish Icon"
+                    />Español</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
-      
+    </nav>
 
+    -------------------->
 
-    <div class="section">
-        <div class="title-container">
-          <h2 class="title">
-            <span class="normal-text">PROYECTOS  <BR>    </span>
-            <span class="bold-text">  EOLICOS </span>
-            <div class="hide">EOLICOS</div>
-          </h2>
-          <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/19.png" alt="Imagen" class="image">
-        </div>
-        <div class="content8">En Tera Watt, somos líderes en el desarrollo de proyectos <br> 
-            de ERNC (Energías Renovables no convencionales)  , con un <br>
-            enfoque destacado en la energía eólica. Trabajamos en <br>
-            colaboración con las principales empresas del rubro<br>
-            para implementar proyectos que impulsen  la industria<br>
-            energética hacia nuevos horizontes.  Nuestros estándares<br>
-            internacionales y nuestro compromiso con la calidad nos distinguen en la ejecución de cada  proyecto.<br>
-            Si buscas desarrollar una iniciativa innovadora y sostenible, nuestros asistentes de proyectos están<br>
-            disponibles para brindarte toda la información y apoyo necesarios. Únete a nosotros en la construcción<br>
-            de un futuro energético más limpio y sustentable.</div>
-          
-          
-       </div>
-       
-      </div>
-
-      <div class="separator">
-        <div class="ball-container">
-          <div class="ball"></div>
-          
-        </div>
-        <hr class="wave-line">
-      </div>
-      
-      
-
-<div class="section2">
-    <div class="title-container2">
-      <h2 class="title2">
-        <span class="normal-text2">PROYECTOS  <BR>    </span>
-        <span class="bold-text2">  SOLARES </span>
-      </h2>
-      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/fotovoltaico.png" alt="Imagen" class="image2">
-    </div>
-    <div class="content9">En Tera Watt, somos líderes en el desarrollo de proyectos <br> 
-        de ERNC (Energías Renovables no convencionales)  , con un <br>
-        enfoque destacado en la energía eólica. Trabajamos en <br>
-        colaboración con las principales empresas del rubro<br>
-        para implementar proyectos que impulsen  la industria<br>
-        energética hacia nuevos horizontes.  Nuestros estándares<br>
-        internacionales y nuestro compromiso con la calidad nos distinguen en la ejecución de cada  proyecto.<br>
-        Si buscas desarrollar una iniciativa innovadora y sostenible, nuestros asistentes de proyectos están<br>
-        disponibles para brindarte toda la información y apoyo necesarios. Únete a nosotros en la construcción<br>
-        de un futuro energético más limpio y sustentable.</div>
-      
-   </div>
-  
-  </div>
-
-  <div class="separator">
-    <div class="ball-container">
-      <div class="ball"></div>
-      
-    </div>
-    <hr class="wave-line">
-  </div>
-
-
-  <div class="section3">
-    <div class="title-container3">
-      <h2 class="title3">
-        <span class="normal-text3">PROYECTOS  <BR>    </span>
-        <span class="bold-text3">  HIDROGENO </span>
-      </h2>
-      <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/hidrogeno.png" alt="Imagen" class="image3">
-    </div>
-    <div class="content10">En Tera Watt, somos líderes en el desarrollo de proyectos <br> 
-        de ERNC (Energías Renovables no convencionales)  , con un <br>
-        enfoque destacado en la energía eólica. Trabajamos en <br>
-        colaboración con las principales empresas del rubro<br>
-        para implementar proyectos que impulsen  la industria<br>
-        energética hacia nuevos horizontes.  Nuestros estándares<br>
-        internacionales y nuestro compromiso con la calidad nos distinguen en la ejecución de cada  proyecto.<br>
-        Si buscas desarrollar una iniciativa innovadora y sostenible, nuestros asistentes de proyectos están<br>
-        disponibles para brindarte toda la información y apoyo necesarios. Únete a nosotros en la construcción<br>
-        de un futuro energético más limpio y sustentable.</div>
-      
-   </div>
-  
-  </div>
-
-
-  
-
-    <div class="video-container">
-        <video id="myVideo" autoplay playsinline loop muted>
-         <source src="https://player.vimeo.com/progressive_redirect/playback/823277032/rendition/240p/file.mp4?loc=external&amp;signature=7248d1ad3c0b9d2bf361bb7286d153019389ef7c2471be7418f49166b5cb1133" type="video/mp4">
-        </video>    
-      <div class="overlay2">
-         <h2 class="title">Soluciones </span>
-         <span class="bold-text4">Globales</h2>
-            <div class="text-container">
-                <div class="text1">Trabajamos por</div>
-                <div class="text2">Consagrando la Industria<span class="line"></span></div>
+    <div class="container">
+      <main>
+        <div class="contenedor">
+          <div class="video-background">
+            <video
+              src="https://terawatt.s3.us-east-2.amazonaws.com/videos/Header+Video+4.2.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+            <div class="overlay">
+              <div class="text-container">
+                <h6 class="title1">
+                  Desarrollo de <br />
+                  Proyectos Energeticos
+                  <hr />
+                </h6>
+                <p class="text1">SOLAR - EOLICA - HIDRIGENO</p>
+              </div>
             </div>
-            <script>
-                const video = document.getElementById('myVideo');
-                video.playbackRate = 0.7; // Establecer la velocidad de reproducción al 70%
-            </script>    
-        </div>
-    </div>
-  
-
-
-
-  <div class="join-us">
-    <div class="container2"><img src="https://terawatt.s3.us-east-2.amazonaws.com/gif/global.gif" alt="GIF" />
-      Nuestros Proyectos Globales 2023
-      <hr>
-    </div>  
-    <div class="quienes-somos2">
-      En Tera Watt, nos destacamos por diversificar nuestras inversiones en diferentes carteras, hemos creando un entorno intercomunicado de diferentes tecnologias que nos impulsa a desarrollar proyectos de estándares mundiales. Nuestro enfoque de inversion se basa  en Energías limpias, desarrollo Blockchain, Minería POW y proyectos de incubación, con el objetivo de impulsar soluciones sostenibles en energía renovable y aplicar la innovadora tecnología Blockchain en diversos sectores. Nuestra visión es liderar el camino hacia un futuro más sostenible y prometedor.
-    </div> 
-  </div>
-
-
-
-  
-  <div class="sub-menu">
-    <div class="container6">
-      <li id="pow-pools">LATINO AMERICA</li>
-      <li id="blockchain">NORTE AMERICA</li>
-      <li id="wallet">GLOBAL </li>
-    </div>
-  </div>
-  
-  <div class="separator"></div>
-  
-  <div class="container7">
-    <div id="pow-pools-content">
-      <h6 class="pow-pools-content">Nuestros Principales Poryectos en LATAM </h6>
-      <p data-text="main">
-
-        <span class="left-side">CHILE:</span>
-        <span class="right-side">
-          TeraWatt ha estado trabajando en un ambicioso proyecto <br>
-          de energía solar a gran escala en la provincia de Antofagasta, <br>
-          Chile, Esta área es mundialmente reconocida por tener la mayor <br>
-          radiación solar del planeta. El proyecto se centra en la genera-<br>ción 
-          de energía limpia, con el propósito de abastecer gran <br>parte del
-          consumo energético de las grandes mineras de la<br> zona. <br>
-          <br>
-          </span>
-        
-        <span class="left-side">BRASIL:</span>
-        <span class="right-side">
-          En Brasil, hemos estado colaborando estrechamente con <br>
-          nuestros socios en un proyecto de gran relevancia para el país,<br>
-          el cual marcará un hito importante en la 
-          formulación de proyec-<br>tos relacionados con la energía 
-          eólica. Este espectacular pro-<br>yecto en alta mar nos ha 
-          motivado a aceptar los desafíos que <br>conlleva, con el 
-          firme propósito de impulsar el desarrollo de la <br>energía 
-          limpia y renovable en la región. <br><br>
-          
-          </span>
-
-        <span class="left-side">CHILE:</span>
-        <span class="right-side">
-          
-          Con una tecnología de hidrógeno única en el mundo y <br>
-          patentada, nos hemos destacado al trabajar codo a codo <br>
-          con nuestros valiosos socios en la confirmación y 
-          ejecución<br> de la primera planta a gran escala en el 
-          mundo. Somos pio--<br>neros en este nuevo y revolucionario 
-          enfoque, forjando el <br>camino hacia proyectos de 
-          envergadura que moldearán el <br>futuro de la región con 
-          soluciones innovadoras y sostenibles. <br>Nuestro compromiso 
-          es liderar la transformación hacia una <br>industria 
-          energética más limpia y respetuosa con el medio <br>ambiente, 
-          dejando una huella positiva para las generaciones <br>venideras.
-          </span>
-        
-        </p>
-     
-     
-     <img class="image1" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto1.png" alt="Image1">
-     <img class="image20" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto2.png" alt="Image2">
-     <img class="image30" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto3.png" alt="Image3">
-      
-    </div>
-  
-    <div id="blockchain-content">
-      <h6 class="Blockchain2">Nuestros Principales Poryectos en America del Norte</h6>
-      
-      <p data-text="main2">
-
-
-        <span class="left-side">MÉXICO:</span>
-        <span class="right-side">
-
-          Para México y por primera vez, TeraWatt está desarrollando <br>
-          un innovador proyecto multipropósito que combina diversas tecno-<br>
-          logías de generación de energía, junto con la producción de hidró-<br>
-          geno, una desaladora de agua de mar, un centro de datos y un <br>
-          centro tecnológico a gran escala. Todo esto tiene como objetivo <br>
-          potenciar la región de Sonora y posicionarla como una zona indus-<br>
-          trial de gran capacidad. Con este ambicioso proyecto, buscamos <br>
-          contribuir al desarrollo sostenible y al impulso de la industria en <br>
-          la región.
-          <br><br>
-          </span>
-        
-        <span class="left-side">USA:</span>
-        <span class="right-side">
-          En Estados Unidos, actualmente nos encontramos en la etapa <br>
-          constructiva de nuestro proyecto de data center, el cual albergará <br>
-          un data-cloud y minería de BTC. Este centro integrará una tecnolo-<br>
-          gía de autogeneración que nos brindará un soporte eficiente en <br>
-          temas energéticos y nos permitirá contar con valores exclusivos <br>
-          de energía para la minería de BTC. Estamos emocionados por <br>
-          este proyecto que nos permitirá ofrecer soluciones innovadoras <br>
-          en el ámbito tecnológico y energético en la región.
-
-         <br><br>
-          
-          </span>
-
-        <span class="left-side">CANADA:</span>
-        <span class="right-side">
-          
-          Con la invaluable colaboración y confianza de la comu-<br>
-          nidad indígena de Canadá, nos encontramos desarrollando la<br>
-           primera planta de hidrógeno verde en zonas de reservas. Este <br>
-           proyecto tiene una enorme importancia para las comunidades <br>
-           aledañas debido a su identidad étnica y su situación especial. <br>
-           Estamos comprometidos a contribuir con un proyecto de gran <br>
-           envergadura que beneficiará significativamente a una comu-<br>
-           nidad que realmente necesita este tipo de iniciativas en su <br>
-           zona. Nuestro objetivo es establecer un proyecto sostenible y <br>
-           respetuoso con el medio ambiente que deje un impacto posi-<br>
-           tivo duradero en la región.
-
-
-          
-          </span>
-        
-
-        </p>
-     
-      
-      <img class="image4" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto4.png" alt="Image4">
-      <img class="image5" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto5.png" alt="Image5">
-      <img class="image6" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto6.png" alt="Image6">
-
-    </div>
-  
-    <div id="wallet-content">
-      <h6 class="wallet-content">Principales proyectos en desarrollo a nivel mundial </h6>
-      <p data-text="main2">
-
-        TeraWatt ha estado trabajando arduamente en un conjunto <br>
-        de proyectos en todo el mundo, entre los cuales destacan <br>
-        iniciativas relevantes en Alemania, Polonia, Emiratos Árabes <br>
-        Unidos, Singapur y Malasia. Estos proyectos, en diferentes <br>
-        etapas de desarrollo, representan un gran desafío técnico <br>
-        y financiero, superando una inversión total de 5 mil millones<br>
-         de dólares. Cada uno de ellos complementa el enfoque de <br>
-         TeraWatt en el desarrollo de proyectos innovadores, como <br>
-         el B&T, que tienen un impacto positivo en las comunidades <br>
-         y fomentan su integración en un polo tecnológico. Nuestra <br>
-         misión es seguir liderando la industria de las energías lim-<br>
-         pias y sostenibles, aportando soluciones significativas y <br>
-         transformadoras en cada rincón del mundo.
-        
-        
-        </p>
-        
-        <img class="image7" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto7.png" alt="Image7">
-        <img class="image8" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto8.png" alt="Image8">
-        <img class="image9" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto9.png" alt="Image9">
-        <img class="image10" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto10.png" alt="Image10">
-        <img class="image11" src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto11.png" alt="Image11">
-    </div>
-  </div>
-
-
-
-  
-  
-  <div class="curved-section">
-    <div class="bold-text">¡Si buscas embarcarte en un emocionante proyecto junto a nosotros, no dudes <br>
-      en compartir tu correo! Nuestro equipo de asesores estará encantado de <br>
-      contactarte para explorar todas las posibilidades juntos. ¡Esperamos <br>
-      recibir tu mensaje pronto!</div>
-    <div class="subscription-form">
-      <input type="email" placeholder="Correo electrónico" class="email-input">
-      <button class="subscribe-button">Enviar</button>
-    </div>
-  </div>
-  
-  
-      
-     
-  
-
-
-  <footer class="footer">
-    <div class="footer-separator"></div>
-    <div class="footer-container">
-      <div class="footer-column">
-        <h3 class="footer-title">Disclaimer</h3>
-        <div class="footer-text">La información contenida en este sitio web es de carácter general.
-          únicamente con fines informativos. Mientras nos esforzamos por mantener
-          la información actualizada y correcta, no hacemos
-          representaciones o garantías de ningún tipo, expresas o implícitas,
-          sobre la exhaustividad, exactitud, fiabilidad, idoneidad o
-          disponibilidad con respecto al sitio web o la información,
-          productos, servicios o gráficos relacionados contenidos en el sitio web
-          para cualquier propósito.</div>
-      </div>
-      <div class="footer-column">
-        <h3 class="footer-title1">____</h3>
-        <ul class="footer-navigation">
-          <li><a href="whoweare.html">Who We Are</a></li>
-          <li><a href="esg.html">Our Impact</a></li>
-          <li><a href="whatwedo.html">What We Do</a></li>
-          <li><a href="login.html">Investors</a></li>
-          
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3 class="footer-title1">____</h3>
-        <ul class="footer-navigation">
-          <li><a href="#"></a></li>
-          <li><a href="termofuse.html">Terms of Use</a></li>
-          <li><a href="#">
-            </a></li>
-          
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3 class="footer-title2">Newsletter Suscripción</h3>
-        <form class="footer-form" action="#">
-          <input type="email" placeholder="Ingresa tu correo electrónico" class="footer-input">
-          <button type="submit" class="footer-button">Suscribirse</button>
-          <div > 71 - 75 Shelton Street, WC2H 9JQ , London, United kingdom</div>
-          <div class="redes-sociales">
-            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/instagram.png" alt="Instagram"></a>
-            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/twetter.png" alt="Twitter"></a>
-            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/linkeding.png" alt="LinkedIn"></a>
-            <a href="#" class="red-social-link"><img src="https://terawatt.s3.us-east-2.amazonaws.com/img/facebook.png" alt="Facebook"></a>
           </div>
-        </form>
-      </div>
-    </div>
-    <div class="footer-separator"></div>
-    <div class="footer-bottom">
-      <div class="footer-logo">
-        <img src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png" alt="Logo">
-      </div>
-      <div class="footer-trademark">
-        <div class="footer-trademark-text">© Copyright 2023 Tera Watt Limited Company. All Rights Reserved.</div>
-        <button class="footer-trademark-button" onclick="scrollToHeader()">Top-menu</button>
 
-      </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="section2">
+                  <div class="title-container2">
+                    <h2 class="title2">
+                      <span class="normal-text2">PROYECTOS</span>
+                      <span class="bold-text2">EOLICOS</span>
+                    </h2>
+                  </div>
+                  <div class="content9">
+                    En Tera Watt, somos líderes en el desarrollo de proyectos de
+                    ERNC (Energías Renovables no convencionales), con un enfoque
+                    destacado en la energía solar. Trabajamos en colaboración
+                    con las principales empresas del rubro para implementar
+                    proyectos que impulsen la industria energética hacia nuevos
+                    horizontes. Nuestros estándares internacionales y nuestro
+                    compromiso con la calidad nos distinguen en la ejecución de
+                    cada proyecto. Si buscas desarrollar una iniciativa
+                    innovadora y sostenible, nuestros asistentes de proyectos
+                    están disponibles para brindarte toda la información y apoyo
+                    necesarios. Únete a nosotros en la construcción de un futuro
+                    energético más limpio y sustentable.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12">
+                
+                <img
+                  src="https://terawatt.s3.us-east-2.amazonaws.com/img/19.png"
+                  alt="Imagen"
+                  class="img-fluid image19"
+
+                  
+                />
+
+                
+
+                <!--
+                <img
+                   src="./19.png"
+                  alt="Imagen"
+                />
+                -->
+
+              </div>
+            </div>
+          </div>
+
+          <div class="separator">
+            <div class="ball-container">
+              <div class="ball"></div>
+            </div>
+            <hr class="wave-line" />
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="section2">
+                  <div class="title-container2">
+                    <h2 class="title2">
+                      <span class="normal-text2">PROYECTOS</span>
+                      <span class="bold-text2">SOLARES</span>
+                    </h2>
+                  </div>
+                  <div class="content9">
+                    En Tera Watt, somos líderes en el desarrollo de proyectos de
+                    ERNC (Energías Renovables no convencionales), con un enfoque
+                    destacado en la energía solar. Trabajamos en colaboración con
+                    las principales empresas del rubro para implementar proyectos
+                    que impulsen la industria energética hacia nuevos horizontes.
+                    Nuestros estándares internacionales y nuestro compromiso con
+                    la calidad nos distinguen en la ejecución de cada proyecto. Si
+                    buscas desarrollar una iniciativa innovadora y sostenible,
+                    nuestros asistentes de proyectos están disponibles para
+                    brindarte toda la información y apoyo necesarios. Únete a
+                    nosotros en la construcción de un futuro energético más limpio
+                    y sustentable.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12">
+                <img
+                  src="https://terawatt.s3.us-east-2.amazonaws.com/img/fotovoltaico.png"
+                  alt="Imagen"
+                  class="img-fluid fotovoltaico"
+                  
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="separator">
+            <div class="ball-container">
+              <div class="ball"></div>
+            </div>
+            <hr class="wave-line" />
+          </div>
+
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="section2">
+                  <div class="title-container2">
+                    <h2 class="title2">
+                      <span class="normal-text2">PROYECTOS</span>
+                      <span class="bold-text2">HIDROGENO</span>
+                    </h2>
+                  </div>
+                  <div class="content9">
+                    En Tera Watt, somos líderes en el desarrollo de proyectos de
+                    ERNC (Energías Renovables no convencionales), con un enfoque
+                    destacado en la energía solar. Trabajamos en colaboración con
+                    las principales empresas del rubro para implementar proyectos
+                    que impulsen la industria energética hacia nuevos horizontes.
+                    Nuestros estándares internacionales y nuestro compromiso con
+                    la calidad nos distinguen en la ejecución de cada proyecto. Si
+                    buscas desarrollar una iniciativa innovadora y sostenible,
+                    nuestros asistentes de proyectos están disponibles para
+                    brindarte toda la información y apoyo necesarios. Únete a
+                    nosotros en la construcción de un futuro energético más limpio
+                    y sustentable.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12">
+                <img
+                  src="https://terawatt.s3.us-east-2.amazonaws.com/img/hidrogeno.png"
+                  alt="Imagen"
+                  class="img-fluid fotovoltaico"
+                  
+                />
+              </div>
+            </div>
+          </div>
+          
+        <div class="container-fluid">
+          <div class="video-container">
+            <video id="myVideo" autoplay playsinline loop muted>
+              <source
+                src="https://player.vimeo.com/progressive_redirect/playback/823277032/rendition/240p/file.mp4?loc=external&amp;signature=7248d1ad3c0b9d2bf361bb7286d153019389ef7c2471be7418f49166b5cb1133"
+                type="video/mp4"
+              />
+            </video>
+            <div class="overlay2">
+              <h2 class="title">
+                Soluciones <span class="bold-text4">Globales</span>
+              </h2>
+              <div class="text-container">
+                <div class="text1">Trabajamos por</div>
+                <div class="text2">
+                  Consagrar la Industria<span class="line"></span>
+                </div>
+              </div>
+              <script>
+                const video = document.getElementById("myVideo");
+                video.playbackRate = 0.7;
+              </script>
+            </div>
+          </div>
+        </div>
+
+        <div class="join-us">
+          <div class="container2">
+            <img
+              src="https://terawatt.s3.us-east-2.amazonaws.com/gif/global.gif"
+              alt="GIF"
+            />
+            Nuestros Proyectos Globales 2023
+            <hr />
+          </div>
+          <div class="quienes-somos2">
+            En Tera Watt, nos destacamos por diversificar nuestras inversiones
+            en diferentes carteras, hemos creando un entorno intercomunicado de
+            diferentes tecnologias que nos impulsa a desarrollar proyectos de
+            estándares mundiales. Nuestro enfoque de inversion se basa en
+            Energías limpias, desarrollo Blockchain, Minería POW y proyectos de
+            incubación, con el objetivo de impulsar soluciones sostenibles en
+            energía renovable y aplicar la innovadora tecnología Blockchain en
+            diversos sectores. Nuestra visión es liderar el camino hacia un
+            futuro más sostenible y prometedor.
+          </div>
+        </div>
+
+        <div class="sub-menu">
+          <div class="container6">
+            <li id="pow-pools">LATINO AMERICA</li>
+            <li id="blockchain">NORTE AMERICA</li>
+            <li id="wallet">GLOBAL</li>
+          </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="container">
+          <div class="contenedor7">
+            <!--America Latina-->
+
+            <div id="pow-pools-content">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h6 class="pow-pools-content">
+                    Nuestros Principales Proyectos en LATAM
+                  </h6>
+                  <p data-text="main">
+                    <span class="left-side">CHILE:</span>
+                    <span class="right-side">
+                      TeraWatt ha estado trabajando en un ambicioso proyecto
+                      <br />
+                      de energía solar a gran escala en la provincia de
+                      Antofagasta,
+                      <br />
+                      Chile, Esta área es mundialmente reconocida por tener la
+                      mayor
+                      <br />
+                      radiación solar del planeta. El proyecto se centra en la
+                      genera-<br />ción de energía limpia, con el propósito de
+                      abastecer gran <br />parte del consumo energético de las
+                      grandes mineras de la<br />
+                      zona. <br />
+                      <br />
+                    </span>
+
+                    <span class="left-side">BRASIL:</span>
+                    <span class="right-side">
+                      En Brasil, hemos estado colaborando estrechamente con
+                      <br />
+                      nuestros socios en un proyecto de gran relevancia para el
+                      país,<br />
+                      el cual marcará un hito importante en la formulación de
+                      proyec-<br />tos relacionados con la energía eólica. Este
+                      espectacular pro-<br />yecto en alta mar nos ha motivado a
+                      aceptar los desafíos que <br />conlleva, con el firme
+                      propósito de impulsar el desarrollo de la <br />energía
+                      limpia y renovable en la región. <br /><br />
+                    </span>
+
+                    <span class="left-side">CHILE:</span>
+                    <span class="right-side">
+                      Con una tecnología de hidrógeno única en el mundo y <br />
+                      patentada, nos hemos destacado al trabajar codo a codo
+                      <br />
+                      con nuestros valiosos socios en la confirmación y
+                      ejecución<br />
+                      de la primera planta a gran escala en el mundo. Somos
+                      pio--<br />neros en este nuevo y revolucionario enfoque,
+                      forjando el <br />camino hacia proyectos de envergadura
+                      que moldearán el <br />futuro de la región con soluciones
+                      innovadoras y sostenibles. <br />Nuestro compromiso es
+                      liderar la transformación hacia una <br />industria
+                      energética más limpia y respetuosa con el medio
+                      <br />ambiente, dejando una huella positiva para las
+                      generaciones <br />venideras.
+                    </span>
+                  </p>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="block1">
+                    <div class="row">
+                  
+                          <div class="col-md-4">
+                      
+                      <img
+                        class="img-fluid"
+                        src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto1.png"
+                        alt="Image1"
+                      />
+                          </div>
+
+                          <div class="col-md-4">
+                      <img
+                        class="img-fluid"
+                        src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto2.png"
+                        alt="Image2"
+                      />
+                          </div>
+
+                          <div class="col-md-4">
+                      <img
+                        class="img-fluid"
+                        src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto3.png"
+                        alt="Image3"
+                      />
+                          </div>
+
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Norte America -->
+
+            <div id="blockchain-content">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h6 class="Blockchain2">
+                    Nuestros Principales Poryectos en America del Norte
+                  </h6>
+
+                  <p data-text="main2">
+                    <span class="left-side">MÉXICO:</span>
+                    <span class="right-side">
+                      Para México y por primera vez, TeraWatt está desarrollando
+                      <br />
+                      un innovador proyecto multipropósito que combina diversas
+                      tecno-<br />
+                      logías de generación de energía, junto con la producción
+                      de hidró-<br />
+                      geno, una desaladora de agua de mar, un centro de datos y
+                      un
+                      <br />
+                      centro tecnológico a gran escala. Todo esto tiene como
+                      objetivo
+                      <br />
+                      potenciar la región de Sonora y posicionarla como una zona
+                      indus-<br />
+                      trial de gran capacidad. Con este ambicioso proyecto,
+                      buscamos
+                      <br />
+                      contribuir al desarrollo sostenible y al impulso de la
+                      industria en <br />
+                      la región.
+                      <br /><br />
+                    </span>
+
+                    <span class="left-side">USA:</span>
+                    <span class="right-side">
+                      En Estados Unidos, actualmente nos encontramos en la etapa
+                      <br />
+                      constructiva de nuestro proyecto de data center, el cual
+                      albergará <br />
+                      un data-cloud y minería de BTC. Este centro integrará una
+                      tecnolo-<br />
+                      gía de autogeneración que nos brindará un soporte
+                      eficiente en
+                      <br />
+                      temas energéticos y nos permitirá contar con valores
+                      exclusivos
+                      <br />
+                      de energía para la minería de BTC. Estamos emocionados por
+                      <br />
+                      este proyecto que nos permitirá ofrecer soluciones
+                      innovadoras
+                      <br />
+                      en el ámbito tecnológico y energético en la región.
+
+                      <br /><br />
+                    </span>
+
+                    <span class="left-side">CANADA:</span>
+                    <span class="right-side">
+                      Con la invaluable colaboración y confianza de la comu-<br />
+                      nidad indígena de Canadá, nos encontramos desarrollando
+                      la<br />
+                      primera planta de hidrógeno verde en zonas de reservas.
+                      Este
+                      <br />
+                      proyecto tiene una enorme importancia para las comunidades
+                      <br />
+                      aledañas debido a su identidad étnica y su situación
+                      especial.
+                      <br />
+                      Estamos comprometidos a contribuir con un proyecto de gran
+                      <br />
+                      envergadura que beneficiará significativamente a una
+                      comu-<br />
+                      nidad que realmente necesita este tipo de iniciativas en
+                      su
+                      <br />
+                      zona. Nuestro objetivo es establecer un proyecto
+                      sostenible y
+                      <br />
+                      respetuoso con el medio ambiente que deje un impacto
+                      posi-<br />
+                      tivo duradero en la región.
+                    </span>
+                  </p>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="block2">
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="img-fluid"
+                        src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto4.png"
+                        alt="Image4"
+                      />
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="img-fluid"
+                        src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto5.png"
+                        alt="Image5"
+                      />
+                    </div>
+
+                    <div class="col-md-4">
+                      <img
+                        class="img-fluid"
+                        src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto6.png"
+                        alt="Image6"
+                      />
+                    </div>
+
+                  </div>
+                </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div id="wallet-content">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h6 class="wallet-content">
+                    Principales proyectos en desarrollo a nivel mundial
+                  </h6>
+                  <p data-text="main3">
+                    TeraWatt ha estado trabajando arduamente en un conjunto
+                    
+                    de proyectos en todo el mundo, entre los cuales destacan
+                    
+                    iniciativas relevantes en Alemania, Polonia, Emiratos Árabes
+                    
+                    Unidos, Singapur y Malasia. Estos proyectos, en diferentes
+                    
+                    etapas de desarrollo, representan un gran desafío técnico
+                    
+                    y financiero, superando una inversión total de 5 mil
+                    millones
+                    de dólares. Cada uno de ellos complementa el enfoque de
+                    
+                    TeraWatt en el desarrollo de proyectos innovadores, como
+                    
+                    el B&T, que tienen un impacto positivo en las comunidades
+                    
+                    y fomentan su integración en un polo tecnológico. Nuestra
+                    
+                    misión es seguir liderando la industria de las energías
+                    lim-
+                    pias y sostenibles, aportando soluciones significativas y
+                    
+                    transformadoras en cada rincón del mundo.
+                  </p>
+                </div>
+              </div>
+
+            <div class="col-lg-12">
+              <div class="block3">
+
+                  <div class="row">
+                  <div class="col-md-2">
+                    <img
+                      class="img-fluid"
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto7.png"
+                      alt="Image7"
+                    />
+                  </div>
+                  <div class="col-md-2">
+                    <img
+                      class="img-fluid"
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto8.png"
+                      alt="Image8"
+                    />
+                  </div>
+                  <div class="col-md-2">
+                    <img
+                      class="img-fluid"
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto9.png"
+                      alt="Image9"
+                    />
+                  </div>
+                  <div class="col-md-2">
+                    <img
+                      class="img-fluid"
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto10.png"
+                      alt="Image10"
+                    />
+                  </div>
+                  <div class="col-md-2">
+                    <img
+                      class="img-fluid"
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/proyecto11.png"
+                      alt="Image11"
+                    />
+                  </div>
+                  </div>
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="curved-section">
+          <div class="bold-text">
+            ¡Si buscas embarcarte en un emocionante proyecto junto a nosotros,
+            no dudes <br />
+            en compartir tu correo! Nuestro equipo de asesores estará encantado
+            de <br />
+            contactarte para explorar todas las posibilidades juntos. ¡Esperamos
+            <br />
+            recibir tu mensaje pronto!
+          </div>
+          <div class="subscription-form">
+            <input
+              type="email"
+              placeholder="Correo electrónico"
+              class="email-input"
+            />
+            <button class="subscribe-button">Enviar</button>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="footer-separator"></div>
+          <div class="footer-container">
+            <div class="footer-column">
+              <h3 class="footer-title">Disclaimer</h3>
+              <div class="footer-text">
+                La información contenida en este sitio web es de carácter
+                general. únicamente con fines informativos. Mientras nos
+                esforzamos por mantener la información actualizada y correcta,
+                no hacemos representaciones o garantías de ningún tipo, expresas
+                o implícitas, sobre la exhaustividad, exactitud, fiabilidad,
+                idoneidad o disponibilidad con respecto al sitio web o la
+                información, productos, servicios o gráficos relacionados
+                contenidos en el sitio web para cualquier propósito.
+              </div>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-title1">____</h3>
+              <ul class="footer-navigation">
+                <li><a href="whoweare.html">Who We Are</a></li>
+                <li><a href="esg.html">Our Impact</a></li>
+                <li><a href="whatwedo.html">What We Do</a></li>
+                <li><a href="login.html">Investors</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-title1">____</h3>
+              <ul class="footer-navigation">
+                <li><a href="#"></a></li>
+                <li><a href="termofuse.html">Terms of Use</a></li>
+                <li><a href="#"> </a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-title2">Newsletter Suscripción</h3>
+              <form class="footer-form" action="#">
+                <input
+                  type="email"
+                  placeholder="Ingresa tu correo electrónico"
+                  class="footer-input"
+                />
+                <button type="submit" class="footer-button">Suscribirse</button>
+                <div>
+                  71 - 75 Shelton Street, WC2H 9JQ , London, United kingdom
+                </div>
+                <div class="redes-sociales">
+                  <a href="#" class="red-social-link"
+                    ><img
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/instagram.png"
+                      alt="Instagram"
+                  /></a>
+                  <a href="#" class="red-social-link"
+                    ><img
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/twetter.png"
+                      alt="Twitter"
+                  /></a>
+                  <a href="#" class="red-social-link"
+                    ><img
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/linkeding.png"
+                      alt="LinkedIn"
+                  /></a>
+                  <a href="#" class="red-social-link"
+                    ><img
+                      src="https://terawatt.s3.us-east-2.amazonaws.com/img/facebook.png"
+                      alt="Facebook"
+                  /></a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer-separator"></div>
+          <div class="footer-bottom">
+            <div class="footer-logo">
+              <img
+                src="https://terawatt.s3.us-east-2.amazonaws.com/img/logo_twm_color.png"
+                alt="Logo"
+              />
+            </div>
+            <div class="footer-trademark">
+              <div class="footer-trademark-text">
+                © Copyright 2023 Tera Watt Limited Company. All Rights Reserved.
+              </div>
+              <button
+                class="footer-trademark-button"
+                onclick="scrollToHeader()"
+              >
+                Top-menu
+              </button>
+            </div>
+          </div>
+        </footer>
+      </main>
     </div>
-  </footer>
-  </main>
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
