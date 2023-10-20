@@ -7218,7 +7218,7 @@ p[data-text="learn2"] {
   .button-container {
     margin-left: 1%;
     margin-top: -52px;
-    margin-bottom: 60px;
+    margin-bottom: -30%;
   }
 
   .custom-button {
@@ -7313,7 +7313,7 @@ p[data-text="learn2"] {
   .title15 {
     margin-bottom: 5%;
     margin-left: 2%;
-    padding-top: 50%;
+    padding-top: 1%;
   }
 
   .title16 {
@@ -7324,7 +7324,7 @@ p[data-text="learn2"] {
   .content15 {
     margin-left: -94%;
     text-align: initial;
-    padding-top: 53%;
+    padding-top: 10%;
     font-size: 18px;
   }
 
@@ -7528,7 +7528,7 @@ p[data-text="learn2"] {
     top: 80%;
     left: 0;
     padding-left: 0px;
-    padding-right: 300px;
+    padding-right: 10px;
     padding-bottom: 0px;
     margin-left: 0;
     background-color: #ffffff;
