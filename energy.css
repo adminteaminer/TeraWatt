@@ -248,6 +248,11 @@ header {
   right: 0;
 }
 
+.slidebar a {
+  text-decoration: none;
+  color: black;
+}
+
 .slidebar ul {
   list-style: none;
   padding: 0;
@@ -258,6 +263,8 @@ header {
   padding: 15px;
   border-bottom: 1px solid #ccc;
   text-align: center;
+  background-color: plum;
+  font-family: "Poppins", sans-serif;
 }
 
 .video-background {
@@ -2142,8 +2149,8 @@ p[data-text="learn2"] {
     font-family: "Poppins", sans-serif;
     font-size: 150%;
     color: white;
-    margin-top: 60px;
-    margin-bottom: -150px;
+    margin-top: 125px;
+    margin-bottom: -18px;
     z-index: 1;
   }
 
@@ -2274,11 +2281,11 @@ p[data-text="learn2"] {
 
   .footer-form div {
     color: #000000;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 13px;
-    margin-left: 60px;
+    margin-left: 82px;
     text-align: center;
-    margin-right: -211px;
+    margin-right: -254px;
   }
 
   .footer-input {
@@ -2311,7 +2318,7 @@ p[data-text="learn2"] {
   .footer-separator {
     height: 1.5px;
     background-color: #f203ff;
-    margin: 100px 0;
+    margin: 15px 0;
   }
 
   .footer-bottom {
@@ -2323,9 +2330,10 @@ p[data-text="learn2"] {
   }
 
   .footer-logo img {
-    height: 50px;
-    margin-left: 50px;
-    margin-bottom: 30px;
+    height: 44px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 32%;
   }
 
   .footer-trademark-text {
@@ -2335,16 +2343,17 @@ p[data-text="learn2"] {
   }
 
   .footer-trademark-button {
-    padding: 8px 16px;
+    padding: 4px 8px;
     background-color: #626161;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-right: 100px;
-    margin-top: -100px;
+    margin-right: -88%;
+    margin-top: -110px;
     font-size: 12px;
+    margin-left: 28%;
   }
 
   .footer-trademark-button:hover {
@@ -3050,13 +3059,16 @@ p[data-text="learn2"] {
   }
 
   .footer-input {
-    width: 38%;
-    margin-left: 13%;
+    width: 44%;
+    margin-left: 25%;
     padding: 1%;
+    margin-right: 24%;
   }
 
   .footer-button {
-    margin-left: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
   }
 
   .footer-form div {
@@ -3082,11 +3094,12 @@ p[data-text="learn2"] {
     margin-left: 0;
     text-align: center;
     font-size: 13px;
-    margin-top: -7%;
+    margin-top: -12%;
   }
 
   .footer-trademark-button {
-    margin: 10px 0;
+    margin-left: 40%;
+    margin-top: 2%;
   }
 }
 
@@ -5155,31 +5168,19 @@ p[data-text="learn2"] {
   }
 
   .curved-section {
-    position: relative;
-    background-color: #424141;
-    box-shadow: 0 0 8px #0d00ff;
-    border: #a200ff;
-    padding: 1px;
-    border-radius: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 115px;
-    margin-right: 135px;
-    font-family: "Poppins", sans-serif;
-    font-size: 150%;
-    color: white;
-    margin-bottom: -55%;
-    z-index: 1;
-    margin-top: 10%;
-    height: 90px;
+    margin-bottom: -52%;
+    margin-top: 162px;
+    padding: 11px;
+    margin-left: 28%;
+    width: 50%;
+    height: 100px;
   }
 
   .bold-text {
+    font-size: 44%;
+    margin-left: -105px;
+    margin-top: 0%;
     text-align: center;
-    transform: translateX(50px);
-    margin-left: 0px;
-    font-size: 12px;
-    text-align: left;
   }
 
   .subscription-form {
@@ -5189,29 +5190,28 @@ p[data-text="learn2"] {
   }
 
   .email-input {
-    padding: 3px;
+    padding: 2px;
     border: 2px solid #e600ff;
     border-radius: 5px 0 0 5px;
-    margin-left: 270px;
-    margin-top: -10px;
+    margin-left: 28%;
+    margin-top: 4%;
     position: absolute;
-    font-size: 12px;
-    width: 41%;
+    font-size: 10px;
   }
 
   .subscribe-button {
-    padding: 1px 4px;
+    padding: 3px 4px;
     background-color: rgb(124, 123, 124);
     color: #ffffff;
     border: none;
     font-weight: bold;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    margin-left: 554px;
+    margin-left: 53%;
     margin-bottom: 0;
-    margin-top: -9px;
+    margin-top: 20px;
     position: absolute;
-    font-size: 15px;
+    font-size: 11px;
   }
 
   .subscribe-button:hover {
@@ -5256,7 +5256,7 @@ p[data-text="learn2"] {
     margin-bottom: 10px;
     color: #ff00cc;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 90px;
   }
 
   .footer-title2 {
@@ -5270,13 +5270,12 @@ p[data-text="learn2"] {
   }
 
   .footer-text {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
     color: rgb(0, 0, 0);
-    text-align: left;
     padding-right: 15px;
-    margin-left: 14%;
-    margin-right: -80px;
+    margin-left: 12%;
+    margin-right: -45%;
     text-align: justify;
   }
 
@@ -5289,9 +5288,9 @@ p[data-text="learn2"] {
   .footer-navigation li {
     margin-bottom: 8px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 80px;
     line-height: 1.8;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .footer-navigation li a {
@@ -5311,7 +5310,7 @@ p[data-text="learn2"] {
 
   .footer-form div {
     color: #000000;
-    margin-top: 50px;
+    margin-top: 5%;
     font-size: 14px;
     margin-left: -19px;
     text-align: center;
@@ -5327,7 +5326,7 @@ p[data-text="learn2"] {
   }
 
   .footer-button {
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #626161;
     color: #fff;
     border: none;
@@ -5336,7 +5335,8 @@ p[data-text="learn2"] {
     transition: background-color 0.3s;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 70px;
+    margin-left: 17%;
+    font-size: 12px;
   }
 
   .footer-button:hover {
@@ -5346,7 +5346,7 @@ p[data-text="learn2"] {
   .footer-separator {
     height: 1.5px;
     background-color: #f203ff;
-    margin: 100px 0;
+    margin: 20px 0;
   }
 
   .footer-bottom {
@@ -5358,16 +5358,17 @@ p[data-text="learn2"] {
   }
 
   .footer-logo img {
-    height: 50px;
-    margin-left: 100px;
-    margin-bottom: 30px;
+    height: 40px;
+    margin-left: 37px;
+    margin-bottom: 10px;
+    margin-top: 30%;
   }
 
   .footer-trademark-text {
     font-size: 12px;
     color: #000000;
-    margin-left: -401px;
-    margin-top: -23%;
+    margin-left: -48%;
+    margin-top: 15%;
   }
 
   .footer-trademark-button {
@@ -5378,9 +5379,10 @@ p[data-text="learn2"] {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-right: 100px;
+    margin-right: -170%;
     margin-top: -100px;
-    font-size: 18px;
+    font-size: 12px;
+    margin-left: 95%;
   }
 
   .footer-trademark-button:hover {
@@ -6372,11 +6374,11 @@ p[data-text="learn2"] {
   }
 
   .curved-section {
-    margin-bottom: -53%;
+    margin-bottom: -51%;
     margin-top: 162px;
     padding: 11px;
-    margin-left: 24%;
-    width: 55%;
+    margin-left: 28%;
+    width: 45%;
     height: 110px;
   }
 
@@ -6411,9 +6413,9 @@ p[data-text="learn2"] {
     font-weight: bold;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    margin-left: 53%;
+    margin-left: 55%;
     margin-bottom: 0;
-    margin-top: 23px;
+    margin-top: 20px;
     position: absolute;
     font-size: 12px;
   }
@@ -6477,7 +6479,7 @@ p[data-text="learn2"] {
     line-height: 1.5;
     color: rgb(0, 0, 0);
     text-align: left;
-    margin-left: -3px;
+    margin-left: 3px;
     margin-right: -54px;
     text-align: justify;
   }
@@ -6538,7 +6540,7 @@ p[data-text="learn2"] {
     transition: background-color 0.3s;
     margin-top: 10px;
     font-size: 12px;
-    margin-left: 1%;
+    margin-left: 22%;
   }
 
   .footer-button:hover {
@@ -6548,7 +6550,7 @@ p[data-text="learn2"] {
   .footer-separator {
     height: 1.5px;
     background-color: #f203ff;
-    margin: 100px 0;
+    margin: 20px 0;
   }
 
   .footer-bottom {
@@ -6561,17 +6563,17 @@ p[data-text="learn2"] {
 
   .footer-logo img {
     height: 40px;
-    margin-left: 141px;
+    margin-left: 77px;
     margin-bottom: 10px;
-    margin-top: -5%;
+    margin-top: 63px;
   }
 
   .footer-trademark-text {
     font-size: 11px;
     color: #000000;
-    margin-left: -30%;
-    margin-top: -3px;
-    margin-right: 220px;
+    margin-left: -1%;
+    margin-top: 50px;
+    margin-right: 347px;
   }
 
   .footer-trademark-button {
@@ -6585,7 +6587,7 @@ p[data-text="learn2"] {
     margin-right: 10px;
     margin-top: -10px;
     font-size: 12px;
-    margin-left: 56%;
+    margin-left: 80%;
   }
 
   .footer-trademark-button:hover {

@@ -246,6 +246,11 @@ header {
   right: 0;
 }
 
+.slidebar a {
+  text-decoration: none;
+  color: black;
+}
+
 .slidebar ul {
   list-style: none;
   padding: 0;
@@ -256,6 +261,8 @@ header {
   padding: 15px;
   border-bottom: 1px solid #ccc;
   text-align: center;
+  background-color: plum;
+  font-family: "Poppins", sans-serif;
 }
 
 .video-background {
@@ -2454,7 +2461,7 @@ header {
     margin-bottom: 10px;
     color: #ff00cc;
     text-align: left;
-    margin-left: 140px;
+    margin-left: 170px;
   }
 
   .footer-title2 {
@@ -3124,8 +3131,8 @@ header {
 
   .title15 {
     font-size: 20px;
-    margin-left: -2px;
-    margin-top: -4px;
+    margin-left: -2%;
+    margin-top: 5%;
     align-items: center;
   }
 
@@ -3158,9 +3165,9 @@ header {
   }
 
   .content15 {
-    font-size: 15px;
-    margin-left: 15%;
-    margin-top: 81%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 70%;
     text-align: center;
     position: absolute;
   }
@@ -5919,12 +5926,13 @@ header {
   }
 
   .content15 {
-    font-size: 21px;
+    font-size: 17px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -27%;
+    margin-left: -5%;
     margin-top: 12px;
     text-align: left;
+    padding-left: 26%;
   }
 
   .title16 {
@@ -5960,14 +5968,15 @@ header {
   }
 
   .title15 {
-    margin-left: -26%;
+    margin-left: 5%;
     font-size: 23px;
-    margin-top: 1%;
+    margin-top: 15%;
   }
 
   .img-fluid {
-    margin-left: 40%;
-    width: 62%;
+    margin-left: 26%;
+    width: 63%;
+    margin-top: 12%;
   }
 
   .title15::before {
@@ -5984,7 +5993,7 @@ header {
   .title16 {
     font-size: 46px;
     margin-top: 3%;
-    margin-left: -26%;
+    margin-left: 4%;
     margin-right: -28%;
   }
 
@@ -6014,11 +6023,11 @@ header {
 
   /* Curved Section */
   .curved-section {
-    margin-bottom: -150px;
+    margin-bottom: -41px;
     margin-top: 162px;
     padding: 11px;
-    margin-left: 29%;
-    width: 55%;
+    margin-left: 28%;
+    width: 50%;
   }
 
   .bold-text {
@@ -6055,9 +6064,9 @@ header {
     font-weight: bold;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    margin-left: 53%;
+    margin-left: 54%;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 18px;
     position: absolute;
     font-size: 11px;
   }
@@ -6195,7 +6204,7 @@ header {
     height: 40px;
     margin-left: 37px;
     margin-bottom: 10px;
-    margin-top: -20%;
+    margin-top: 10%;
   }
 
   .footer-trademark-button {
@@ -6206,18 +6215,22 @@ header {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-right: 10px;
+    margin-right: -59%;
     margin-top: -10px;
     font-size: 12px;
-    margin-left: 78%;
+    margin-left: 92%;
   }
 
   .footer-trademark-text {
     font-size: 11px;
     color: #000000;
     margin-left: 0%;
-    margin-top: 2px;
+    margin-top: 62px;
     margin-right: 130px;
+  }
+
+  .footer-separator {
+    margin: 20px 0;
   }
 }
 
@@ -6265,7 +6278,7 @@ header {
   }
 
   .menu {
-    margin-left: 370px;
+    margin-left: 28%;
   }
 
   .menu ul {
@@ -7237,7 +7250,7 @@ header {
     margin-left: -32%;
     margin-right: -5%;
     text-align: justify;
-    margin-top: -20%;
+    margin-top: -14%;
   }
 
   .image82 {
@@ -7378,7 +7391,7 @@ header {
     font-size: 21px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: 1%;
+    margin-left: 24%;
     margin-top: 12px;
     text-align: left;
   }
@@ -7416,9 +7429,9 @@ header {
   }
 
   .title15 {
-    margin-left: -2%;
+    margin-left: 24%;
     font-size: 23px;
-    margin-top: 4%;
+    margin-top: 20%;
   }
 
   .title15::before {
@@ -7435,13 +7448,13 @@ header {
   .title16 {
     font-size: 46px;
     margin-top: 3%;
-    margin-left: -2%;
+    margin-left: 21%;
   }
 
   .img-fluid {
-    margin-left: 14%;
-    width: 53%;
-    margin-top: -4%;
+    margin-left: 20%;
+    width: 48%;
+    margin-top: 10%;
   }
 
   .image13 {
@@ -7470,11 +7483,11 @@ header {
 
   /* Curved Section */
   .curved-section {
-    margin-bottom: -160px;
+    margin-bottom: 60px;
     margin-top: 162px;
     padding: 11px;
-    margin-left: 24%;
-    width: 55%;
+    margin-left: 27%;
+    width: 50%;
   }
 
   .bold-text {
@@ -7511,9 +7524,9 @@ header {
     font-weight: bold;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    margin-left: 53%;
+    margin-left: 55%;
     margin-bottom: 0;
-    margin-top: 23px;
+    margin-top: 20px;
     position: absolute;
     font-size: 12px;
   }
@@ -7524,16 +7537,9 @@ header {
 
   /* -----------------------Footer----------------------- */
   .footer {
-    padding-top: 0;
-    background-color: #ffffff;
-    margin-top: 0;
-    padding-bottom: 0;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     font-family: "Poppins", sans-serif;
-    margin-bottom: -15px;
+    margin-right: 10px;
+    margin-top: -80px;
   }
 
   .footer-navigation {
@@ -7623,28 +7629,42 @@ header {
     line-height: 1.5;
     color: rgb(0, 0, 0);
     text-align: left;
-    margin-left: -3px;
+    margin-left: 11px;
     margin-right: -54px;
     text-align: justify;
   }
 
   .footer-trademark-text {
-    font-size: 12px;
+    font-size: 11px;
     color: #000000;
-    margin-left: -97%;
-    margin-top: -3%;
+    margin-left: -1%;
+    margin-top: 61px;
+    margin-right: 347px;
   }
 
   .footer-logo img {
-    margin-left: 80%;
-    margin-top: -10%;
+    margin-left: 77px;
+    margin-top: 22px;
+    height: 40px;
+    margin-bottom: 10px;
   }
 
   .footer-trademark-button {
-    padding: 2px 4px;
-    font-size: 14px;
-    margin-left: 50%;
-    margin-top: -2%;
+    padding: 4px 10px;
+    background-color: #626161;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    margin-top: -10px;
+    font-size: 12px;
+    margin-left: 80%;
+  }
+
+  .footer-separator {
+    margin: 20px 0;
   }
 }
 
@@ -8159,7 +8179,7 @@ header {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -47%;
+    margin-left: -1%;
     margin-top: 158px;
     text-align: left;
     display: flex;
@@ -8169,7 +8189,7 @@ header {
     font-size: 60px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -47%;
+    margin-left: -1%;
     margin-top: -1px;
     margin-right: -94px;
     text-align: left;
@@ -8179,15 +8199,15 @@ header {
     font-size: 25px;
     font-family: "Poppins", sans-serif;
     color: #000;
-    margin-left: -47%;
-    margin-top: 15%;
+    margin-left: -1%;
+    margin-top: 12%;
     text-align: left;
   }
 
   .img-fluid {
     margin-top: 20%;
     width: 60%;
-    margin-left: 23%;
+    margin-left: 27%;
   }
 
   .image13 {
