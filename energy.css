@@ -1391,17 +1391,18 @@ p[data-text="learn2"] {
   .get-started-button {
     text-align: center;
     border: 1px solid #ee0bc8;
-    margin-left: -895px;
+    margin-left: -217%;
     background-color: #eeeeee;
     color: #000000;
-    padding: 5px 10px;
+    padding: 5px 8px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
     font-weight: bold;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    font-size: 9px;
+    font-size: 7px;
+    margin-top: 2%;
   }
 
   .get-started-button:hover {
