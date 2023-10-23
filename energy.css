@@ -1269,16 +1269,6 @@ p[data-text="learn2"] {
     color: #f809f4;
   }
 
-  .top-menu {
-    display: flex;
-    font-weight: bold;
-    align-items: center;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 16px; /* Adjust as needed */
-  }
-
   .top-menu li {
     margin-right: 10px;
     margin: 5px;
