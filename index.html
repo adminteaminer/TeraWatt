@@ -25,16 +25,7 @@
   <!--JavaScript-->
   <script src="./script.js"></script>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const openMenuButton = document.getElementById("openMenu");
-      const slidebar = document.getElementById("slidebar");
 
-      openMenuButton.addEventListener("click", function () {
-        slidebar.classList.toggle("open");
-      });
-    });
-  </script> 
 
 
 
@@ -72,6 +63,17 @@
     </ul>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const openMenuButton = document.getElementById("openMenu");
+    const slidebar = document.getElementById("slidebar");
+
+    openMenuButton.addEventListener("click", function () {
+      slidebar.classList.toggle("open");
+    });
+  });
+</script> 
 
 
 
