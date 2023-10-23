@@ -2023,15 +2023,13 @@ p[data-text="learn2"] {
   }
 
   .logo img {
-    width: 178px;
-    height: auto;
-    margin-left: -52px;
-    margin-top: -26px;
+    width: 219px;
+    margin-left: -47px;
   }
 
   .menu {
-    margin-left: -125px;
-    font-size: 16px;
+    margin-left: 10px;
+    display: none;
   }
 
   .menu ul {
@@ -2039,18 +2037,21 @@ p[data-text="learn2"] {
   }
 
   .get-started-button {
-    margin-left: 116px;
+    margin-left: 10px;
     font-size: 10px;
-    margin-top: 44px;
+    margin-top: 40px;
     padding-top: 0px;
-    border: 1px solid #ee0bc8;
-    padding: 2px 7px;
+    padding: 5px 10px;
   }
 
   .open-menu-button {
     display: block;
-    top: 18px;
-    right: 172px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
   }
 
   .slidebar {
@@ -3713,8 +3714,8 @@ p[data-text="learn2"] {
     margin-top: -32%;
   }
 
-  .open-menu-button {
-    right: 39px;
+  .mobile-menu {
+    display: block;
   }
 
   .slidebar.open {
