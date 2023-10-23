@@ -6676,7 +6676,7 @@ header {
   }
 
   .faq-section:hover .image-container img {
-    left: -1050px; /* Adjust left position for hover effect */
+    left: -580px;
     opacity: 1;
     transform: translateX(0);
   }
