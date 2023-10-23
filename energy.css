@@ -1243,8 +1243,9 @@ p[data-text="learn2"] {
   }
 
   .menu {
-    margin-right: 10px;
-    font-size: 16px; /* Adjust as needed */
+    margin-left: 10px;
+    font-size: 16px;
+    display: none;
   }
 
   .menu ul {
@@ -1465,13 +1466,8 @@ p[data-text="learn2"] {
   .slidebar {
     width: 70%; /* Adjust as needed */
     height: 100vh;
-    position: fixed;
     top: 0;
     right: -100%;
-    background-color: #fff;
-    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
-    transition: right 0.3s ease-in-out;
-    z-index: 1000;
   }
 
   .slidebar.open {
