@@ -2007,11 +2007,8 @@ p[data-text="learn2"] {
   /*----------------Sección menú-------------*/
 
   header {
-    background-color: #eeeeee;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
+    padding: 5px;
+
   }
 
   .sticky-header {
@@ -2019,7 +2016,7 @@ p[data-text="learn2"] {
     top: 0;
     width: 100%;
     z-index: 1000;
-    height: 88px;
+    height: 10%;
   }
 
   .logo {
