@@ -1214,11 +1214,16 @@ p[data-text="learn2"] {
     overflow-x: hidden;
   }
 
+  .header {
+    padding: 5px;
+  }
+
   .sticky-header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    height: 10%;
   }
 
   .logo {
@@ -1388,6 +1393,8 @@ p[data-text="learn2"] {
     color: #ff6b9a;
   }
 
+  /*
+
   .get-started-button {
     text-align: center;
     border: 1px solid #ee0bc8;
@@ -1405,6 +1412,15 @@ p[data-text="learn2"] {
     margin-top: 16%;
   }
 
+  */
+
+  .get-started-button {
+    margin-left: 10px;
+    margin-top: 40px;
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
   .get-started-button:hover {
     background: linear-gradient(to bottom right, #5900ff, #a200ff, #f700ff);
     color: #fff;
@@ -1415,11 +1431,24 @@ p[data-text="learn2"] {
     display: block;
   }
 
+  /*
   .open-menu-button {
     display: block;
     position: fixed;
     top: 6px;
     right: 17%;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  */
+
+  .open-menu-button {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
     font-size: 24px;
     cursor: pointer;
     z-index: 1001;
