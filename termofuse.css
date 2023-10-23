@@ -256,6 +256,11 @@ media query responsive
   right: 0;
 }
 
+.slidebar a {
+  text-decoration: none;
+  color: black;
+}
+
 .slidebar ul {
   list-style: none;
   padding: 0;
@@ -266,6 +271,8 @@ media query responsive
   padding: 15px;
   border-bottom: 1px solid #ccc;
   text-align: center;
+  background-color: plum;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Media Query para dispositivos móviles */
