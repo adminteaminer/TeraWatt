@@ -4906,7 +4906,7 @@ p[data-text="learn2"] {
     display: inline-block;
     margin-right: 17px;
     margin-left: 9px;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .sub-menu li:hover,
@@ -6824,8 +6824,9 @@ p[data-text="learn2"] {
 
   .sub-menu li {
     display: initial;
-    margin-right: 8%;
-    margin-left: 75px;
+    margin-right: 280px;
+    margin-left: -30px;
+    font-family: "Poppins", sans-serif;
   }
 
   .contenedor7 p {
