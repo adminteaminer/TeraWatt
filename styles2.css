@@ -6824,8 +6824,8 @@ p[data-text="learn2"] {
 
   .sub-menu li {
     display: initial;
-    margin-right: 280px;
-    margin-left: -30px;
+    margin-right: 30px;
+    margin-left: 60px;
     font-family: "Poppins", sans-serif;
   }
 
@@ -7457,7 +7457,7 @@ p[data-text="learn2"] {
   .footer-trademark-text {
     font-size: 10px;
     margin-left: -344%;
-    margin-top: 8%;
+    margin-top: 10%;
   }
 
   .footer-trademark-button {
