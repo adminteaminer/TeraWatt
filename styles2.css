@@ -7520,7 +7520,7 @@ p[data-text="learn2"] {
     top: 0;
     width: 100%;
     z-index: 1000;
-    padding-bottom: 35px;
+    padding-bottom: 1px;
   }
 
   .logo {
@@ -7680,7 +7680,7 @@ p[data-text="learn2"] {
     top: 0;
     width: 100%;
     z-index: 1000;
-    padding-bottom: 35px;
+    padding-bottom: 1px;
   }
   .logo {
     margin-left: 50px;
